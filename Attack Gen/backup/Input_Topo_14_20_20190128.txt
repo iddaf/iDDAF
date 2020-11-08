@@ -1,0 +1,103 @@
+# Number of Buses, Number of Lines, and The Reference Bus
+14 20 1
+
+# Lines
+# Line No, From Bus, To Bus, Admittance, Knowingness, Real Topology, Fixed (Core), Related Topology Info Secured
+# If a line is unknown, then either From Bus or To Bus, or the both are zero. 
+# (NO topology attack possible according to the following input structure)
+1	1	2	19	1	1	1	1
+2	1	5	6	1	1	1	1
+3	2	3	10	0	1	1	1
+4	2	4	12	1	1	1	1
+5	2	5	14	1	1	0	1
+6	3	4	15	1	1	1	1
+7	4	5	20	0	1	1	1
+8	4	7	7	1	1	1	1
+9	4	9	1	1	1	1	1
+10	5	6	5	1	1	1	1
+11	6	11	9	1	1	1	1
+12	6	12	4	1	1	1	1
+13	6	13	17	1	1	0	1
+14	7	8	13	1	1	1	1
+15	7	9	16	1	1	1	1
+16	9	10	18	1	1	1	1
+17	9	14	3	0	1	1	1
+18	10	11	11	1	1	1	1
+19	12	13	8	1	1	1	1
+20	13	14	2	1	1	1	1
+
+# Measurements (the maximum number of possible measurements is 2 x #lines + #buses, though all of them may not be recorded)
+# Measurement No, Measurements Taken?, Secured?, Attacker has the ability to alter?
+# Secured Buses (3 and 7)
+1	1	0	0
+2	1	0	0
+3	1	0	1
+4	1	0	1
+5	0	0	0
+6	1	1	1
+7	1	0	1
+8	1	0	1
+9	1	0	1
+10	0	0	0
+11	1	0	1
+12	1	0	1
+13	1	0	1
+14	0	0	0
+15	1	1	1
+16	1	0	1
+17	1	0	1
+18	1	0	1
+19	0	0	0
+20	1	0	1
+21	1	0	1
+22	0	0	0
+23	1	1	1
+24	1	0	1
+25	1	0	1
+26	1	0	1
+27	0	0	0
+28	1	1	1
+29	1	0	1
+30	0	0	0
+31	1	0	1
+32	1	0	1
+33	1	0	1
+34	1	0	1
+35	0	0	0
+36	1	0	1
+37	1	0	1
+38	1	0	1
+39	1	0	1
+40	1	0	1
+41	1	0	0
+42	1	0	1
+43	0	0	0
+44	1	0	1
+45	1	0	1
+46	1	0	1
+47	1	1	1
+48	1	0	1
+49	1	0	1
+50	1	0	1
+51	1	0	1
+52	0	0	0
+53	1	0	1
+54	1	0	1
+
+# Selected states for estimation attack (the reference bus cannot be selected)
+# Number of States follows by the line showing the selected buses 
+# (NOT IN USE: Only specifies the minimum number of states to attack)
+1
+9
+
+# Maximum number of states for estimation attack
+13
+
+# The equality relations between the selected states based on their change amounts (this is important to choose the measurements for alteration)
+# Number of constraints
+0
+# A pair states, equal (0) or non-equal (1)
+#9 10 1
+
+# Attacker's Resource Limitation
+54 3

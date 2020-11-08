@@ -1,0 +1,57 @@
+**************** 8/9/2020 2:34:08 AM ****************
+Problem with Buses 5 and Lines 7:...........
+The states that are required to attack: ...........
+We have a solution
+The states that are attacked: 
+5:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 
+The measurements that are required to alter:
+5 7 12 14 16 18 19 
+The buses at which one or more measurements are required to alter:
+2 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 -833/100 0 -417/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 833/100 0 417/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 -833/100 0 -417/100 
+Backward line flows: 0 0 0 0 833/100 0 417/100 
+Bus power consumptions: 0 -833/100 0 -417/100 25/2 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-1 4:-1 5:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 
+The measurements that are required to alter:
+1 2 8 9 15 16 17 
+The buses at which one or more measurements are required to alter:
+1 2 3 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 1667/100 417/100 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -1667/100 -417/100 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 1667/100 417/100 0 0 0 0 0 
+Backward line flows: -1667/100 -417/100 0 0 0 0 0 
+Bus power consumptions: 521/25 -1667/100 -417/100 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+
+The lines considered in the topology:
+1 2 3 4 5 6 7 
+The measurements that are required to alter:
+
+The buses at which one or more measurements are required to alter:
+
+The lines which are excluded:
+
+The lines which are inc

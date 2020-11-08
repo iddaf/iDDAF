@@ -1,0 +1,4462 @@
+(assert (and (= FDelLinePower_1 (+ FDLPowerTopo_1 FDLPowerMsr_1))
+     (= BDelLinePower_1 (+ BDLPowerTopo_1 BDLPowerMsr_1))
+     (= FDelLinePower_2 (+ FDLPowerTopo_2 FDLPowerMsr_2))
+     (= BDelLinePower_2 (+ BDLPowerTopo_2 BDLPowerMsr_2))
+     (= FDelLinePower_3 (+ FDLPowerTopo_3 FDLPowerMsr_3))
+     (= BDelLinePower_3 (+ BDLPowerTopo_3 BDLPowerMsr_3))
+     (= FDelLinePower_4 (+ FDLPowerTopo_4 FDLPowerMsr_4))
+     (= BDelLinePower_4 (+ BDLPowerTopo_4 BDLPowerMsr_4))
+     (= FDelLinePower_5 (+ FDLPowerTopo_5 FDLPowerMsr_5))
+     (= BDelLinePower_5 (+ BDLPowerTopo_5 BDLPowerMsr_5))
+     (= FDelLinePower_6 (+ FDLPowerTopo_6 FDLPowerMsr_6))
+     (= BDelLinePower_6 (+ BDLPowerTopo_6 BDLPowerMsr_6))
+     (= FDelLinePower_7 (+ FDLPowerTopo_7 FDLPowerMsr_7))
+     (= BDelLinePower_7 (+ BDLPowerTopo_7 BDLPowerMsr_7))
+     (= FDelLinePower_8 (+ FDLPowerTopo_8 FDLPowerMsr_8))
+     (= BDelLinePower_8 (+ BDLPowerTopo_8 BDLPowerMsr_8))
+     (= FDelLinePower_9 (+ FDLPowerTopo_9 FDLPowerMsr_9))
+     (= BDelLinePower_9 (+ BDLPowerTopo_9 BDLPowerMsr_9))
+     (= FDelLinePower_10 (+ FDLPowerTopo_10 FDLPowerMsr_10))
+     (= BDelLinePower_10 (+ BDLPowerTopo_10 BDLPowerMsr_10))
+     (= FDelLinePower_11 (+ FDLPowerTopo_11 FDLPowerMsr_11))
+     (= BDelLinePower_11 (+ BDLPowerTopo_11 BDLPowerMsr_11))
+     (= FDelLinePower_12 (+ FDLPowerTopo_12 FDLPowerMsr_12))
+     (= BDelLinePower_12 (+ BDLPowerTopo_12 BDLPowerMsr_12))
+     (= FDelLinePower_13 (+ FDLPowerTopo_13 FDLPowerMsr_13))
+     (= BDelLinePower_13 (+ BDLPowerTopo_13 BDLPowerMsr_13))
+     (= FDelLinePower_14 (+ FDLPowerTopo_14 FDLPowerMsr_14))
+     (= BDelLinePower_14 (+ BDLPowerTopo_14 BDLPowerMsr_14))
+     (= FDelLinePower_15 (+ FDLPowerTopo_15 FDLPowerMsr_15))
+     (= BDelLinePower_15 (+ BDLPowerTopo_15 BDLPowerMsr_15))
+     (= FDelLinePower_16 (+ FDLPowerTopo_16 FDLPowerMsr_16))
+     (= BDelLinePower_16 (+ BDLPowerTopo_16 BDLPowerMsr_16))
+     (= FDelLinePower_17 (+ FDLPowerTopo_17 FDLPowerMsr_17))
+     (= BDelLinePower_17 (+ BDLPowerTopo_17 BDLPowerMsr_17))
+     (= FDelLinePower_18 (+ FDLPowerTopo_18 FDLPowerMsr_18))
+     (= BDelLinePower_18 (+ BDLPowerTopo_18 BDLPowerMsr_18))
+     (= FDelLinePower_19 (+ FDLPowerTopo_19 FDLPowerMsr_19))
+     (= BDelLinePower_19 (+ BDLPowerTopo_19 BDLPowerMsr_19))
+     (= FDelLinePower_20 (+ FDLPowerTopo_20 FDLPowerMsr_20))
+     (= BDelLinePower_20 (+ BDLPowerTopo_20 BDLPowerMsr_20))
+     (= FDelLinePower_21 (+ FDLPowerTopo_21 FDLPowerMsr_21))
+     (= BDelLinePower_21 (+ BDLPowerTopo_21 BDLPowerMsr_21))
+     (= FDelLinePower_22 (+ FDLPowerTopo_22 FDLPowerMsr_22))
+     (= BDelLinePower_22 (+ BDLPowerTopo_22 BDLPowerMsr_22))
+     (= FDelLinePower_23 (+ FDLPowerTopo_23 FDLPowerMsr_23))
+     (= BDelLinePower_23 (+ BDLPowerTopo_23 BDLPowerMsr_23))
+     (= FDelLinePower_24 (+ FDLPowerTopo_24 FDLPowerMsr_24))
+     (= BDelLinePower_24 (+ BDLPowerTopo_24 BDLPowerMsr_24))
+     (= FDelLinePower_25 (+ FDLPowerTopo_25 FDLPowerMsr_25))
+     (= BDelLinePower_25 (+ BDLPowerTopo_25 BDLPowerMsr_25))
+     (= FDelLinePower_26 (+ FDLPowerTopo_26 FDLPowerMsr_26))
+     (= BDelLinePower_26 (+ BDLPowerTopo_26 BDLPowerMsr_26))
+     (= FDelLinePower_27 (+ FDLPowerTopo_27 FDLPowerMsr_27))
+     (= BDelLinePower_27 (+ BDLPowerTopo_27 BDLPowerMsr_27))
+     (= FDelLinePower_28 (+ FDLPowerTopo_28 FDLPowerMsr_28))
+     (= BDelLinePower_28 (+ BDLPowerTopo_28 BDLPowerMsr_28))
+     (= FDelLinePower_29 (+ FDLPowerTopo_29 FDLPowerMsr_29))
+     (= BDelLinePower_29 (+ BDLPowerTopo_29 BDLPowerMsr_29))
+     (= FDelLinePower_30 (+ FDLPowerTopo_30 FDLPowerMsr_30))
+     (= BDelLinePower_30 (+ BDLPowerTopo_30 BDLPowerMsr_30))
+     (= FDelLinePower_31 (+ FDLPowerTopo_31 FDLPowerMsr_31))
+     (= BDelLinePower_31 (+ BDLPowerTopo_31 BDLPowerMsr_31))
+     (= FDelLinePower_32 (+ FDLPowerTopo_32 FDLPowerMsr_32))
+     (= BDelLinePower_32 (+ BDLPowerTopo_32 BDLPowerMsr_32))
+     (= FDelLinePower_33 (+ FDLPowerTopo_33 FDLPowerMsr_33))
+     (= BDelLinePower_33 (+ BDLPowerTopo_33 BDLPowerMsr_33))
+     (= FDelLinePower_34 (+ FDLPowerTopo_34 FDLPowerMsr_34))
+     (= BDelLinePower_34 (+ BDLPowerTopo_34 BDLPowerMsr_34))
+     (= FDelLinePower_35 (+ FDLPowerTopo_35 FDLPowerMsr_35))
+     (= BDelLinePower_35 (+ BDLPowerTopo_35 BDLPowerMsr_35))
+     (= FDelLinePower_36 (+ FDLPowerTopo_36 FDLPowerMsr_36))
+     (= BDelLinePower_36 (+ BDLPowerTopo_36 BDLPowerMsr_36))
+     (= FDelLinePower_37 (+ FDLPowerTopo_37 FDLPowerMsr_37))
+     (= BDelLinePower_37 (+ BDLPowerTopo_37 BDLPowerMsr_37))
+     (= FDelLinePower_38 (+ FDLPowerTopo_38 FDLPowerMsr_38))
+     (= BDelLinePower_38 (+ BDLPowerTopo_38 BDLPowerMsr_38))
+     (= FDelLinePower_39 (+ FDLPowerTopo_39 FDLPowerMsr_39))
+     (= BDelLinePower_39 (+ BDLPowerTopo_39 BDLPowerMsr_39))
+     (= FDelLinePower_40 (+ FDLPowerTopo_40 FDLPowerMsr_40))
+     (= BDelLinePower_40 (+ BDLPowerTopo_40 BDLPowerMsr_40))
+     (= FDelLinePower_41 (+ FDLPowerTopo_41 FDLPowerMsr_41))
+     (= BDelLinePower_41 (+ BDLPowerTopo_41 BDLPowerMsr_41))
+     (= FDelLinePower_42 (+ FDLPowerTopo_42 FDLPowerMsr_42))
+     (= BDelLinePower_42 (+ BDLPowerTopo_42 BDLPowerMsr_42))
+     (= FDelLinePower_43 (+ FDLPowerTopo_43 FDLPowerMsr_43))
+     (= BDelLinePower_43 (+ BDLPowerTopo_43 BDLPowerMsr_43))
+     (= FDelLinePower_44 (+ FDLPowerTopo_44 FDLPowerMsr_44))
+     (= BDelLinePower_44 (+ BDLPowerTopo_44 BDLPowerMsr_44))
+     (= FDelLinePower_45 (+ FDLPowerTopo_45 FDLPowerMsr_45))
+     (= BDelLinePower_45 (+ BDLPowerTopo_45 BDLPowerMsr_45))
+     (= FDelLinePower_46 (+ FDLPowerTopo_46 FDLPowerMsr_46))
+     (= BDelLinePower_46 (+ BDLPowerTopo_46 BDLPowerMsr_46))
+     (= FDelLinePower_47 (+ FDLPowerTopo_47 FDLPowerMsr_47))
+     (= BDelLinePower_47 (+ BDLPowerTopo_47 BDLPowerMsr_47))
+     (= FDelLinePower_48 (+ FDLPowerTopo_48 FDLPowerMsr_48))
+     (= BDelLinePower_48 (+ BDLPowerTopo_48 BDLPowerMsr_48))
+     (= FDelLinePower_49 (+ FDLPowerTopo_49 FDLPowerMsr_49))
+     (= BDelLinePower_49 (+ BDLPowerTopo_49 BDLPowerMsr_49))
+     (= FDelLinePower_50 (+ FDLPowerTopo_50 FDLPowerMsr_50))
+     (= BDelLinePower_50 (+ BDLPowerTopo_50 BDLPowerMsr_50))
+     (= FDelLinePower_51 (+ FDLPowerTopo_51 FDLPowerMsr_51))
+     (= BDelLinePower_51 (+ BDLPowerTopo_51 BDLPowerMsr_51))
+     (= FDelLinePower_52 (+ FDLPowerTopo_52 FDLPowerMsr_52))
+     (= BDelLinePower_52 (+ BDLPowerTopo_52 BDLPowerMsr_52))
+     (= FDelLinePower_53 (+ FDLPowerTopo_53 FDLPowerMsr_53))
+     (= BDelLinePower_53 (+ BDLPowerTopo_53 BDLPowerMsr_53))
+     (= FDelLinePower_54 (+ FDLPowerTopo_54 FDLPowerMsr_54))
+     (= BDelLinePower_54 (+ BDLPowerTopo_54 BDLPowerMsr_54))
+     (= FDelLinePower_55 (+ FDLPowerTopo_55 FDLPowerMsr_55))
+     (= BDelLinePower_55 (+ BDLPowerTopo_55 BDLPowerMsr_55))
+     (= FDelLinePower_56 (+ FDLPowerTopo_56 FDLPowerMsr_56))
+     (= BDelLinePower_56 (+ BDLPowerTopo_56 BDLPowerMsr_56))
+     (= FDelLinePower_57 (+ FDLPowerTopo_57 FDLPowerMsr_57))
+     (= BDelLinePower_57 (+ BDLPowerTopo_57 BDLPowerMsr_57))
+     (= FDelLinePower_58 (+ FDLPowerTopo_58 FDLPowerMsr_58))
+     (= BDelLinePower_58 (+ BDLPowerTopo_58 BDLPowerMsr_58))
+     (= FDelLinePower_59 (+ FDLPowerTopo_59 FDLPowerMsr_59))
+     (= BDelLinePower_59 (+ BDLPowerTopo_59 BDLPowerMsr_59))
+     (= FDelLinePower_60 (+ FDLPowerTopo_60 FDLPowerMsr_60))
+     (= BDelLinePower_60 (+ BDLPowerTopo_60 BDLPowerMsr_60))
+     (= FDelLinePower_61 (+ FDLPowerTopo_61 FDLPowerMsr_61))
+     (= BDelLinePower_61 (+ BDLPowerTopo_61 BDLPowerMsr_61))
+     (= FDelLinePower_62 (+ FDLPowerTopo_62 FDLPowerMsr_62))
+     (= BDelLinePower_62 (+ BDLPowerTopo_62 BDLPowerMsr_62))
+     (= FDelLinePower_63 (+ FDLPowerTopo_63 FDLPowerMsr_63))
+     (= BDelLinePower_63 (+ BDLPowerTopo_63 BDLPowerMsr_63))
+     (= FDelLinePower_64 (+ FDLPowerTopo_64 FDLPowerMsr_64))
+     (= BDelLinePower_64 (+ BDLPowerTopo_64 BDLPowerMsr_64))
+     (= FDelLinePower_65 (+ FDLPowerTopo_65 FDLPowerMsr_65))
+     (= BDelLinePower_65 (+ BDLPowerTopo_65 BDLPowerMsr_65))
+     (= FDelLinePower_66 (+ FDLPowerTopo_66 FDLPowerMsr_66))
+     (= BDelLinePower_66 (+ BDLPowerTopo_66 BDLPowerMsr_66))
+     (= FDelLinePower_67 (+ FDLPowerTopo_67 FDLPowerMsr_67))
+     (= BDelLinePower_67 (+ BDLPowerTopo_67 BDLPowerMsr_67))
+     (= FDelLinePower_68 (+ FDLPowerTopo_68 FDLPowerMsr_68))
+     (= BDelLinePower_68 (+ BDLPowerTopo_68 BDLPowerMsr_68))
+     (= FDelLinePower_69 (+ FDLPowerTopo_69 FDLPowerMsr_69))
+     (= BDelLinePower_69 (+ BDLPowerTopo_69 BDLPowerMsr_69))
+     (= FDelLinePower_70 (+ FDLPowerTopo_70 FDLPowerMsr_70))
+     (= BDelLinePower_70 (+ BDLPowerTopo_70 BDLPowerMsr_70))
+     (= FDelLinePower_71 (+ FDLPowerTopo_71 FDLPowerMsr_71))
+     (= BDelLinePower_71 (+ BDLPowerTopo_71 BDLPowerMsr_71))
+     (= FDelLinePower_72 (+ FDLPowerTopo_72 FDLPowerMsr_72))
+     (= BDelLinePower_72 (+ BDLPowerTopo_72 BDLPowerMsr_72))
+     (= FDelLinePower_73 (+ FDLPowerTopo_73 FDLPowerMsr_73))
+     (= BDelLinePower_73 (+ BDLPowerTopo_73 BDLPowerMsr_73))
+     (= FDelLinePower_74 (+ FDLPowerTopo_74 FDLPowerMsr_74))
+     (= BDelLinePower_74 (+ BDLPowerTopo_74 BDLPowerMsr_74))
+     (= FDelLinePower_75 (+ FDLPowerTopo_75 FDLPowerMsr_75))
+     (= BDelLinePower_75 (+ BDLPowerTopo_75 BDLPowerMsr_75))
+     (= FDelLinePower_76 (+ FDLPowerTopo_76 FDLPowerMsr_76))
+     (= BDelLinePower_76 (+ BDLPowerTopo_76 BDLPowerMsr_76))
+     (= FDelLinePower_77 (+ FDLPowerTopo_77 FDLPowerMsr_77))
+     (= BDelLinePower_77 (+ BDLPowerTopo_77 BDLPowerMsr_77))
+     (= FDelLinePower_78 (+ FDLPowerTopo_78 FDLPowerMsr_78))
+     (= BDelLinePower_78 (+ BDLPowerTopo_78 BDLPowerMsr_78))
+     (= FDelLinePower_79 (+ FDLPowerTopo_79 FDLPowerMsr_79))
+     (= BDelLinePower_79 (+ BDLPowerTopo_79 BDLPowerMsr_79))
+     (= FDelLinePower_80 (+ FDLPowerTopo_80 FDLPowerMsr_80))
+     (= BDelLinePower_80 (+ BDLPowerTopo_80 BDLPowerMsr_80))))
+(assert (and (=> EL_1 (and RL_1 (not FL_1) (not SL_1)))
+     (=> EL_2 (and RL_2 (not FL_2) (not SL_2)))
+     (=> EL_3 (and RL_3 (not FL_3) (not SL_3)))
+     (=> EL_4 (and RL_4 (not FL_4) (not SL_4)))
+     (=> EL_5 (and RL_5 (not FL_5) (not SL_5)))
+     (=> EL_6 (and RL_6 (not FL_6) (not SL_6)))
+     (=> EL_7 (and RL_7 (not FL_7) (not SL_7)))
+     (=> EL_8 (and RL_8 (not FL_8) (not SL_8)))
+     (=> EL_9 (and RL_9 (not FL_9) (not SL_9)))
+     (=> EL_10 (and RL_10 (not FL_10) (not SL_10)))
+     (=> EL_11 (and RL_11 (not FL_11) (not SL_11)))
+     (=> EL_12 (and RL_12 (not FL_12) (not SL_12)))
+     (=> EL_13 (and RL_13 (not FL_13) (not SL_13)))
+     (=> EL_14 (and RL_14 (not FL_14) (not SL_14)))
+     (=> EL_15 (and RL_15 (not FL_15) (not SL_15)))
+     (=> EL_16 (and RL_16 (not FL_16) (not SL_16)))
+     (=> EL_17 (and RL_17 (not FL_17) (not SL_17)))
+     (=> EL_18 (and RL_18 (not FL_18) (not SL_18)))
+     (=> EL_19 (and RL_19 (not FL_19) (not SL_19)))
+     (=> EL_20 (and RL_20 (not FL_20) (not SL_20)))
+     (=> EL_21 (and RL_21 (not FL_21) (not SL_21)))
+     (=> EL_22 (and RL_22 (not FL_22) (not SL_22)))
+     (=> EL_23 (and RL_23 (not FL_23) (not SL_23)))
+     (=> EL_24 (and RL_24 (not FL_24) (not SL_24)))
+     (=> EL_25 (and RL_25 (not FL_25) (not SL_25)))
+     (=> EL_26 (and RL_26 (not FL_26) (not SL_26)))
+     (=> EL_27 (and RL_27 (not FL_27) (not SL_27)))
+     (=> EL_28 (and RL_28 (not FL_28) (not SL_28)))
+     (=> EL_29 (and RL_29 (not FL_29) (not SL_29)))
+     (=> EL_30 (and RL_30 (not FL_30) (not SL_30)))
+     (=> EL_31 (and RL_31 (not FL_31) (not SL_31)))
+     (=> EL_32 (and RL_32 (not FL_32) (not SL_32)))
+     (=> EL_33 (and RL_33 (not FL_33) (not SL_33)))
+     (=> EL_34 (and RL_34 (not FL_34) (not SL_34)))
+     (=> EL_35 (and RL_35 (not FL_35) (not SL_35)))
+     (=> EL_36 (and RL_36 (not FL_36) (not SL_36)))
+     (=> EL_37 (and RL_37 (not FL_37) (not SL_37)))
+     (=> EL_38 (and RL_38 (not FL_38) (not SL_38)))
+     (=> EL_39 (and RL_39 (not FL_39) (not SL_39)))
+     (=> EL_40 (and RL_40 (not FL_40) (not SL_40)))
+     (=> EL_41 (and RL_41 (not FL_41) (not SL_41)))
+     (=> EL_42 (and RL_42 (not FL_42) (not SL_42)))
+     (=> EL_43 (and RL_43 (not FL_43) (not SL_43)))
+     (=> EL_44 (and RL_44 (not FL_44) (not SL_44)))
+     (=> EL_45 (and RL_45 (not FL_45) (not SL_45)))
+     (=> EL_46 (and RL_46 (not FL_46) (not SL_46)))
+     (=> EL_47 (and RL_47 (not FL_47) (not SL_47)))
+     (=> EL_48 (and RL_48 (not FL_48) (not SL_48)))
+     (=> EL_49 (and RL_49 (not FL_49) (not SL_49)))
+     (=> EL_50 (and RL_50 (not FL_50) (not SL_50)))
+     (=> EL_51 (and RL_51 (not FL_51) (not SL_51)))
+     (=> EL_52 (and RL_52 (not FL_52) (not SL_52)))
+     (=> EL_53 (and RL_53 (not FL_53) (not SL_53)))
+     (=> EL_54 (and RL_54 (not FL_54) (not SL_54)))
+     (=> EL_55 (and RL_55 (not FL_55) (not SL_55)))
+     (=> EL_56 (and RL_56 (not FL_56) (not SL_56)))
+     (=> EL_57 (and RL_57 (not FL_57) (not SL_57)))
+     (=> EL_58 (and RL_58 (not FL_58) (not SL_58)))
+     (=> EL_59 (and RL_59 (not FL_59) (not SL_59)))
+     (=> EL_60 (and RL_60 (not FL_60) (not SL_60)))
+     (=> EL_61 (and RL_61 (not FL_61) (not SL_61)))
+     (=> EL_62 (and RL_62 (not FL_62) (not SL_62)))
+     (=> EL_63 (and RL_63 (not FL_63) (not SL_63)))
+     (=> EL_64 (and RL_64 (not FL_64) (not SL_64)))
+     (=> EL_65 (and RL_65 (not FL_65) (not SL_65)))
+     (=> EL_66 (and RL_66 (not FL_66) (not SL_66)))
+     (=> EL_67 (and RL_67 (not FL_67) (not SL_67)))
+     (=> EL_68 (and RL_68 (not FL_68) (not SL_68)))
+     (=> EL_69 (and RL_69 (not FL_69) (not SL_69)))
+     (=> EL_70 (and RL_70 (not FL_70) (not SL_70)))
+     (=> EL_71 (and RL_71 (not FL_71) (not SL_71)))
+     (=> EL_72 (and RL_72 (not FL_72) (not SL_72)))
+     (=> EL_73 (and RL_73 (not FL_73) (not SL_73)))
+     (=> EL_74 (and RL_74 (not FL_74) (not SL_74)))
+     (=> EL_75 (and RL_75 (not FL_75) (not SL_75)))
+     (=> EL_76 (and RL_76 (not FL_76) (not SL_76)))
+     (=> EL_77 (and RL_77 (not FL_77) (not SL_77)))
+     (=> EL_78 (and RL_78 (not FL_78) (not SL_78)))
+     (=> EL_79 (and RL_79 (not FL_79) (not SL_79)))
+     (=> EL_80 (and RL_80 (not FL_80) (not SL_80)))))
+(assert (and (=> IL_1 (and (not RL_1) (not SL_1)))
+     (=> IL_2 (and (not RL_2) (not SL_2)))
+     (=> IL_3 (and (not RL_3) (not SL_3)))
+     (=> IL_4 (and (not RL_4) (not SL_4)))
+     (=> IL_5 (and (not RL_5) (not SL_5)))
+     (=> IL_6 (and (not RL_6) (not SL_6)))
+     (=> IL_7 (and (not RL_7) (not SL_7)))
+     (=> IL_8 (and (not RL_8) (not SL_8)))
+     (=> IL_9 (and (not RL_9) (not SL_9)))
+     (=> IL_10 (and (not RL_10) (not SL_10)))
+     (=> IL_11 (and (not RL_11) (not SL_11)))
+     (=> IL_12 (and (not RL_12) (not SL_12)))
+     (=> IL_13 (and (not RL_13) (not SL_13)))
+     (=> IL_14 (and (not RL_14) (not SL_14)))
+     (=> IL_15 (and (not RL_15) (not SL_15)))
+     (=> IL_16 (and (not RL_16) (not SL_16)))
+     (=> IL_17 (and (not RL_17) (not SL_17)))
+     (=> IL_18 (and (not RL_18) (not SL_18)))
+     (=> IL_19 (and (not RL_19) (not SL_19)))
+     (=> IL_20 (and (not RL_20) (not SL_20)))
+     (=> IL_21 (and (not RL_21) (not SL_21)))
+     (=> IL_22 (and (not RL_22) (not SL_22)))
+     (=> IL_23 (and (not RL_23) (not SL_23)))
+     (=> IL_24 (and (not RL_24) (not SL_24)))
+     (=> IL_25 (and (not RL_25) (not SL_25)))
+     (=> IL_26 (and (not RL_26) (not SL_26)))
+     (=> IL_27 (and (not RL_27) (not SL_27)))
+     (=> IL_28 (and (not RL_28) (not SL_28)))
+     (=> IL_29 (and (not RL_29) (not SL_29)))
+     (=> IL_30 (and (not RL_30) (not SL_30)))
+     (=> IL_31 (and (not RL_31) (not SL_31)))
+     (=> IL_32 (and (not RL_32) (not SL_32)))
+     (=> IL_33 (and (not RL_33) (not SL_33)))
+     (=> IL_34 (and (not RL_34) (not SL_34)))
+     (=> IL_35 (and (not RL_35) (not SL_35)))
+     (=> IL_36 (and (not RL_36) (not SL_36)))
+     (=> IL_37 (and (not RL_37) (not SL_37)))
+     (=> IL_38 (and (not RL_38) (not SL_38)))
+     (=> IL_39 (and (not RL_39) (not SL_39)))
+     (=> IL_40 (and (not RL_40) (not SL_40)))
+     (=> IL_41 (and (not RL_41) (not SL_41)))
+     (=> IL_42 (and (not RL_42) (not SL_42)))
+     (=> IL_43 (and (not RL_43) (not SL_43)))
+     (=> IL_44 (and (not RL_44) (not SL_44)))
+     (=> IL_45 (and (not RL_45) (not SL_45)))
+     (=> IL_46 (and (not RL_46) (not SL_46)))
+     (=> IL_47 (and (not RL_47) (not SL_47)))
+     (=> IL_48 (and (not RL_48) (not SL_48)))
+     (=> IL_49 (and (not RL_49) (not SL_49)))
+     (=> IL_50 (and (not RL_50) (not SL_50)))
+     (=> IL_51 (and (not RL_51) (not SL_51)))
+     (=> IL_52 (and (not RL_52) (not SL_52)))
+     (=> IL_53 (and (not RL_53) (not SL_53)))
+     (=> IL_54 (and (not RL_54) (not SL_54)))
+     (=> IL_55 (and (not RL_55) (not SL_55)))
+     (=> IL_56 (and (not RL_56) (not SL_56)))
+     (=> IL_57 (and (not RL_57) (not SL_57)))
+     (=> IL_58 (and (not RL_58) (not SL_58)))
+     (=> IL_59 (and (not RL_59) (not SL_59)))
+     (=> IL_60 (and (not RL_60) (not SL_60)))
+     (=> IL_61 (and (not RL_61) (not SL_61)))
+     (=> IL_62 (and (not RL_62) (not SL_62)))
+     (=> IL_63 (and (not RL_63) (not SL_63)))
+     (=> IL_64 (and (not RL_64) (not SL_64)))
+     (=> IL_65 (and (not RL_65) (not SL_65)))
+     (=> IL_66 (and (not RL_66) (not SL_66)))
+     (=> IL_67 (and (not RL_67) (not SL_67)))
+     (=> IL_68 (and (not RL_68) (not SL_68)))
+     (=> IL_69 (and (not RL_69) (not SL_69)))
+     (=> IL_70 (and (not RL_70) (not SL_70)))
+     (=> IL_71 (and (not RL_71) (not SL_71)))
+     (=> IL_72 (and (not RL_72) (not SL_72)))
+     (=> IL_73 (and (not RL_73) (not SL_73)))
+     (=> IL_74 (and (not RL_74) (not SL_74)))
+     (=> IL_75 (and (not RL_75) (not SL_75)))
+     (=> IL_76 (and (not RL_76) (not SL_76)))
+     (=> IL_77 (and (not RL_77) (not SL_77)))
+     (=> IL_78 (and (not RL_78) (not SL_78)))
+     (=> IL_79 (and (not RL_79) (not SL_79)))
+     (=> IL_80 (and (not RL_80) (not SL_80)))))
+(assert (let ((a!1 (=> (or (and RL_1 (not EL_1)) (and (not RL_1) IL_1)) ML_1))
+      (a!2 (=> (or (and RL_2 (not EL_2)) (and (not RL_2) IL_2)) ML_2))
+      (a!3 (=> (or (and RL_3 (not EL_3)) (and (not RL_3) IL_3)) ML_3))
+      (a!4 (=> (or (and RL_4 (not EL_4)) (and (not RL_4) IL_4)) ML_4))
+      (a!5 (=> (or (and RL_5 (not EL_5)) (and (not RL_5) IL_5)) ML_5))
+      (a!6 (=> (or (and RL_6 (not EL_6)) (and (not RL_6) IL_6)) ML_6))
+      (a!7 (=> (or (and RL_7 (not EL_7)) (and (not RL_7) IL_7)) ML_7))
+      (a!8 (=> (or (and RL_8 (not EL_8)) (and (not RL_8) IL_8)) ML_8))
+      (a!9 (=> (or (and RL_9 (not EL_9)) (and (not RL_9) IL_9)) ML_9))
+      (a!10 (=> (or (and RL_10 (not EL_10)) (and (not RL_10) IL_10)) ML_10))
+      (a!11 (=> (or (and RL_11 (not EL_11)) (and (not RL_11) IL_11)) ML_11))
+      (a!12 (=> (or (and RL_12 (not EL_12)) (and (not RL_12) IL_12)) ML_12))
+      (a!13 (=> (or (and RL_13 (not EL_13)) (and (not RL_13) IL_13)) ML_13))
+      (a!14 (=> (or (and RL_14 (not EL_14)) (and (not RL_14) IL_14)) ML_14))
+      (a!15 (=> (or (and RL_15 (not EL_15)) (and (not RL_15) IL_15)) ML_15))
+      (a!16 (=> (or (and RL_16 (not EL_16)) (and (not RL_16) IL_16)) ML_16))
+      (a!17 (=> (or (and RL_17 (not EL_17)) (and (not RL_17) IL_17)) ML_17))
+      (a!18 (=> (or (and RL_18 (not EL_18)) (and (not RL_18) IL_18)) ML_18))
+      (a!19 (=> (or (and RL_19 (not EL_19)) (and (not RL_19) IL_19)) ML_19))
+      (a!20 (=> (or (and RL_20 (not EL_20)) (and (not RL_20) IL_20)) ML_20))
+      (a!21 (=> (or (and RL_21 (not EL_21)) (and (not RL_21) IL_21)) ML_21))
+      (a!22 (=> (or (and RL_22 (not EL_22)) (and (not RL_22) IL_22)) ML_22))
+      (a!23 (=> (or (and RL_23 (not EL_23)) (and (not RL_23) IL_23)) ML_23))
+      (a!24 (=> (or (and RL_24 (not EL_24)) (and (not RL_24) IL_24)) ML_24))
+      (a!25 (=> (or (and RL_25 (not EL_25)) (and (not RL_25) IL_25)) ML_25))
+      (a!26 (=> (or (and RL_26 (not EL_26)) (and (not RL_26) IL_26)) ML_26))
+      (a!27 (=> (or (and RL_27 (not EL_27)) (and (not RL_27) IL_27)) ML_27))
+      (a!28 (=> (or (and RL_28 (not EL_28)) (and (not RL_28) IL_28)) ML_28))
+      (a!29 (=> (or (and RL_29 (not EL_29)) (and (not RL_29) IL_29)) ML_29))
+      (a!30 (=> (or (and RL_30 (not EL_30)) (and (not RL_30) IL_30)) ML_30))
+      (a!31 (=> (or (and RL_31 (not EL_31)) (and (not RL_31) IL_31)) ML_31))
+      (a!32 (=> (or (and RL_32 (not EL_32)) (and (not RL_32) IL_32)) ML_32))
+      (a!33 (=> (or (and RL_33 (not EL_33)) (and (not RL_33) IL_33)) ML_33))
+      (a!34 (=> (or (and RL_34 (not EL_34)) (and (not RL_34) IL_34)) ML_34))
+      (a!35 (=> (or (and RL_35 (not EL_35)) (and (not RL_35) IL_35)) ML_35))
+      (a!36 (=> (or (and RL_36 (not EL_36)) (and (not RL_36) IL_36)) ML_36))
+      (a!37 (=> (or (and RL_37 (not EL_37)) (and (not RL_37) IL_37)) ML_37))
+      (a!38 (=> (or (and RL_38 (not EL_38)) (and (not RL_38) IL_38)) ML_38))
+      (a!39 (=> (or (and RL_39 (not EL_39)) (and (not RL_39) IL_39)) ML_39))
+      (a!40 (=> (or (and RL_40 (not EL_40)) (and (not RL_40) IL_40)) ML_40))
+      (a!41 (=> (or (and RL_41 (not EL_41)) (and (not RL_41) IL_41)) ML_41))
+      (a!42 (=> (or (and RL_42 (not EL_42)) (and (not RL_42) IL_42)) ML_42))
+      (a!43 (=> (or (and RL_43 (not EL_43)) (and (not RL_43) IL_43)) ML_43))
+      (a!44 (=> (or (and RL_44 (not EL_44)) (and (not RL_44) IL_44)) ML_44))
+      (a!45 (=> (or (and RL_45 (not EL_45)) (and (not RL_45) IL_45)) ML_45))
+      (a!46 (=> (or (and RL_46 (not EL_46)) (and (not RL_46) IL_46)) ML_46))
+      (a!47 (=> (or (and RL_47 (not EL_47)) (and (not RL_47) IL_47)) ML_47))
+      (a!48 (=> (or (and RL_48 (not EL_48)) (and (not RL_48) IL_48)) ML_48))
+      (a!49 (=> (or (and RL_49 (not EL_49)) (and (not RL_49) IL_49)) ML_49))
+      (a!50 (=> (or (and RL_50 (not EL_50)) (and (not RL_50) IL_50)) ML_50))
+      (a!51 (=> (or (and RL_51 (not EL_51)) (and (not RL_51) IL_51)) ML_51))
+      (a!52 (=> (or (and RL_52 (not EL_52)) (and (not RL_52) IL_52)) ML_52))
+      (a!53 (=> (or (and RL_53 (not EL_53)) (and (not RL_53) IL_53)) ML_53))
+      (a!54 (=> (or (and RL_54 (not EL_54)) (and (not RL_54) IL_54)) ML_54))
+      (a!55 (=> (or (and RL_55 (not EL_55)) (and (not RL_55) IL_55)) ML_55))
+      (a!56 (=> (or (and RL_56 (not EL_56)) (and (not RL_56) IL_56)) ML_56))
+      (a!57 (=> (or (and RL_57 (not EL_57)) (and (not RL_57) IL_57)) ML_57))
+      (a!58 (=> (or (and RL_58 (not EL_58)) (and (not RL_58) IL_58)) ML_58))
+      (a!59 (=> (or (and RL_59 (not EL_59)) (and (not RL_59) IL_59)) ML_59))
+      (a!60 (=> (or (and RL_60 (not EL_60)) (and (not RL_60) IL_60)) ML_60))
+      (a!61 (=> (or (and RL_61 (not EL_61)) (and (not RL_61) IL_61)) ML_61))
+      (a!62 (=> (or (and RL_62 (not EL_62)) (and (not RL_62) IL_62)) ML_62))
+      (a!63 (=> (or (and RL_63 (not EL_63)) (and (not RL_63) IL_63)) ML_63))
+      (a!64 (=> (or (and RL_64 (not EL_64)) (and (not RL_64) IL_64)) ML_64))
+      (a!65 (=> (or (and RL_65 (not EL_65)) (and (not RL_65) IL_65)) ML_65))
+      (a!66 (=> (or (and RL_66 (not EL_66)) (and (not RL_66) IL_66)) ML_66))
+      (a!67 (=> (or (and RL_67 (not EL_67)) (and (not RL_67) IL_67)) ML_67))
+      (a!68 (=> (or (and RL_68 (not EL_68)) (and (not RL_68) IL_68)) ML_68))
+      (a!69 (=> (or (and RL_69 (not EL_69)) (and (not RL_69) IL_69)) ML_69))
+      (a!70 (=> (or (and RL_70 (not EL_70)) (and (not RL_70) IL_70)) ML_70))
+      (a!71 (=> (or (and RL_71 (not EL_71)) (and (not RL_71) IL_71)) ML_71))
+      (a!72 (=> (or (and RL_72 (not EL_72)) (and (not RL_72) IL_72)) ML_72))
+      (a!73 (=> (or (and RL_73 (not EL_73)) (and (not RL_73) IL_73)) ML_73))
+      (a!74 (=> (or (and RL_74 (not EL_74)) (and (not RL_74) IL_74)) ML_74))
+      (a!75 (=> (or (and RL_75 (not EL_75)) (and (not RL_75) IL_75)) ML_75))
+      (a!76 (=> (or (and RL_76 (not EL_76)) (and (not RL_76) IL_76)) ML_76))
+      (a!77 (=> (or (and RL_77 (not EL_77)) (and (not RL_77) IL_77)) ML_77))
+      (a!78 (=> (or (and RL_78 (not EL_78)) (and (not RL_78) IL_78)) ML_78))
+      (a!79 (=> (or (and RL_79 (not EL_79)) (and (not RL_79) IL_79)) ML_79))
+      (a!80 (=> (or (and RL_80 (not EL_80)) (and (not RL_80) IL_80)) ML_80)))
+  (and a!1
+       a!2
+       a!3
+       a!4
+       a!5
+       a!6
+       a!7
+       a!8
+       a!9
+       a!10
+       a!11
+       a!12
+       a!13
+       a!14
+       a!15
+       a!16
+       a!17
+       a!18
+       a!19
+       a!20
+       a!21
+       a!22
+       a!23
+       a!24
+       a!25
+       a!26
+       a!27
+       a!28
+       a!29
+       a!30
+       a!31
+       a!32
+       a!33
+       a!34
+       a!35
+       a!36
+       a!37
+       a!38
+       a!39
+       a!40
+       a!41
+       a!42
+       a!43
+       a!44
+       a!45
+       a!46
+       a!47
+       a!48
+       a!49
+       a!50
+       a!51
+       a!52
+       a!53
+       a!54
+       a!55
+       a!56
+       a!57
+       a!58
+       a!59
+       a!60
+       a!61
+       a!62
+       a!63
+       a!64
+       a!65
+       a!66
+       a!67
+       a!68
+       a!69
+       a!70
+       a!71
+       a!72
+       a!73
+       a!74
+       a!75
+       a!76
+       a!77
+       a!78
+       a!79
+       a!80)))
+(assert (let ((a!1 (=> ML_1 (or (and RL_1 (not EL_1)) (and (not RL_1) IL_1))))
+      (a!2 (=> ML_2 (or (and RL_2 (not EL_2)) (and (not RL_2) IL_2))))
+      (a!3 (=> ML_3 (or (and RL_3 (not EL_3)) (and (not RL_3) IL_3))))
+      (a!4 (=> ML_4 (or (and RL_4 (not EL_4)) (and (not RL_4) IL_4))))
+      (a!5 (=> ML_5 (or (and RL_5 (not EL_5)) (and (not RL_5) IL_5))))
+      (a!6 (=> ML_6 (or (and RL_6 (not EL_6)) (and (not RL_6) IL_6))))
+      (a!7 (=> ML_7 (or (and RL_7 (not EL_7)) (and (not RL_7) IL_7))))
+      (a!8 (=> ML_8 (or (and RL_8 (not EL_8)) (and (not RL_8) IL_8))))
+      (a!9 (=> ML_9 (or (and RL_9 (not EL_9)) (and (not RL_9) IL_9))))
+      (a!10 (=> ML_10 (or (and RL_10 (not EL_10)) (and (not RL_10) IL_10))))
+      (a!11 (=> ML_11 (or (and RL_11 (not EL_11)) (and (not RL_11) IL_11))))
+      (a!12 (=> ML_12 (or (and RL_12 (not EL_12)) (and (not RL_12) IL_12))))
+      (a!13 (=> ML_13 (or (and RL_13 (not EL_13)) (and (not RL_13) IL_13))))
+      (a!14 (=> ML_14 (or (and RL_14 (not EL_14)) (and (not RL_14) IL_14))))
+      (a!15 (=> ML_15 (or (and RL_15 (not EL_15)) (and (not RL_15) IL_15))))
+      (a!16 (=> ML_16 (or (and RL_16 (not EL_16)) (and (not RL_16) IL_16))))
+      (a!17 (=> ML_17 (or (and RL_17 (not EL_17)) (and (not RL_17) IL_17))))
+      (a!18 (=> ML_18 (or (and RL_18 (not EL_18)) (and (not RL_18) IL_18))))
+      (a!19 (=> ML_19 (or (and RL_19 (not EL_19)) (and (not RL_19) IL_19))))
+      (a!20 (=> ML_20 (or (and RL_20 (not EL_20)) (and (not RL_20) IL_20))))
+      (a!21 (=> ML_21 (or (and RL_21 (not EL_21)) (and (not RL_21) IL_21))))
+      (a!22 (=> ML_22 (or (and RL_22 (not EL_22)) (and (not RL_22) IL_22))))
+      (a!23 (=> ML_23 (or (and RL_23 (not EL_23)) (and (not RL_23) IL_23))))
+      (a!24 (=> ML_24 (or (and RL_24 (not EL_24)) (and (not RL_24) IL_24))))
+      (a!25 (=> ML_25 (or (and RL_25 (not EL_25)) (and (not RL_25) IL_25))))
+      (a!26 (=> ML_26 (or (and RL_26 (not EL_26)) (and (not RL_26) IL_26))))
+      (a!27 (=> ML_27 (or (and RL_27 (not EL_27)) (and (not RL_27) IL_27))))
+      (a!28 (=> ML_28 (or (and RL_28 (not EL_28)) (and (not RL_28) IL_28))))
+      (a!29 (=> ML_29 (or (and RL_29 (not EL_29)) (and (not RL_29) IL_29))))
+      (a!30 (=> ML_30 (or (and RL_30 (not EL_30)) (and (not RL_30) IL_30))))
+      (a!31 (=> ML_31 (or (and RL_31 (not EL_31)) (and (not RL_31) IL_31))))
+      (a!32 (=> ML_32 (or (and RL_32 (not EL_32)) (and (not RL_32) IL_32))))
+      (a!33 (=> ML_33 (or (and RL_33 (not EL_33)) (and (not RL_33) IL_33))))
+      (a!34 (=> ML_34 (or (and RL_34 (not EL_34)) (and (not RL_34) IL_34))))
+      (a!35 (=> ML_35 (or (and RL_35 (not EL_35)) (and (not RL_35) IL_35))))
+      (a!36 (=> ML_36 (or (and RL_36 (not EL_36)) (and (not RL_36) IL_36))))
+      (a!37 (=> ML_37 (or (and RL_37 (not EL_37)) (and (not RL_37) IL_37))))
+      (a!38 (=> ML_38 (or (and RL_38 (not EL_38)) (and (not RL_38) IL_38))))
+      (a!39 (=> ML_39 (or (and RL_39 (not EL_39)) (and (not RL_39) IL_39))))
+      (a!40 (=> ML_40 (or (and RL_40 (not EL_40)) (and (not RL_40) IL_40))))
+      (a!41 (=> ML_41 (or (and RL_41 (not EL_41)) (and (not RL_41) IL_41))))
+      (a!42 (=> ML_42 (or (and RL_42 (not EL_42)) (and (not RL_42) IL_42))))
+      (a!43 (=> ML_43 (or (and RL_43 (not EL_43)) (and (not RL_43) IL_43))))
+      (a!44 (=> ML_44 (or (and RL_44 (not EL_44)) (and (not RL_44) IL_44))))
+      (a!45 (=> ML_45 (or (and RL_45 (not EL_45)) (and (not RL_45) IL_45))))
+      (a!46 (=> ML_46 (or (and RL_46 (not EL_46)) (and (not RL_46) IL_46))))
+      (a!47 (=> ML_47 (or (and RL_47 (not EL_47)) (and (not RL_47) IL_47))))
+      (a!48 (=> ML_48 (or (and RL_48 (not EL_48)) (and (not RL_48) IL_48))))
+      (a!49 (=> ML_49 (or (and RL_49 (not EL_49)) (and (not RL_49) IL_49))))
+      (a!50 (=> ML_50 (or (and RL_50 (not EL_50)) (and (not RL_50) IL_50))))
+      (a!51 (=> ML_51 (or (and RL_51 (not EL_51)) (and (not RL_51) IL_51))))
+      (a!52 (=> ML_52 (or (and RL_52 (not EL_52)) (and (not RL_52) IL_52))))
+      (a!53 (=> ML_53 (or (and RL_53 (not EL_53)) (and (not RL_53) IL_53))))
+      (a!54 (=> ML_54 (or (and RL_54 (not EL_54)) (and (not RL_54) IL_54))))
+      (a!55 (=> ML_55 (or (and RL_55 (not EL_55)) (and (not RL_55) IL_55))))
+      (a!56 (=> ML_56 (or (and RL_56 (not EL_56)) (and (not RL_56) IL_56))))
+      (a!57 (=> ML_57 (or (and RL_57 (not EL_57)) (and (not RL_57) IL_57))))
+      (a!58 (=> ML_58 (or (and RL_58 (not EL_58)) (and (not RL_58) IL_58))))
+      (a!59 (=> ML_59 (or (and RL_59 (not EL_59)) (and (not RL_59) IL_59))))
+      (a!60 (=> ML_60 (or (and RL_60 (not EL_60)) (and (not RL_60) IL_60))))
+      (a!61 (=> ML_61 (or (and RL_61 (not EL_61)) (and (not RL_61) IL_61))))
+      (a!62 (=> ML_62 (or (and RL_62 (not EL_62)) (and (not RL_62) IL_62))))
+      (a!63 (=> ML_63 (or (and RL_63 (not EL_63)) (and (not RL_63) IL_63))))
+      (a!64 (=> ML_64 (or (and RL_64 (not EL_64)) (and (not RL_64) IL_64))))
+      (a!65 (=> ML_65 (or (and RL_65 (not EL_65)) (and (not RL_65) IL_65))))
+      (a!66 (=> ML_66 (or (and RL_66 (not EL_66)) (and (not RL_66) IL_66))))
+      (a!67 (=> ML_67 (or (and RL_67 (not EL_67)) (and (not RL_67) IL_67))))
+      (a!68 (=> ML_68 (or (and RL_68 (not EL_68)) (and (not RL_68) IL_68))))
+      (a!69 (=> ML_69 (or (and RL_69 (not EL_69)) (and (not RL_69) IL_69))))
+      (a!70 (=> ML_70 (or (and RL_70 (not EL_70)) (and (not RL_70) IL_70))))
+      (a!71 (=> ML_71 (or (and RL_71 (not EL_71)) (and (not RL_71) IL_71))))
+      (a!72 (=> ML_72 (or (and RL_72 (not EL_72)) (and (not RL_72) IL_72))))
+      (a!73 (=> ML_73 (or (and RL_73 (not EL_73)) (and (not RL_73) IL_73))))
+      (a!74 (=> ML_74 (or (and RL_74 (not EL_74)) (and (not RL_74) IL_74))))
+      (a!75 (=> ML_75 (or (and RL_75 (not EL_75)) (and (not RL_75) IL_75))))
+      (a!76 (=> ML_76 (or (and RL_76 (not EL_76)) (and (not RL_76) IL_76))))
+      (a!77 (=> ML_77 (or (and RL_77 (not EL_77)) (and (not RL_77) IL_77))))
+      (a!78 (=> ML_78 (or (and RL_78 (not EL_78)) (and (not RL_78) IL_78))))
+      (a!79 (=> ML_79 (or (and RL_79 (not EL_79)) (and (not RL_79) IL_79))))
+      (a!80 (=> ML_80 (or (and RL_80 (not EL_80)) (and (not RL_80) IL_80)))))
+  (and a!1
+       a!2
+       a!3
+       a!4
+       a!5
+       a!6
+       a!7
+       a!8
+       a!9
+       a!10
+       a!11
+       a!12
+       a!13
+       a!14
+       a!15
+       a!16
+       a!17
+       a!18
+       a!19
+       a!20
+       a!21
+       a!22
+       a!23
+       a!24
+       a!25
+       a!26
+       a!27
+       a!28
+       a!29
+       a!30
+       a!31
+       a!32
+       a!33
+       a!34
+       a!35
+       a!36
+       a!37
+       a!38
+       a!39
+       a!40
+       a!41
+       a!42
+       a!43
+       a!44
+       a!45
+       a!46
+       a!47
+       a!48
+       a!49
+       a!50
+       a!51
+       a!52
+       a!53
+       a!54
+       a!55
+       a!56
+       a!57
+       a!58
+       a!59
+       a!60
+       a!61
+       a!62
+       a!63
+       a!64
+       a!65
+       a!66
+       a!67
+       a!68
+       a!69
+       a!70
+       a!71
+       a!72
+       a!73
+       a!74
+       a!75
+       a!76
+       a!77
+       a!78
+       a!79
+       a!80)))
+(assert (and (=> (not (or EL_1 IL_1)) (= FDLPowerTopo_1 0.0))
+     (=> (not (or EL_1 IL_1)) (= BDLPowerTopo_1 0.0))
+     (=> (not (or EL_2 IL_2)) (= FDLPowerTopo_2 0.0))
+     (=> (not (or EL_2 IL_2)) (= BDLPowerTopo_2 0.0))
+     (=> (not (or EL_3 IL_3)) (= FDLPowerTopo_3 0.0))
+     (=> (not (or EL_3 IL_3)) (= BDLPowerTopo_3 0.0))
+     (=> (not (or EL_4 IL_4)) (= FDLPowerTopo_4 0.0))
+     (=> (not (or EL_4 IL_4)) (= BDLPowerTopo_4 0.0))
+     (=> (not (or EL_5 IL_5)) (= FDLPowerTopo_5 0.0))
+     (=> (not (or EL_5 IL_5)) (= BDLPowerTopo_5 0.0))
+     (=> (not (or EL_6 IL_6)) (= FDLPowerTopo_6 0.0))
+     (=> (not (or EL_6 IL_6)) (= BDLPowerTopo_6 0.0))
+     (=> (not (or EL_7 IL_7)) (= FDLPowerTopo_7 0.0))
+     (=> (not (or EL_7 IL_7)) (= BDLPowerTopo_7 0.0))
+     (=> (not (or EL_8 IL_8)) (= FDLPowerTopo_8 0.0))
+     (=> (not (or EL_8 IL_8)) (= BDLPowerTopo_8 0.0))
+     (=> (not (or EL_9 IL_9)) (= FDLPowerTopo_9 0.0))
+     (=> (not (or EL_9 IL_9)) (= BDLPowerTopo_9 0.0))
+     (=> (not (or EL_10 IL_10)) (= FDLPowerTopo_10 0.0))
+     (=> (not (or EL_10 IL_10)) (= BDLPowerTopo_10 0.0))
+     (=> (not (or EL_11 IL_11)) (= FDLPowerTopo_11 0.0))
+     (=> (not (or EL_11 IL_11)) (= BDLPowerTopo_11 0.0))
+     (=> (not (or EL_12 IL_12)) (= FDLPowerTopo_12 0.0))
+     (=> (not (or EL_12 IL_12)) (= BDLPowerTopo_12 0.0))
+     (=> (not (or EL_13 IL_13)) (= FDLPowerTopo_13 0.0))
+     (=> (not (or EL_13 IL_13)) (= BDLPowerTopo_13 0.0))
+     (=> (not (or EL_14 IL_14)) (= FDLPowerTopo_14 0.0))
+     (=> (not (or EL_14 IL_14)) (= BDLPowerTopo_14 0.0))
+     (=> (not (or EL_15 IL_15)) (= FDLPowerTopo_15 0.0))
+     (=> (not (or EL_15 IL_15)) (= BDLPowerTopo_15 0.0))
+     (=> (not (or EL_16 IL_16)) (= FDLPowerTopo_16 0.0))
+     (=> (not (or EL_16 IL_16)) (= BDLPowerTopo_16 0.0))
+     (=> (not (or EL_17 IL_17)) (= FDLPowerTopo_17 0.0))
+     (=> (not (or EL_17 IL_17)) (= BDLPowerTopo_17 0.0))
+     (=> (not (or EL_18 IL_18)) (= FDLPowerTopo_18 0.0))
+     (=> (not (or EL_18 IL_18)) (= BDLPowerTopo_18 0.0))
+     (=> (not (or EL_19 IL_19)) (= FDLPowerTopo_19 0.0))
+     (=> (not (or EL_19 IL_19)) (= BDLPowerTopo_19 0.0))
+     (=> (not (or EL_20 IL_20)) (= FDLPowerTopo_20 0.0))
+     (=> (not (or EL_20 IL_20)) (= BDLPowerTopo_20 0.0))
+     (=> (not (or EL_21 IL_21)) (= FDLPowerTopo_21 0.0))
+     (=> (not (or EL_21 IL_21)) (= BDLPowerTopo_21 0.0))
+     (=> (not (or EL_22 IL_22)) (= FDLPowerTopo_22 0.0))
+     (=> (not (or EL_22 IL_22)) (= BDLPowerTopo_22 0.0))
+     (=> (not (or EL_23 IL_23)) (= FDLPowerTopo_23 0.0))
+     (=> (not (or EL_23 IL_23)) (= BDLPowerTopo_23 0.0))
+     (=> (not (or EL_24 IL_24)) (= FDLPowerTopo_24 0.0))
+     (=> (not (or EL_24 IL_24)) (= BDLPowerTopo_24 0.0))
+     (=> (not (or EL_25 IL_25)) (= FDLPowerTopo_25 0.0))
+     (=> (not (or EL_25 IL_25)) (= BDLPowerTopo_25 0.0))
+     (=> (not (or EL_26 IL_26)) (= FDLPowerTopo_26 0.0))
+     (=> (not (or EL_26 IL_26)) (= BDLPowerTopo_26 0.0))
+     (=> (not (or EL_27 IL_27)) (= FDLPowerTopo_27 0.0))
+     (=> (not (or EL_27 IL_27)) (= BDLPowerTopo_27 0.0))
+     (=> (not (or EL_28 IL_28)) (= FDLPowerTopo_28 0.0))
+     (=> (not (or EL_28 IL_28)) (= BDLPowerTopo_28 0.0))
+     (=> (not (or EL_29 IL_29)) (= FDLPowerTopo_29 0.0))
+     (=> (not (or EL_29 IL_29)) (= BDLPowerTopo_29 0.0))
+     (=> (not (or EL_30 IL_30)) (= FDLPowerTopo_30 0.0))
+     (=> (not (or EL_30 IL_30)) (= BDLPowerTopo_30 0.0))
+     (=> (not (or EL_31 IL_31)) (= FDLPowerTopo_31 0.0))
+     (=> (not (or EL_31 IL_31)) (= BDLPowerTopo_31 0.0))
+     (=> (not (or EL_32 IL_32)) (= FDLPowerTopo_32 0.0))
+     (=> (not (or EL_32 IL_32)) (= BDLPowerTopo_32 0.0))
+     (=> (not (or EL_33 IL_33)) (= FDLPowerTopo_33 0.0))
+     (=> (not (or EL_33 IL_33)) (= BDLPowerTopo_33 0.0))
+     (=> (not (or EL_34 IL_34)) (= FDLPowerTopo_34 0.0))
+     (=> (not (or EL_34 IL_34)) (= BDLPowerTopo_34 0.0))
+     (=> (not (or EL_35 IL_35)) (= FDLPowerTopo_35 0.0))
+     (=> (not (or EL_35 IL_35)) (= BDLPowerTopo_35 0.0))
+     (=> (not (or EL_36 IL_36)) (= FDLPowerTopo_36 0.0))
+     (=> (not (or EL_36 IL_36)) (= BDLPowerTopo_36 0.0))
+     (=> (not (or EL_37 IL_37)) (= FDLPowerTopo_37 0.0))
+     (=> (not (or EL_37 IL_37)) (= BDLPowerTopo_37 0.0))
+     (=> (not (or EL_38 IL_38)) (= FDLPowerTopo_38 0.0))
+     (=> (not (or EL_38 IL_38)) (= BDLPowerTopo_38 0.0))
+     (=> (not (or EL_39 IL_39)) (= FDLPowerTopo_39 0.0))
+     (=> (not (or EL_39 IL_39)) (= BDLPowerTopo_39 0.0))
+     (=> (not (or EL_40 IL_40)) (= FDLPowerTopo_40 0.0))
+     (=> (not (or EL_40 IL_40)) (= BDLPowerTopo_40 0.0))
+     (=> (not (or EL_41 IL_41)) (= FDLPowerTopo_41 0.0))
+     (=> (not (or EL_41 IL_41)) (= BDLPowerTopo_41 0.0))
+     (=> (not (or EL_42 IL_42)) (= FDLPowerTopo_42 0.0))
+     (=> (not (or EL_42 IL_42)) (= BDLPowerTopo_42 0.0))
+     (=> (not (or EL_43 IL_43)) (= FDLPowerTopo_43 0.0))
+     (=> (not (or EL_43 IL_43)) (= BDLPowerTopo_43 0.0))
+     (=> (not (or EL_44 IL_44)) (= FDLPowerTopo_44 0.0))
+     (=> (not (or EL_44 IL_44)) (= BDLPowerTopo_44 0.0))
+     (=> (not (or EL_45 IL_45)) (= FDLPowerTopo_45 0.0))
+     (=> (not (or EL_45 IL_45)) (= BDLPowerTopo_45 0.0))
+     (=> (not (or EL_46 IL_46)) (= FDLPowerTopo_46 0.0))
+     (=> (not (or EL_46 IL_46)) (= BDLPowerTopo_46 0.0))
+     (=> (not (or EL_47 IL_47)) (= FDLPowerTopo_47 0.0))
+     (=> (not (or EL_47 IL_47)) (= BDLPowerTopo_47 0.0))
+     (=> (not (or EL_48 IL_48)) (= FDLPowerTopo_48 0.0))
+     (=> (not (or EL_48 IL_48)) (= BDLPowerTopo_48 0.0))
+     (=> (not (or EL_49 IL_49)) (= FDLPowerTopo_49 0.0))
+     (=> (not (or EL_49 IL_49)) (= BDLPowerTopo_49 0.0))
+     (=> (not (or EL_50 IL_50)) (= FDLPowerTopo_50 0.0))
+     (=> (not (or EL_50 IL_50)) (= BDLPowerTopo_50 0.0))
+     (=> (not (or EL_51 IL_51)) (= FDLPowerTopo_51 0.0))
+     (=> (not (or EL_51 IL_51)) (= BDLPowerTopo_51 0.0))
+     (=> (not (or EL_52 IL_52)) (= FDLPowerTopo_52 0.0))
+     (=> (not (or EL_52 IL_52)) (= BDLPowerTopo_52 0.0))
+     (=> (not (or EL_53 IL_53)) (= FDLPowerTopo_53 0.0))
+     (=> (not (or EL_53 IL_53)) (= BDLPowerTopo_53 0.0))
+     (=> (not (or EL_54 IL_54)) (= FDLPowerTopo_54 0.0))
+     (=> (not (or EL_54 IL_54)) (= BDLPowerTopo_54 0.0))
+     (=> (not (or EL_55 IL_55)) (= FDLPowerTopo_55 0.0))
+     (=> (not (or EL_55 IL_55)) (= BDLPowerTopo_55 0.0))
+     (=> (not (or EL_56 IL_56)) (= FDLPowerTopo_56 0.0))
+     (=> (not (or EL_56 IL_56)) (= BDLPowerTopo_56 0.0))
+     (=> (not (or EL_57 IL_57)) (= FDLPowerTopo_57 0.0))
+     (=> (not (or EL_57 IL_57)) (= BDLPowerTopo_57 0.0))
+     (=> (not (or EL_58 IL_58)) (= FDLPowerTopo_58 0.0))
+     (=> (not (or EL_58 IL_58)) (= BDLPowerTopo_58 0.0))
+     (=> (not (or EL_59 IL_59)) (= FDLPowerTopo_59 0.0))
+     (=> (not (or EL_59 IL_59)) (= BDLPowerTopo_59 0.0))
+     (=> (not (or EL_60 IL_60)) (= FDLPowerTopo_60 0.0))
+     (=> (not (or EL_60 IL_60)) (= BDLPowerTopo_60 0.0))
+     (=> (not (or EL_61 IL_61)) (= FDLPowerTopo_61 0.0))
+     (=> (not (or EL_61 IL_61)) (= BDLPowerTopo_61 0.0))
+     (=> (not (or EL_62 IL_62)) (= FDLPowerTopo_62 0.0))
+     (=> (not (or EL_62 IL_62)) (= BDLPowerTopo_62 0.0))
+     (=> (not (or EL_63 IL_63)) (= FDLPowerTopo_63 0.0))
+     (=> (not (or EL_63 IL_63)) (= BDLPowerTopo_63 0.0))
+     (=> (not (or EL_64 IL_64)) (= FDLPowerTopo_64 0.0))
+     (=> (not (or EL_64 IL_64)) (= BDLPowerTopo_64 0.0))
+     (=> (not (or EL_65 IL_65)) (= FDLPowerTopo_65 0.0))
+     (=> (not (or EL_65 IL_65)) (= BDLPowerTopo_65 0.0))
+     (=> (not (or EL_66 IL_66)) (= FDLPowerTopo_66 0.0))
+     (=> (not (or EL_66 IL_66)) (= BDLPowerTopo_66 0.0))
+     (=> (not (or EL_67 IL_67)) (= FDLPowerTopo_67 0.0))
+     (=> (not (or EL_67 IL_67)) (= BDLPowerTopo_67 0.0))
+     (=> (not (or EL_68 IL_68)) (= FDLPowerTopo_68 0.0))
+     (=> (not (or EL_68 IL_68)) (= BDLPowerTopo_68 0.0))
+     (=> (not (or EL_69 IL_69)) (= FDLPowerTopo_69 0.0))
+     (=> (not (or EL_69 IL_69)) (= BDLPowerTopo_69 0.0))
+     (=> (not (or EL_70 IL_70)) (= FDLPowerTopo_70 0.0))
+     (=> (not (or EL_70 IL_70)) (= BDLPowerTopo_70 0.0))
+     (=> (not (or EL_71 IL_71)) (= FDLPowerTopo_71 0.0))
+     (=> (not (or EL_71 IL_71)) (= BDLPowerTopo_71 0.0))
+     (=> (not (or EL_72 IL_72)) (= FDLPowerTopo_72 0.0))
+     (=> (not (or EL_72 IL_72)) (= BDLPowerTopo_72 0.0))
+     (=> (not (or EL_73 IL_73)) (= FDLPowerTopo_73 0.0))
+     (=> (not (or EL_73 IL_73)) (= BDLPowerTopo_73 0.0))
+     (=> (not (or EL_74 IL_74)) (= FDLPowerTopo_74 0.0))
+     (=> (not (or EL_74 IL_74)) (= BDLPowerTopo_74 0.0))
+     (=> (not (or EL_75 IL_75)) (= FDLPowerTopo_75 0.0))
+     (=> (not (or EL_75 IL_75)) (= BDLPowerTopo_75 0.0))
+     (=> (not (or EL_76 IL_76)) (= FDLPowerTopo_76 0.0))
+     (=> (not (or EL_76 IL_76)) (= BDLPowerTopo_76 0.0))
+     (=> (not (or EL_77 IL_77)) (= FDLPowerTopo_77 0.0))
+     (=> (not (or EL_77 IL_77)) (= BDLPowerTopo_77 0.0))
+     (=> (not (or EL_78 IL_78)) (= FDLPowerTopo_78 0.0))
+     (=> (not (or EL_78 IL_78)) (= BDLPowerTopo_78 0.0))
+     (=> (not (or EL_79 IL_79)) (= FDLPowerTopo_79 0.0))
+     (=> (not (or EL_79 IL_79)) (= BDLPowerTopo_79 0.0))
+     (=> (not (or EL_80 IL_80)) (= FDLPowerTopo_80 0.0))
+     (=> (not (or EL_80 IL_80)) (= BDLPowerTopo_80 0.0))))
+(assert (and (=> EL_1 (= FDLPowerTopo_1 (/ 7142.0 3125.0)))
+     (=> EL_1 (= BDLPowerTopo_1 (- (/ 7142.0 3125.0))))
+     (=> EL_2 (= FDLPowerTopo_2 (/ 1617.0 6250.0)))
+     (=> EL_2 (= BDLPowerTopo_2 (- (/ 1617.0 6250.0))))
+     (=> EL_3 (= FDLPowerTopo_3 (- (/ 21173.0 12500.0))))
+     (=> EL_3 (= BDLPowerTopo_3 (/ 21173.0 12500.0)))
+     (=> EL_4 (= FDLPowerTopo_4 (/ 1137.0 12500.0)))
+     (=> EL_4 (= BDLPowerTopo_4 (- (/ 1137.0 12500.0))))
+     (=> EL_5 (= FDLPowerTopo_5 (/ 1183.0 12500.0)))
+     (=> EL_5 (= BDLPowerTopo_5 (- (/ 1183.0 12500.0))))
+     (=> EL_6 (= FDLPowerTopo_6 0.0))
+     (=> EL_6 (= BDLPowerTopo_6 0.0))
+     (=> EL_7 (= FDLPowerTopo_7 (- (/ 2601.0 12500.0))))
+     (=> EL_7 (= BDLPowerTopo_7 (/ 2601.0 12500.0)))
+     (=> EL_8 (= FDLPowerTopo_8 (/ 99.0 250.0)))
+     (=> EL_8 (= BDLPowerTopo_8 (- (/ 99.0 250.0))))
+     (=> EL_9 (= FDLPowerTopo_9 (/ 1937.0 6250.0)))
+     (=> EL_9 (= BDLPowerTopo_9 (- (/ 1937.0 6250.0))))
+     (=> EL_10 (= FDLPowerTopo_10 (- (/ 10611.0 50000.0))))
+     (=> EL_10 (= BDLPowerTopo_10 (/ 10611.0 50000.0)))
+     (=> EL_11 (= FDLPowerTopo_11 (/ 678000000000001.0 100000000000000000.0)))
+     (=> EL_11
+         (= BDLPowerTopo_11 (- (/ 678000000000001.0 100000000000000000.0))))
+     (=> EL_12 (= FDLPowerTopo_12 (/ 5697.0 12500.0)))
+     (=> EL_12 (= BDLPowerTopo_12 (- (/ 5697.0 12500.0))))
+     (=> EL_13 (= FDLPowerTopo_13 (- (/ 5904.0 3125.0))))
+     (=> EL_13 (= BDLPowerTopo_13 (/ 5904.0 3125.0)))
+     (=> EL_14 (= FDLPowerTopo_14 (- (/ 8057.0 10000.0))))
+     (=> EL_14 (= BDLPowerTopo_14 (/ 8057.0 10000.0)))
+     (=> EL_15 (= FDLPowerTopo_15 (/ 3297.0 12500.0)))
+     (=> EL_15 (= BDLPowerTopo_15 (- (/ 3297.0 12500.0))))
+     (=> EL_16 (= FDLPowerTopo_16 (/ 2037.0 10000.0)))
+     (=> EL_16 (= BDLPowerTopo_16 (- (/ 2037.0 10000.0))))
+     (=> EL_17 (= FDLPowerTopo_17 (/ 463.0 1250.0)))
+     (=> EL_17 (= BDLPowerTopo_17 (- (/ 463.0 1250.0))))
+     (=> EL_18 (= FDLPowerTopo_18 (- (/ 58497.0 50000.0))))
+     (=> EL_18 (= BDLPowerTopo_18 (/ 58497.0 50000.0)))
+     (=> EL_19 (= FDLPowerTopo_19 (/ 333.0 2500.0)))
+     (=> EL_19 (= BDLPowerTopo_19 (- (/ 333.0 2500.0))))
+     (=> EL_20 (= FDLPowerTopo_20 (/ 8621.0 50000.0)))
+     (=> EL_20 (= BDLPowerTopo_20 (- (/ 8621.0 50000.0))))
+     (=> EL_21 (= FDLPowerTopo_21 (/ 39.0 1250.0)))
+     (=> EL_21 (= BDLPowerTopo_21 (- (/ 39.0 1250.0))))
+     (=> EL_22 (= FDLPowerTopo_22 (- (/ 3159.0 6250.0))))
+     (=> EL_22 (= BDLPowerTopo_22 (/ 3159.0 6250.0)))
+     (=> EL_23 (= FDLPowerTopo_23 (- (/ 99.0 250.0))))
+     (=> EL_23 (= BDLPowerTopo_23 (/ 99.0 250.0)))
+     (=> EL_24 (= FDLPowerTopo_24 (/ 6147.0 5000.0)))
+     (=> EL_24 (= BDLPowerTopo_24 (- (/ 6147.0 5000.0))))
+     (=> EL_25 (= FDLPowerTopo_25 (/ 3017.0 2500.0)))
+     (=> EL_25 (= BDLPowerTopo_25 (- (/ 3017.0 2500.0))))
+     (=> EL_26 (= FDLPowerTopo_26 (/ 1107.0 5000.0)))
+     (=> EL_26 (= BDLPowerTopo_26 (- (/ 1107.0 5000.0))))
+     (=> EL_27 (= FDLPowerTopo_27 (/ 559.0 6250.0)))
+     (=> EL_27 (= BDLPowerTopo_27 (- (/ 559.0 6250.0))))
+     (=> EL_28 (= FDLPowerTopo_28 (/ 1371.0 6250.0)))
+     (=> EL_28 (= BDLPowerTopo_28 (- (/ 1371.0 6250.0))))
+     (=> EL_29 (= FDLPowerTopo_29 (- (/ 1679.0 25000.0))))
+     (=> EL_29 (= BDLPowerTopo_29 (/ 1679.0 25000.0)))
+     (=> EL_30 (= FDLPowerTopo_30 (- (/ 23.0 625.0))))
+     (=> EL_30 (= BDLPowerTopo_30 (/ 23.0 625.0)))
+     (=> EL_31 (= FDLPowerTopo_31 (- (/ 1161.0 50000.0))))
+     (=> EL_31 (= BDLPowerTopo_31 (/ 1161.0 50000.0)))
+     (=> EL_32 (= FDLPowerTopo_32 (- (/ 171.0 5000.0))))
+     (=> EL_32 (= BDLPowerTopo_32 (/ 171.0 5000.0)))
+     (=> EL_33 (= FDLPowerTopo_33 (/ 6579.0 6250.0)))
+     (=> EL_33 (= BDLPowerTopo_33 (- (/ 6579.0 6250.0))))
+     (=> EL_34 (= FDLPowerTopo_34 (- (/ 391.0 6250.0))))
+     (=> EL_34 (= BDLPowerTopo_34 (/ 391.0 6250.0)))
+     (=> EL_35 (= FDLPowerTopo_35 (- (/ 153.0 5000.0))))
+     (=> EL_35 (= BDLPowerTopo_35 (/ 153.0 5000.0)))
+     (=> EL_36 (= FDLPowerTopo_36 (- (/ 729.0 25000.0))))
+     (=> EL_36 (= BDLPowerTopo_36 (/ 729.0 25000.0)))
+     (=> EL_37 (= FDLPowerTopo_37 (/ 24311.0 25000.0)))
+     (=> EL_37 (= BDLPowerTopo_37 (- (/ 24311.0 25000.0))))
+     (=> EL_38 (= FDLPowerTopo_38 (- (/ 1773.0 5000.0))))
+     (=> EL_38 (= BDLPowerTopo_38 (/ 1773.0 5000.0)))
+     (=> EL_39 (= FDLPowerTopo_39 (/ 3537.0 6250.0)))
+     (=> EL_39 (= BDLPowerTopo_39 (- (/ 3537.0 6250.0))))
+     (=> EL_40 (= FDLPowerTopo_40 (- (/ 4047.0 6250.0))))
+     (=> EL_40 (= BDLPowerTopo_40 (/ 4047.0 6250.0)))
+     (=> EL_41 (= FDLPowerTopo_41 (- (/ 1543.0 6250.0))))
+     (=> EL_41 (= BDLPowerTopo_41 (/ 1543.0 6250.0)))
+     (=> EL_42 (= FDLPowerTopo_42 0.0))
+     (=> EL_42 (= BDLPowerTopo_42 0.0))
+     (=> EL_43 (= FDLPowerTopo_43 (/ 402.0 3125.0)))
+     (=> EL_43 (= BDLPowerTopo_43 (- (/ 402.0 3125.0))))
+     (=> EL_44 (= FDLPowerTopo_44 (- (/ 132.0 3125.0))))
+     (=> EL_44 (= BDLPowerTopo_44 (/ 132.0 3125.0)))
+     (=> EL_45 (= FDLPowerTopo_45 (/ 2778.0 3125.0)))
+     (=> EL_45 (= BDLPowerTopo_45 (- (/ 2778.0 3125.0))))
+     (=> EL_46 (= FDLPowerTopo_46 (/ 231.0 5000.0)))
+     (=> EL_46 (= BDLPowerTopo_46 (- (/ 231.0 5000.0))))
+     (=> EL_47 (= FDLPowerTopo_47 (/ 1923.0 25000.0)))
+     (=> EL_47 (= BDLPowerTopo_47 (- (/ 1923.0 25000.0))))
+     (=> EL_48 (= FDLPowerTopo_48 (/ 931.0 12500.0)))
+     (=> EL_48 (= BDLPowerTopo_48 (- (/ 931.0 12500.0))))
+     (=> EL_49 (= FDLPowerTopo_49 (/ 2049.0 1250.0)))
+     (=> EL_49 (= BDLPowerTopo_49 (- (/ 2049.0 1250.0))))
+     (=> EL_50 (= FDLPowerTopo_50 (- (/ 6937.0 10000.0))))
+     (=> EL_50 (= BDLPowerTopo_50 (/ 6937.0 10000.0)))
+     (=> EL_51 (= FDLPowerTopo_51 (- (/ 76531.0 50000.0))))
+     (=> EL_51 (= BDLPowerTopo_51 (/ 76531.0 50000.0)))
+     (=> EL_52 (= FDLPowerTopo_52 (/ 3219.0 3125.0)))
+     (=> EL_52 (= BDLPowerTopo_52 (- (/ 3219.0 3125.0))))
+     (=> EL_53 (= FDLPowerTopo_53 (- (/ 1017.0 625.0))))
+     (=> EL_53 (= BDLPowerTopo_53 (/ 1017.0 625.0)))
+     (=> EL_54 (= FDLPowerTopo_54 (/ 1139.0 12500.0)))
+     (=> EL_54 (= BDLPowerTopo_54 (- (/ 1139.0 12500.0))))
+     (=> EL_55 (= FDLPowerTopo_55 (- (/ 497.0 6250.0))))
+     (=> EL_55 (= BDLPowerTopo_55 (/ 497.0 6250.0)))
+     (=> EL_56 (= FDLPowerTopo_56 (- (/ 243.0 6250.0))))
+     (=> EL_56 (= BDLPowerTopo_56 (/ 243.0 6250.0)))
+     (=> EL_57 (= FDLPowerTopo_57 (/ 11963.0 10000.0)))
+     (=> EL_57 (= BDLPowerTopo_57 (- (/ 11963.0 10000.0))))
+     (=> EL_58 (= FDLPowerTopo_58 (/ 228.0 625.0)))
+     (=> EL_58 (= BDLPowerTopo_58 (- (/ 228.0 625.0))))
+     (=> EL_59 (= FDLPowerTopo_59 (/ 28581.0 25000.0)))
+     (=> EL_59 (= BDLPowerTopo_59 (- (/ 28581.0 25000.0))))
+     (=> EL_60 (= FDLPowerTopo_60 (- (/ 1471.0 50000.0))))
+     (=> EL_60 (= BDLPowerTopo_60 (/ 1471.0 50000.0)))
+     (=> EL_61 (= FDLPowerTopo_61 (- (/ 31117.0 12500.0))))
+     (=> EL_61 (= BDLPowerTopo_61 (/ 31117.0 12500.0)))
+     (=> EL_62 (= FDLPowerTopo_62 (/ 651.0 2000.0)))
+     (=> EL_62 (= BDLPowerTopo_62 (- (/ 651.0 2000.0))))
+     (=> EL_63 (= FDLPowerTopo_63 (- (/ 24211.0 50000.0))))
+     (=> EL_63 (= BDLPowerTopo_63 (/ 24211.0 50000.0)))
+     (=> EL_64 (= FDLPowerTopo_64 (/ 273.0 1250.0)))
+     (=> EL_64 (= BDLPowerTopo_64 (- (/ 273.0 1250.0))))
+     (=> EL_65 (= FDLPowerTopo_65 (- (/ 351.0 2500.0))))
+     (=> EL_65 (= BDLPowerTopo_65 (/ 351.0 2500.0)))
+     (=> EL_66 (= FDLPowerTopo_66 (- (/ 262.0 3125.0))))
+     (=> EL_66 (= BDLPowerTopo_66 (/ 262.0 3125.0)))
+     (=> EL_67 (= FDLPowerTopo_67 (/ 3531.0 10000.0)))
+     (=> EL_67 (= BDLPowerTopo_67 (- (/ 3531.0 10000.0))))
+     (=> EL_68 (= FDLPowerTopo_68 (- (/ 889.0 6250.0))))
+     (=> EL_68 (= BDLPowerTopo_68 (/ 889.0 6250.0)))
+     (=> EL_69 (= FDLPowerTopo_69 (- (/ 4741.0 50000.0))))
+     (=> EL_69 (= BDLPowerTopo_69 (/ 4741.0 50000.0)))
+     (=> EL_70 (= FDLPowerTopo_70 (- (/ 2873.0 25000.0))))
+     (=> EL_70 (= BDLPowerTopo_70 (/ 2873.0 25000.0)))
+     (=> EL_71 (= FDLPowerTopo_71 (/ 4251.0 12500.0)))
+     (=> EL_71 (= BDLPowerTopo_71 (- (/ 4251.0 12500.0))))
+     (=> EL_72 (= FDLPowerTopo_72 (- (/ 161.0 2000.0))))
+     (=> EL_72 (= BDLPowerTopo_72 (/ 161.0 2000.0)))
+     (=> EL_73 (= FDLPowerTopo_73 (- (/ 21.0 625.0))))
+     (=> EL_73 (= BDLPowerTopo_73 (/ 21.0 625.0)))
+     (=> EL_74 (= FDLPowerTopo_74 (/ 1183.0 12500.0)))
+     (=> EL_74 (= BDLPowerTopo_74 (- (/ 1183.0 12500.0))))
+     (=> EL_75 (= FDLPowerTopo_75 (/ 423.0 6250.0)))
+     (=> EL_75 (= BDLPowerTopo_75 (- (/ 423.0 6250.0))))
+     (=> EL_76 (= FDLPowerTopo_76 (/ 37.0 6250.0)))
+     (=> EL_76 (= BDLPowerTopo_76 (- (/ 37.0 6250.0))))
+     (=> EL_77
+         (= FDLPowerTopo_77 (- (/ 769999999999999.0 100000000000000000.0))))
+     (=> EL_77 (= BDLPowerTopo_77 (/ 769999999999999.0 100000000000000000.0)))
+     (=> EL_78 (= FDLPowerTopo_78 (/ 2147.0 5000.0)))
+     (=> EL_78 (= BDLPowerTopo_78 (- (/ 2147.0 5000.0))))
+     (=> EL_79 (= FDLPowerTopo_79 (/ 1411.0 2000.0)))
+     (=> EL_79 (= BDLPowerTopo_79 (- (/ 1411.0 2000.0))))
+     (=> EL_80 (= FDLPowerTopo_80 (/ 83.0 2500.0)))
+     (=> EL_80 (= BDLPowerTopo_80 (- (/ 83.0 2500.0))))))
+(assert (and (=> IL_1 (= FDLPowerTopo_1 (- (/ 7142.0 3125.0))))
+     (=> IL_1 (= BDLPowerTopo_1 (/ 7142.0 3125.0)))
+     (=> IL_2 (= FDLPowerTopo_2 (- (/ 1617.0 6250.0))))
+     (=> IL_2 (= BDLPowerTopo_2 (/ 1617.0 6250.0)))
+     (=> IL_3 (= FDLPowerTopo_3 (/ 21173.0 12500.0)))
+     (=> IL_3 (= BDLPowerTopo_3 (- (/ 21173.0 12500.0))))
+     (=> IL_4 (= FDLPowerTopo_4 (- (/ 1137.0 12500.0))))
+     (=> IL_4 (= BDLPowerTopo_4 (/ 1137.0 12500.0)))
+     (=> IL_5 (= FDLPowerTopo_5 (- (/ 1183.0 12500.0))))
+     (=> IL_5 (= BDLPowerTopo_5 (/ 1183.0 12500.0)))
+     (=> IL_6 (= FDLPowerTopo_6 0.0))
+     (=> IL_6 (= BDLPowerTopo_6 0.0))
+     (=> IL_7 (= FDLPowerTopo_7 (/ 2601.0 12500.0)))
+     (=> IL_7 (= BDLPowerTopo_7 (- (/ 2601.0 12500.0))))
+     (=> IL_8 (= FDLPowerTopo_8 (- (/ 99.0 250.0))))
+     (=> IL_8 (= BDLPowerTopo_8 (/ 99.0 250.0)))
+     (=> IL_9 (= FDLPowerTopo_9 (- (/ 1937.0 6250.0))))
+     (=> IL_9 (= BDLPowerTopo_9 (/ 1937.0 6250.0)))
+     (=> IL_10 (= FDLPowerTopo_10 (/ 10611.0 50000.0)))
+     (=> IL_10 (= BDLPowerTopo_10 (- (/ 10611.0 50000.0))))
+     (=> IL_11
+         (= FDLPowerTopo_11 (- (/ 678000000000001.0 100000000000000000.0))))
+     (=> IL_11 (= BDLPowerTopo_11 (/ 678000000000001.0 100000000000000000.0)))
+     (=> IL_12 (= FDLPowerTopo_12 (- (/ 5697.0 12500.0))))
+     (=> IL_12 (= BDLPowerTopo_12 (/ 5697.0 12500.0)))
+     (=> IL_13 (= FDLPowerTopo_13 (/ 5904.0 3125.0)))
+     (=> IL_13 (= BDLPowerTopo_13 (- (/ 5904.0 3125.0))))
+     (=> IL_14 (= FDLPowerTopo_14 (/ 8057.0 10000.0)))
+     (=> IL_14 (= BDLPowerTopo_14 (- (/ 8057.0 10000.0))))
+     (=> IL_15 (= FDLPowerTopo_15 (- (/ 3297.0 12500.0))))
+     (=> IL_15 (= BDLPowerTopo_15 (/ 3297.0 12500.0)))
+     (=> IL_16 (= FDLPowerTopo_16 (- (/ 2037.0 10000.0))))
+     (=> IL_16 (= BDLPowerTopo_16 (/ 2037.0 10000.0)))
+     (=> IL_17 (= FDLPowerTopo_17 (- (/ 463.0 1250.0))))
+     (=> IL_17 (= BDLPowerTopo_17 (/ 463.0 1250.0)))
+     (=> IL_18 (= FDLPowerTopo_18 (/ 58497.0 50000.0)))
+     (=> IL_18 (= BDLPowerTopo_18 (- (/ 58497.0 50000.0))))
+     (=> IL_19 (= FDLPowerTopo_19 (- (/ 333.0 2500.0))))
+     (=> IL_19 (= BDLPowerTopo_19 (/ 333.0 2500.0)))
+     (=> IL_20 (= FDLPowerTopo_20 (- (/ 8621.0 50000.0))))
+     (=> IL_20 (= BDLPowerTopo_20 (/ 8621.0 50000.0)))
+     (=> IL_21 (= FDLPowerTopo_21 (- (/ 39.0 1250.0))))
+     (=> IL_21 (= BDLPowerTopo_21 (/ 39.0 1250.0)))
+     (=> IL_22 (= FDLPowerTopo_22 (/ 3159.0 6250.0)))
+     (=> IL_22 (= BDLPowerTopo_22 (- (/ 3159.0 6250.0))))
+     (=> IL_23 (= FDLPowerTopo_23 (/ 99.0 250.0)))
+     (=> IL_23 (= BDLPowerTopo_23 (- (/ 99.0 250.0))))
+     (=> IL_24 (= FDLPowerTopo_24 (- (/ 6147.0 5000.0))))
+     (=> IL_24 (= BDLPowerTopo_24 (/ 6147.0 5000.0)))
+     (=> IL_25 (= FDLPowerTopo_25 (- (/ 3017.0 2500.0))))
+     (=> IL_25 (= BDLPowerTopo_25 (/ 3017.0 2500.0)))
+     (=> IL_26 (= FDLPowerTopo_26 (- (/ 1107.0 5000.0))))
+     (=> IL_26 (= BDLPowerTopo_26 (/ 1107.0 5000.0)))
+     (=> IL_27 (= FDLPowerTopo_27 (- (/ 559.0 6250.0))))
+     (=> IL_27 (= BDLPowerTopo_27 (/ 559.0 6250.0)))
+     (=> IL_28 (= FDLPowerTopo_28 (- (/ 1371.0 6250.0))))
+     (=> IL_28 (= BDLPowerTopo_28 (/ 1371.0 6250.0)))
+     (=> IL_29 (= FDLPowerTopo_29 (/ 1679.0 25000.0)))
+     (=> IL_29 (= BDLPowerTopo_29 (- (/ 1679.0 25000.0))))
+     (=> IL_30 (= FDLPowerTopo_30 (/ 23.0 625.0)))
+     (=> IL_30 (= BDLPowerTopo_30 (- (/ 23.0 625.0))))
+     (=> IL_31 (= FDLPowerTopo_31 (/ 1161.0 50000.0)))
+     (=> IL_31 (= BDLPowerTopo_31 (- (/ 1161.0 50000.0))))
+     (=> IL_32 (= FDLPowerTopo_32 (/ 171.0 5000.0)))
+     (=> IL_32 (= BDLPowerTopo_32 (- (/ 171.0 5000.0))))
+     (=> IL_33 (= FDLPowerTopo_33 (- (/ 6579.0 6250.0))))
+     (=> IL_33 (= BDLPowerTopo_33 (/ 6579.0 6250.0)))
+     (=> IL_34 (= FDLPowerTopo_34 (/ 391.0 6250.0)))
+     (=> IL_34 (= BDLPowerTopo_34 (- (/ 391.0 6250.0))))
+     (=> IL_35 (= FDLPowerTopo_35 (/ 153.0 5000.0)))
+     (=> IL_35 (= BDLPowerTopo_35 (- (/ 153.0 5000.0))))
+     (=> IL_36 (= FDLPowerTopo_36 (/ 729.0 25000.0)))
+     (=> IL_36 (= BDLPowerTopo_36 (- (/ 729.0 25000.0))))
+     (=> IL_37 (= FDLPowerTopo_37 (- (/ 24311.0 25000.0))))
+     (=> IL_37 (= BDLPowerTopo_37 (/ 24311.0 25000.0)))
+     (=> IL_38 (= FDLPowerTopo_38 (/ 1773.0 5000.0)))
+     (=> IL_38 (= BDLPowerTopo_38 (- (/ 1773.0 5000.0))))
+     (=> IL_39 (= FDLPowerTopo_39 (- (/ 3537.0 6250.0))))
+     (=> IL_39 (= BDLPowerTopo_39 (/ 3537.0 6250.0)))
+     (=> IL_40 (= FDLPowerTopo_40 (/ 4047.0 6250.0)))
+     (=> IL_40 (= BDLPowerTopo_40 (- (/ 4047.0 6250.0))))
+     (=> IL_41 (= FDLPowerTopo_41 (/ 1543.0 6250.0)))
+     (=> IL_41 (= BDLPowerTopo_41 (- (/ 1543.0 6250.0))))
+     (=> IL_42 (= FDLPowerTopo_42 0.0))
+     (=> IL_42 (= BDLPowerTopo_42 0.0))
+     (=> IL_43 (= FDLPowerTopo_43 (- (/ 402.0 3125.0))))
+     (=> IL_43 (= BDLPowerTopo_43 (/ 402.0 3125.0)))
+     (=> IL_44 (= FDLPowerTopo_44 (/ 132.0 3125.0)))
+     (=> IL_44 (= BDLPowerTopo_44 (- (/ 132.0 3125.0))))
+     (=> IL_45 (= FDLPowerTopo_45 (- (/ 2778.0 3125.0))))
+     (=> IL_45 (= BDLPowerTopo_45 (/ 2778.0 3125.0)))
+     (=> IL_46 (= FDLPowerTopo_46 (- (/ 231.0 5000.0))))
+     (=> IL_46 (= BDLPowerTopo_46 (/ 231.0 5000.0)))
+     (=> IL_47 (= FDLPowerTopo_47 (- (/ 1923.0 25000.0))))
+     (=> IL_47 (= BDLPowerTopo_47 (/ 1923.0 25000.0)))
+     (=> IL_48 (= FDLPowerTopo_48 (- (/ 931.0 12500.0))))
+     (=> IL_48 (= BDLPowerTopo_48 (/ 931.0 12500.0)))
+     (=> IL_49 (= FDLPowerTopo_49 (- (/ 2049.0 1250.0))))
+     (=> IL_49 (= BDLPowerTopo_49 (/ 2049.0 1250.0)))
+     (=> IL_50 (= FDLPowerTopo_50 (/ 6937.0 10000.0)))
+     (=> IL_50 (= BDLPowerTopo_50 (- (/ 6937.0 10000.0))))
+     (=> IL_51 (= FDLPowerTopo_51 (/ 76531.0 50000.0)))
+     (=> IL_51 (= BDLPowerTopo_51 (- (/ 76531.0 50000.0))))
+     (=> IL_52 (= FDLPowerTopo_52 (- (/ 3219.0 3125.0))))
+     (=> IL_52 (= BDLPowerTopo_52 (/ 3219.0 3125.0)))
+     (=> IL_53 (= FDLPowerTopo_53 (/ 1017.0 625.0)))
+     (=> IL_53 (= BDLPowerTopo_53 (- (/ 1017.0 625.0))))
+     (=> IL_54 (= FDLPowerTopo_54 (- (/ 1139.0 12500.0))))
+     (=> IL_54 (= BDLPowerTopo_54 (/ 1139.0 12500.0)))
+     (=> IL_55 (= FDLPowerTopo_55 (/ 497.0 6250.0)))
+     (=> IL_55 (= BDLPowerTopo_55 (- (/ 497.0 6250.0))))
+     (=> IL_56 (= FDLPowerTopo_56 (/ 243.0 6250.0)))
+     (=> IL_56 (= BDLPowerTopo_56 (- (/ 243.0 6250.0))))
+     (=> IL_57 (= FDLPowerTopo_57 (- (/ 11963.0 10000.0))))
+     (=> IL_57 (= BDLPowerTopo_57 (/ 11963.0 10000.0)))
+     (=> IL_58 (= FDLPowerTopo_58 (- (/ 228.0 625.0))))
+     (=> IL_58 (= BDLPowerTopo_58 (/ 228.0 625.0)))
+     (=> IL_59 (= FDLPowerTopo_59 (- (/ 28581.0 25000.0))))
+     (=> IL_59 (= BDLPowerTopo_59 (/ 28581.0 25000.0)))
+     (=> IL_60 (= FDLPowerTopo_60 (/ 1471.0 50000.0)))
+     (=> IL_60 (= BDLPowerTopo_60 (- (/ 1471.0 50000.0))))
+     (=> IL_61 (= FDLPowerTopo_61 (/ 31117.0 12500.0)))
+     (=> IL_61 (= BDLPowerTopo_61 (- (/ 31117.0 12500.0))))
+     (=> IL_62 (= FDLPowerTopo_62 (- (/ 651.0 2000.0))))
+     (=> IL_62 (= BDLPowerTopo_62 (/ 651.0 2000.0)))
+     (=> IL_63 (= FDLPowerTopo_63 (/ 24211.0 50000.0)))
+     (=> IL_63 (= BDLPowerTopo_63 (- (/ 24211.0 50000.0))))
+     (=> IL_64 (= FDLPowerTopo_64 (- (/ 273.0 1250.0))))
+     (=> IL_64 (= BDLPowerTopo_64 (/ 273.0 1250.0)))
+     (=> IL_65 (= FDLPowerTopo_65 (/ 351.0 2500.0)))
+     (=> IL_65 (= BDLPowerTopo_65 (- (/ 351.0 2500.0))))
+     (=> IL_66 (= FDLPowerTopo_66 (/ 262.0 3125.0)))
+     (=> IL_66 (= BDLPowerTopo_66 (- (/ 262.0 3125.0))))
+     (=> IL_67 (= FDLPowerTopo_67 (- (/ 3531.0 10000.0))))
+     (=> IL_67 (= BDLPowerTopo_67 (/ 3531.0 10000.0)))
+     (=> IL_68 (= FDLPowerTopo_68 (/ 889.0 6250.0)))
+     (=> IL_68 (= BDLPowerTopo_68 (- (/ 889.0 6250.0))))
+     (=> IL_69 (= FDLPowerTopo_69 (/ 4741.0 50000.0)))
+     (=> IL_69 (= BDLPowerTopo_69 (- (/ 4741.0 50000.0))))
+     (=> IL_70 (= FDLPowerTopo_70 (/ 2873.0 25000.0)))
+     (=> IL_70 (= BDLPowerTopo_70 (- (/ 2873.0 25000.0))))
+     (=> IL_71 (= FDLPowerTopo_71 (- (/ 4251.0 12500.0))))
+     (=> IL_71 (= BDLPowerTopo_71 (/ 4251.0 12500.0)))
+     (=> IL_72 (= FDLPowerTopo_72 (/ 161.0 2000.0)))
+     (=> IL_72 (= BDLPowerTopo_72 (- (/ 161.0 2000.0))))
+     (=> IL_73 (= FDLPowerTopo_73 (/ 21.0 625.0)))
+     (=> IL_73 (= BDLPowerTopo_73 (- (/ 21.0 625.0))))
+     (=> IL_74 (= FDLPowerTopo_74 (- (/ 1183.0 12500.0))))
+     (=> IL_74 (= BDLPowerTopo_74 (/ 1183.0 12500.0)))
+     (=> IL_75 (= FDLPowerTopo_75 (- (/ 423.0 6250.0))))
+     (=> IL_75 (= BDLPowerTopo_75 (/ 423.0 6250.0)))
+     (=> IL_76 (= FDLPowerTopo_76 (- (/ 37.0 6250.0))))
+     (=> IL_76 (= BDLPowerTopo_76 (/ 37.0 6250.0)))
+     (=> IL_77 (= FDLPowerTopo_77 (/ 769999999999999.0 100000000000000000.0)))
+     (=> IL_77
+         (= BDLPowerTopo_77 (- (/ 769999999999999.0 100000000000000000.0))))
+     (=> IL_78 (= FDLPowerTopo_78 (- (/ 2147.0 5000.0))))
+     (=> IL_78 (= BDLPowerTopo_78 (/ 2147.0 5000.0)))
+     (=> IL_79 (= FDLPowerTopo_79 (- (/ 1411.0 2000.0))))
+     (=> IL_79 (= BDLPowerTopo_79 (/ 1411.0 2000.0)))
+     (=> IL_80 (= FDLPowerTopo_80 (- (/ 83.0 2500.0))))
+     (=> IL_80 (= BDLPowerTopo_80 (/ 83.0 2500.0)))))
+(assert (and (=> (not ML_1) (= FDLPowerMsr_1 0.0))
+     (=> (not ML_1) (= BDLPowerMsr_1 0.0))
+     (=> (not ML_2) (= FDLPowerMsr_2 0.0))
+     (=> (not ML_2) (= BDLPowerMsr_2 0.0))
+     (=> (not ML_3) (= FDLPowerMsr_3 0.0))
+     (=> (not ML_3) (= BDLPowerMsr_3 0.0))
+     (=> (not ML_4) (= FDLPowerMsr_4 0.0))
+     (=> (not ML_4) (= BDLPowerMsr_4 0.0))
+     (=> (not ML_5) (= FDLPowerMsr_5 0.0))
+     (=> (not ML_5) (= BDLPowerMsr_5 0.0))
+     (=> (not ML_6) (= FDLPowerMsr_6 0.0))
+     (=> (not ML_6) (= BDLPowerMsr_6 0.0))
+     (=> (not ML_7) (= FDLPowerMsr_7 0.0))
+     (=> (not ML_7) (= BDLPowerMsr_7 0.0))
+     (=> (not ML_8) (= FDLPowerMsr_8 0.0))
+     (=> (not ML_8) (= BDLPowerMsr_8 0.0))
+     (=> (not ML_9) (= FDLPowerMsr_9 0.0))
+     (=> (not ML_9) (= BDLPowerMsr_9 0.0))
+     (=> (not ML_10) (= FDLPowerMsr_10 0.0))
+     (=> (not ML_10) (= BDLPowerMsr_10 0.0))
+     (=> (not ML_11) (= FDLPowerMsr_11 0.0))
+     (=> (not ML_11) (= BDLPowerMsr_11 0.0))
+     (=> (not ML_12) (= FDLPowerMsr_12 0.0))
+     (=> (not ML_12) (= BDLPowerMsr_12 0.0))
+     (=> (not ML_13) (= FDLPowerMsr_13 0.0))
+     (=> (not ML_13) (= BDLPowerMsr_13 0.0))
+     (=> (not ML_14) (= FDLPowerMsr_14 0.0))
+     (=> (not ML_14) (= BDLPowerMsr_14 0.0))
+     (=> (not ML_15) (= FDLPowerMsr_15 0.0))
+     (=> (not ML_15) (= BDLPowerMsr_15 0.0))
+     (=> (not ML_16) (= FDLPowerMsr_16 0.0))
+     (=> (not ML_16) (= BDLPowerMsr_16 0.0))
+     (=> (not ML_17) (= FDLPowerMsr_17 0.0))
+     (=> (not ML_17) (= BDLPowerMsr_17 0.0))
+     (=> (not ML_18) (= FDLPowerMsr_18 0.0))
+     (=> (not ML_18) (= BDLPowerMsr_18 0.0))
+     (=> (not ML_19) (= FDLPowerMsr_19 0.0))
+     (=> (not ML_19) (= BDLPowerMsr_19 0.0))
+     (=> (not ML_20) (= FDLPowerMsr_20 0.0))
+     (=> (not ML_20) (= BDLPowerMsr_20 0.0))
+     (=> (not ML_21) (= FDLPowerMsr_21 0.0))
+     (=> (not ML_21) (= BDLPowerMsr_21 0.0))
+     (=> (not ML_22) (= FDLPowerMsr_22 0.0))
+     (=> (not ML_22) (= BDLPowerMsr_22 0.0))
+     (=> (not ML_23) (= FDLPowerMsr_23 0.0))
+     (=> (not ML_23) (= BDLPowerMsr_23 0.0))
+     (=> (not ML_24) (= FDLPowerMsr_24 0.0))
+     (=> (not ML_24) (= BDLPowerMsr_24 0.0))
+     (=> (not ML_25) (= FDLPowerMsr_25 0.0))
+     (=> (not ML_25) (= BDLPowerMsr_25 0.0))
+     (=> (not ML_26) (= FDLPowerMsr_26 0.0))
+     (=> (not ML_26) (= BDLPowerMsr_26 0.0))
+     (=> (not ML_27) (= FDLPowerMsr_27 0.0))
+     (=> (not ML_27) (= BDLPowerMsr_27 0.0))
+     (=> (not ML_28) (= FDLPowerMsr_28 0.0))
+     (=> (not ML_28) (= BDLPowerMsr_28 0.0))
+     (=> (not ML_29) (= FDLPowerMsr_29 0.0))
+     (=> (not ML_29) (= BDLPowerMsr_29 0.0))
+     (=> (not ML_30) (= FDLPowerMsr_30 0.0))
+     (=> (not ML_30) (= BDLPowerMsr_30 0.0))
+     (=> (not ML_31) (= FDLPowerMsr_31 0.0))
+     (=> (not ML_31) (= BDLPowerMsr_31 0.0))
+     (=> (not ML_32) (= FDLPowerMsr_32 0.0))
+     (=> (not ML_32) (= BDLPowerMsr_32 0.0))
+     (=> (not ML_33) (= FDLPowerMsr_33 0.0))
+     (=> (not ML_33) (= BDLPowerMsr_33 0.0))
+     (=> (not ML_34) (= FDLPowerMsr_34 0.0))
+     (=> (not ML_34) (= BDLPowerMsr_34 0.0))
+     (=> (not ML_35) (= FDLPowerMsr_35 0.0))
+     (=> (not ML_35) (= BDLPowerMsr_35 0.0))
+     (=> (not ML_36) (= FDLPowerMsr_36 0.0))
+     (=> (not ML_36) (= BDLPowerMsr_36 0.0))
+     (=> (not ML_37) (= FDLPowerMsr_37 0.0))
+     (=> (not ML_37) (= BDLPowerMsr_37 0.0))
+     (=> (not ML_38) (= FDLPowerMsr_38 0.0))
+     (=> (not ML_38) (= BDLPowerMsr_38 0.0))
+     (=> (not ML_39) (= FDLPowerMsr_39 0.0))
+     (=> (not ML_39) (= BDLPowerMsr_39 0.0))
+     (=> (not ML_40) (= FDLPowerMsr_40 0.0))
+     (=> (not ML_40) (= BDLPowerMsr_40 0.0))
+     (=> (not ML_41) (= FDLPowerMsr_41 0.0))
+     (=> (not ML_41) (= BDLPowerMsr_41 0.0))
+     (=> (not ML_42) (= FDLPowerMsr_42 0.0))
+     (=> (not ML_42) (= BDLPowerMsr_42 0.0))
+     (=> (not ML_43) (= FDLPowerMsr_43 0.0))
+     (=> (not ML_43) (= BDLPowerMsr_43 0.0))
+     (=> (not ML_44) (= FDLPowerMsr_44 0.0))
+     (=> (not ML_44) (= BDLPowerMsr_44 0.0))
+     (=> (not ML_45) (= FDLPowerMsr_45 0.0))
+     (=> (not ML_45) (= BDLPowerMsr_45 0.0))
+     (=> (not ML_46) (= FDLPowerMsr_46 0.0))
+     (=> (not ML_46) (= BDLPowerMsr_46 0.0))
+     (=> (not ML_47) (= FDLPowerMsr_47 0.0))
+     (=> (not ML_47) (= BDLPowerMsr_47 0.0))
+     (=> (not ML_48) (= FDLPowerMsr_48 0.0))
+     (=> (not ML_48) (= BDLPowerMsr_48 0.0))
+     (=> (not ML_49) (= FDLPowerMsr_49 0.0))
+     (=> (not ML_49) (= BDLPowerMsr_49 0.0))
+     (=> (not ML_50) (= FDLPowerMsr_50 0.0))
+     (=> (not ML_50) (= BDLPowerMsr_50 0.0))
+     (=> (not ML_51) (= FDLPowerMsr_51 0.0))
+     (=> (not ML_51) (= BDLPowerMsr_51 0.0))
+     (=> (not ML_52) (= FDLPowerMsr_52 0.0))
+     (=> (not ML_52) (= BDLPowerMsr_52 0.0))
+     (=> (not ML_53) (= FDLPowerMsr_53 0.0))
+     (=> (not ML_53) (= BDLPowerMsr_53 0.0))
+     (=> (not ML_54) (= FDLPowerMsr_54 0.0))
+     (=> (not ML_54) (= BDLPowerMsr_54 0.0))
+     (=> (not ML_55) (= FDLPowerMsr_55 0.0))
+     (=> (not ML_55) (= BDLPowerMsr_55 0.0))
+     (=> (not ML_56) (= FDLPowerMsr_56 0.0))
+     (=> (not ML_56) (= BDLPowerMsr_56 0.0))
+     (=> (not ML_57) (= FDLPowerMsr_57 0.0))
+     (=> (not ML_57) (= BDLPowerMsr_57 0.0))
+     (=> (not ML_58) (= FDLPowerMsr_58 0.0))
+     (=> (not ML_58) (= BDLPowerMsr_58 0.0))
+     (=> (not ML_59) (= FDLPowerMsr_59 0.0))
+     (=> (not ML_59) (= BDLPowerMsr_59 0.0))
+     (=> (not ML_60) (= FDLPowerMsr_60 0.0))
+     (=> (not ML_60) (= BDLPowerMsr_60 0.0))
+     (=> (not ML_61) (= FDLPowerMsr_61 0.0))
+     (=> (not ML_61) (= BDLPowerMsr_61 0.0))
+     (=> (not ML_62) (= FDLPowerMsr_62 0.0))
+     (=> (not ML_62) (= BDLPowerMsr_62 0.0))
+     (=> (not ML_63) (= FDLPowerMsr_63 0.0))
+     (=> (not ML_63) (= BDLPowerMsr_63 0.0))
+     (=> (not ML_64) (= FDLPowerMsr_64 0.0))
+     (=> (not ML_64) (= BDLPowerMsr_64 0.0))
+     (=> (not ML_65) (= FDLPowerMsr_65 0.0))
+     (=> (not ML_65) (= BDLPowerMsr_65 0.0))
+     (=> (not ML_66) (= FDLPowerMsr_66 0.0))
+     (=> (not ML_66) (= BDLPowerMsr_66 0.0))
+     (=> (not ML_67) (= FDLPowerMsr_67 0.0))
+     (=> (not ML_67) (= BDLPowerMsr_67 0.0))
+     (=> (not ML_68) (= FDLPowerMsr_68 0.0))
+     (=> (not ML_68) (= BDLPowerMsr_68 0.0))
+     (=> (not ML_69) (= FDLPowerMsr_69 0.0))
+     (=> (not ML_69) (= BDLPowerMsr_69 0.0))
+     (=> (not ML_70) (= FDLPowerMsr_70 0.0))
+     (=> (not ML_70) (= BDLPowerMsr_70 0.0))
+     (=> (not ML_71) (= FDLPowerMsr_71 0.0))
+     (=> (not ML_71) (= BDLPowerMsr_71 0.0))
+     (=> (not ML_72) (= FDLPowerMsr_72 0.0))
+     (=> (not ML_72) (= BDLPowerMsr_72 0.0))
+     (=> (not ML_73) (= FDLPowerMsr_73 0.0))
+     (=> (not ML_73) (= BDLPowerMsr_73 0.0))
+     (=> (not ML_74) (= FDLPowerMsr_74 0.0))
+     (=> (not ML_74) (= BDLPowerMsr_74 0.0))
+     (=> (not ML_75) (= FDLPowerMsr_75 0.0))
+     (=> (not ML_75) (= BDLPowerMsr_75 0.0))
+     (=> (not ML_76) (= FDLPowerMsr_76 0.0))
+     (=> (not ML_76) (= BDLPowerMsr_76 0.0))
+     (=> (not ML_77) (= FDLPowerMsr_77 0.0))
+     (=> (not ML_77) (= BDLPowerMsr_77 0.0))
+     (=> (not ML_78) (= FDLPowerMsr_78 0.0))
+     (=> (not ML_78) (= BDLPowerMsr_78 0.0))
+     (=> (not ML_79) (= FDLPowerMsr_79 0.0))
+     (=> (not ML_79) (= BDLPowerMsr_79 0.0))
+     (=> (not ML_80) (= FDLPowerMsr_80 0.0))
+     (=> (not ML_80) (= BDLPowerMsr_80 0.0))))
+(assert (let ((a!1 (=> ML_1
+               (= FDLPowerMsr_1 (* (- DelTheta_1 DelTheta_2) (/ 3571.0 100.0)))))
+      (a!2 (=> ML_1
+               (= BDLPowerMsr_1 (* (- DelTheta_2 DelTheta_1) (/ 3571.0 100.0)))))
+      (a!3 (=> ML_2
+               (= FDLPowerMsr_2 (* (- DelTheta_2 DelTheta_3) (/ 294.0 25.0)))))
+      (a!4 (=> ML_2
+               (= BDLPowerMsr_2 (* (- DelTheta_3 DelTheta_2) (/ 294.0 25.0)))))
+      (a!5 (=> ML_3
+               (= FDLPowerMsr_3 (* (- DelTheta_3 DelTheta_4) (/ 683.0 25.0)))))
+      (a!6 (=> ML_3
+               (= BDLPowerMsr_3 (* (- DelTheta_4 DelTheta_3) (/ 683.0 25.0)))))
+      (a!7 (=> ML_4
+               (= FDLPowerMsr_4 (* (- DelTheta_4 DelTheta_5) (/ 379.0 50.0)))))
+      (a!8 (=> ML_4
+               (= BDLPowerMsr_4 (* (- DelTheta_5 DelTheta_4) (/ 379.0 50.0)))))
+      (a!9 (=> ML_5
+               (= FDLPowerMsr_5 (* (- DelTheta_4 DelTheta_6) (/ 169.0 25.0)))))
+      (a!10 (=> ML_5
+                (= BDLPowerMsr_5 (* (- DelTheta_6 DelTheta_4) (/ 169.0 25.0)))))
+      (a!11 (=> ML_6
+                (= FDLPowerMsr_6 (* (- DelTheta_6 DelTheta_7) (/ 49.0 5.0)))))
+      (a!12 (=> ML_6
+                (= BDLPowerMsr_6 (* (- DelTheta_7 DelTheta_6) (/ 49.0 5.0)))))
+      (a!13 (=> ML_7
+                (= FDLPowerMsr_7 (* (- DelTheta_6 DelTheta_8) (/ 289.0 50.0)))))
+      (a!14 (=> ML_7
+                (= BDLPowerMsr_7 (* (- DelTheta_8 DelTheta_6) (/ 289.0 50.0)))))
+      (a!15 (=> ML_8
+                (= FDLPowerMsr_8 (* (- DelTheta_8 DelTheta_9) (/ 99.0 5.0)))))
+      (a!16 (=> ML_8
+                (= BDLPowerMsr_8 (* (- DelTheta_9 DelTheta_8) (/ 99.0 5.0)))))
+      (a!17 (=> ML_9
+                (= FDLPowerMsr_9 (* (- DelTheta_9 DelTheta_10) (/ 149.0 25.0)))))
+      (a!18 (=> ML_9
+                (= BDLPowerMsr_9 (* (- DelTheta_10 DelTheta_9) (/ 149.0 25.0)))))
+      (a!19 (=> ML_10
+                (= FDLPowerMsr_10
+                   (* (- DelTheta_9 DelTheta_11) (/ 1179.0 100.0)))))
+      (a!20 (=> ML_10
+                (= BDLPowerMsr_10
+                   (* (- DelTheta_11 DelTheta_9) (/ 1179.0 100.0)))))
+      (a!21 (=> ML_11
+                (= FDLPowerMsr_11
+                   (* (- DelTheta_9 DelTheta_12) (/ 339.0 100.0)))))
+      (a!22 (=> ML_11
+                (= BDLPowerMsr_11
+                   (* (- DelTheta_12 DelTheta_9) (/ 339.0 100.0)))))
+      (a!23 (=> ML_12
+                (= FDLPowerMsr_12
+                   (* (- DelTheta_9 DelTheta_13) (/ 633.0 100.0)))))
+      (a!24 (=> ML_12
+                (= BDLPowerMsr_12
+                   (* (- DelTheta_13 DelTheta_9) (/ 633.0 100.0)))))
+      (a!25 (=> ML_13
+                (= FDLPowerMsr_13
+                   (* (- DelTheta_13 DelTheta_14) (/ 576.0 25.0)))))
+      (a!26 (=> ML_13
+                (= BDLPowerMsr_13
+                   (* (- DelTheta_14 DelTheta_13) (/ 576.0 25.0)))))
+      (a!27 (=> ML_14
+                (= FDLPowerMsr_14
+                   (* (- DelTheta_13 DelTheta_15) (/ 1151.0 100.0)))))
+      (a!28 (=> ML_14
+                (= BDLPowerMsr_14
+                   (* (- DelTheta_15 DelTheta_13) (/ 1151.0 100.0)))))
+      (a!29 (=> ML_15
+                (= FDLPowerMsr_15
+                   (* (- DelTheta_1 DelTheta_15) (/ 1099.0 100.0)))))
+      (a!30 (=> ML_15
+                (= BDLPowerMsr_15
+                   (* (- DelTheta_15 DelTheta_1) (/ 1099.0 100.0)))))
+      (a!31 (=> ML_16
+                (= FDLPowerMsr_16 (* (- DelTheta_1 DelTheta_16) (/ 97.0 20.0)))))
+      (a!32 (=> ML_16
+                (= BDLPowerMsr_16 (* (- DelTheta_16 DelTheta_1) (/ 97.0 20.0)))))
+      (a!33 (=> ML_17
+                (= FDLPowerMsr_17 (* (- DelTheta_1 DelTheta_17) (/ 463.0 50.0)))))
+      (a!34 (=> ML_17
+                (= BDLPowerMsr_17 (* (- DelTheta_17 DelTheta_1) (/ 463.0 50.0)))))
+      (a!35 (=> ML_18
+                (= FDLPowerMsr_18
+                   (* (- DelTheta_3 DelTheta_15) (/ 1887.0 100.0)))))
+      (a!36 (=> ML_18
+                (= BDLPowerMsr_18
+                   (* (- DelTheta_15 DelTheta_3) (/ 1887.0 100.0)))))
+      (a!37 (=> ML_19
+                (= FDLPowerMsr_19 (* (- DelTheta_4 DelTheta_18) (/ 9.0 5.0)))))
+      (a!38 (=> ML_19
+                (= BDLPowerMsr_19 (* (- DelTheta_18 DelTheta_4) (/ 9.0 5.0)))))
+      (a!39 (=> ML_20
+                (= FDLPowerMsr_20
+                   (* (- DelTheta_4 DelTheta_18) (/ 233.0 100.0)))))
+      (a!40 (=> ML_20
+                (= BDLPowerMsr_20
+                   (* (- DelTheta_18 DelTheta_4) (/ 233.0 100.0)))))
+      (a!41 (=> ML_21
+                (= FDLPowerMsr_21 (* (- DelTheta_5 DelTheta_6) (/ 78.0 5.0)))))
+      (a!42 (=> ML_21
+                (= BDLPowerMsr_21 (* (- DelTheta_6 DelTheta_5) (/ 78.0 5.0)))))
+      (a!43 (=> ML_22
+                (= FDLPowerMsr_22 (* (- DelTheta_7 DelTheta_8) (/ 351.0 25.0)))))
+      (a!44 (=> ML_22
+                (= BDLPowerMsr_22 (* (- DelTheta_8 DelTheta_7) (/ 351.0 25.0)))))
+      (a!45 (=> ML_23
+                (= FDLPowerMsr_23
+                   (* (- DelTheta_10 DelTheta_12) (/ 198.0 25.0)))))
+      (a!46 (=> ML_23
+                (= BDLPowerMsr_23
+                   (* (- DelTheta_12 DelTheta_10) (/ 198.0 25.0)))))
+      (a!47 (=> ML_24
+                (= FDLPowerMsr_24
+                   (* (- DelTheta_11 DelTheta_13) (/ 683.0 50.0)))))
+      (a!48 (=> ML_24
+                (= BDLPowerMsr_24
+                   (* (- DelTheta_13 DelTheta_11) (/ 683.0 50.0)))))
+      (a!49 (=> ML_25
+                (= FDLPowerMsr_25
+                   (* (- DelTheta_12 DelTheta_13) (/ 431.0 25.0)))))
+      (a!50 (=> ML_25
+                (= BDLPowerMsr_25
+                   (* (- DelTheta_13 DelTheta_12) (/ 431.0 25.0)))))
+      (a!51 (=> ML_26
+                (= FDLPowerMsr_26
+                   (* (- DelTheta_12 DelTheta_16) (/ 123.0 10.0)))))
+      (a!52 (=> ML_26
+                (= BDLPowerMsr_26
+                   (* (- DelTheta_16 DelTheta_12) (/ 123.0 10.0)))))
+      (a!53 (=> ML_27
+                (= FDLPowerMsr_27
+                   (* (- DelTheta_12 DelTheta_17) (/ 559.0 100.0)))))
+      (a!54 (=> ML_27
+                (= BDLPowerMsr_27
+                   (* (- DelTheta_17 DelTheta_12) (/ 559.0 100.0)))))
+      (a!55 (=> ML_28
+                (= FDLPowerMsr_28
+                   (* (- DelTheta_14 DelTheta_15) (/ 457.0 25.0)))))
+      (a!56 (=> ML_28
+                (= BDLPowerMsr_28
+                   (* (- DelTheta_15 DelTheta_14) (/ 457.0 25.0)))))
+      (a!57 (=> ML_29
+                (= FDLPowerMsr_29 (* (- DelTheta_18 DelTheta_19) (/ 73.0 50.0)))))
+      (a!58 (=> ML_29
+                (= BDLPowerMsr_29 (* (- DelTheta_19 DelTheta_18) (/ 73.0 50.0)))))
+      (a!59 (=> ML_30
+                (= FDLPowerMsr_30 (* (- DelTheta_19 DelTheta_20) (/ 23.0 10.0)))))
+      (a!60 (=> ML_30
+                (= BDLPowerMsr_30 (* (- DelTheta_20 DelTheta_19) (/ 23.0 10.0)))))
+      (a!61 (=> ML_31
+                (= FDLPowerMsr_31
+                   (* (- DelTheta_21 DelTheta_20) (/ 129.0 100.0)))))
+      (a!62 (=> ML_31
+                (= BDLPowerMsr_31
+                   (* (- DelTheta_20 DelTheta_21) (/ 129.0 100.0)))))
+      (a!63 (=> ML_32
+                (= FDLPowerMsr_32
+                   (* (- DelTheta_21 DelTheta_22) (/ 171.0 20.0)))))
+      (a!64 (=> ML_32
+                (= BDLPowerMsr_32
+                   (* (- DelTheta_22 DelTheta_21) (/ 171.0 20.0)))))
+      (a!65 (=> ML_33
+                (= FDLPowerMsr_33
+                   (* (- DelTheta_22 DelTheta_23) (/ 6579.0 100.0)))))
+      (a!66 (=> ML_33
+                (= BDLPowerMsr_33
+                   (* (- DelTheta_23 DelTheta_22) (/ 6579.0 100.0)))))
+      (a!67 (=> ML_34
+                (= FDLPowerMsr_34
+                   (* (- DelTheta_23 DelTheta_24) (/ 391.0 100.0)))))
+      (a!68 (=> ML_34
+                (= BDLPowerMsr_34
+                   (* (- DelTheta_24 DelTheta_23) (/ 391.0 100.0)))))
+      (a!69 (=> ML_35
+                (= FDLPowerMsr_35 (* (- DelTheta_24 DelTheta_25) (/ 17.0 20.0)))))
+      (a!70 (=> ML_35
+                (= BDLPowerMsr_35 (* (- DelTheta_25 DelTheta_24) (/ 17.0 20.0)))))
+      (a!71 (=> ML_36
+                (= FDLPowerMsr_36
+                   (* (- DelTheta_24 DelTheta_25) (/ 81.0 100.0)))))
+      (a!72 (=> ML_36
+                (= BDLPowerMsr_36
+                   (* (- DelTheta_25 DelTheta_24) (/ 81.0 100.0)))))
+      (a!73 (=> ML_37
+                (= FDLPowerMsr_37
+                   (* (- DelTheta_24 DelTheta_26) (/ 1057.0 50.0)))))
+      (a!74 (=> ML_37
+                (= BDLPowerMsr_37
+                   (* (- DelTheta_26 DelTheta_24) (/ 1057.0 50.0)))))
+      (a!75 (=> ML_38
+                (= FDLPowerMsr_38
+                   (* (- DelTheta_26 DelTheta_27) (/ 197.0 50.0)))))
+      (a!76 (=> ML_38
+                (= BDLPowerMsr_38
+                   (* (- DelTheta_27 DelTheta_26) (/ 197.0 50.0)))))
+      (a!77 (=> ML_39
+                (= FDLPowerMsr_39
+                   (* (- DelTheta_27 DelTheta_28) (/ 262.0 25.0)))))
+      (a!78 (=> ML_39
+                (= BDLPowerMsr_39
+                   (* (- DelTheta_28 DelTheta_27) (/ 262.0 25.0)))))
+      (a!79 (=> ML_40
+                (= FDLPowerMsr_40
+                   (* (- DelTheta_28 DelTheta_29) (/ 426.0 25.0)))))
+      (a!80 (=> ML_40
+                (= BDLPowerMsr_40
+                   (* (- DelTheta_29 DelTheta_28) (/ 426.0 25.0)))))
+      (a!81 (=> ML_41
+                (= FDLPowerMsr_41
+                   (* (- DelTheta_7 DelTheta_29) (/ 1543.0 100.0)))))
+      (a!82 (=> ML_41
+                (= BDLPowerMsr_41
+                   (* (- DelTheta_29 DelTheta_7) (/ 1543.0 100.0)))))
+      (a!83 (=> ML_42
+                (= FDLPowerMsr_42 (* (- DelTheta_25 DelTheta_30) (/ 99.0 20.0)))))
+      (a!84 (=> ML_42
+                (= BDLPowerMsr_42 (* (- DelTheta_30 DelTheta_25) (/ 99.0 20.0)))))
+      (a!85 (=> ML_43
+                (= FDLPowerMsr_43
+                   (* (- DelTheta_30 DelTheta_31) (/ 201.0 100.0)))))
+      (a!86 (=> ML_43
+                (= BDLPowerMsr_43
+                   (* (- DelTheta_31 DelTheta_30) (/ 201.0 100.0)))))
+      (a!87 (=> ML_44
+                (= FDLPowerMsr_44 (* (- DelTheta_31 DelTheta_32) (/ 33.0 25.0)))))
+      (a!88 (=> ML_44
+                (= BDLPowerMsr_44 (* (- DelTheta_32 DelTheta_31) (/ 33.0 25.0)))))
+      (a!89 (=> ML_45
+                (= FDLPowerMsr_45
+                   (* (- DelTheta_32 DelTheta_33) (/ 1389.0 50.0)))))
+      (a!90 (=> ML_45
+                (= BDLPowerMsr_45
+                   (* (- DelTheta_33 DelTheta_32) (/ 1389.0 50.0)))))
+      (a!91 (=> ML_46
+                (= FDLPowerMsr_46 (* (- DelTheta_34 DelTheta_32) (/ 21.0 20.0)))))
+      (a!92 (=> ML_46
+                (= BDLPowerMsr_46 (* (- DelTheta_32 DelTheta_34) (/ 21.0 20.0)))))
+      (a!93 (=> ML_47
+                (= FDLPowerMsr_47
+                   (* (- DelTheta_34 DelTheta_35) (/ 641.0 50.0)))))
+      (a!94 (=> ML_47
+                (= BDLPowerMsr_47
+                   (* (- DelTheta_35 DelTheta_34) (/ 641.0 50.0)))))
+      (a!95 (=> ML_48
+                (= FDLPowerMsr_48
+                   (* (- DelTheta_35 DelTheta_36) (/ 931.0 50.0)))))
+      (a!96 (=> ML_48
+                (= BDLPowerMsr_48
+                   (* (- DelTheta_36 DelTheta_35) (/ 931.0 50.0)))))
+      (a!97 (=> ML_49
+                (= FDLPowerMsr_49
+                   (* (- DelTheta_36 DelTheta_37) (/ 683.0 25.0)))))
+      (a!98 (=> ML_49
+                (= BDLPowerMsr_49
+                   (* (- DelTheta_37 DelTheta_36) (/ 683.0 25.0)))))
+      (a!99 (=> ML_50
+                (= FDLPowerMsr_50
+                   (* (- DelTheta_37 DelTheta_38) (/ 991.0 100.0)))))
+      (a!100 (=> ML_50
+                 (= BDLPowerMsr_50
+                    (* (- DelTheta_38 DelTheta_37) (/ 991.0 100.0)))))
+      (a!101 (=> ML_51
+                 (= FDLPowerMsr_51
+                    (* (- DelTheta_37 DelTheta_39) (/ 2639.0 100.0)))))
+      (a!102 (=> ML_51
+                 (= BDLPowerMsr_51
+                    (* (- DelTheta_39 DelTheta_37) (/ 2639.0 100.0)))))
+      (a!103 (=> ML_52
+                 (= FDLPowerMsr_52
+                    (* (- DelTheta_36 DelTheta_40) (/ 1073.0 50.0)))))
+      (a!104 (=> ML_52
+                 (= BDLPowerMsr_52
+                    (* (- DelTheta_40 DelTheta_36) (/ 1073.0 50.0)))))
+      (a!105 (=> ML_53
+                 (= FDLPowerMsr_53
+                    (* (- DelTheta_22 DelTheta_38) (/ 339.0 10.0)))))
+      (a!106 (=> ML_53
+                 (= BDLPowerMsr_53
+                    (* (- DelTheta_38 DelTheta_22) (/ 339.0 10.0)))))
+      (a!107 (=> ML_54
+                 (= FDLPowerMsr_54
+                    (* (- DelTheta_11 DelTheta_41) (/ 67.0 50.0)))))
+      (a!108 (=> ML_54
+                 (= BDLPowerMsr_54
+                    (* (- DelTheta_41 DelTheta_11) (/ 67.0 50.0)))))
+      (a!109 (=> ML_55
+                 (= FDLPowerMsr_55
+                    (* (- DelTheta_41 DelTheta_42) (/ 71.0 25.0)))))
+      (a!110 (=> ML_55
+                 (= BDLPowerMsr_55
+                    (* (- DelTheta_42 DelTheta_41) (/ 71.0 25.0)))))
+      (a!111 (=> ML_56
+                 (= FDLPowerMsr_56
+                    (* (- DelTheta_41 DelTheta_43) (/ 243.0 100.0)))))
+      (a!112 (=> ML_56
+                 (= BDLPowerMsr_56
+                    (* (- DelTheta_43 DelTheta_41) (/ 243.0 100.0)))))
+      (a!113 (=> ML_57
+                 (= FDLPowerMsr_57
+                    (* (- DelTheta_38 DelTheta_44) (/ 1709.0 100.0)))))
+      (a!114 (=> ML_57
+                 (= BDLPowerMsr_57
+                    (* (- DelTheta_44 DelTheta_38) (/ 1709.0 100.0)))))
+      (a!115 (=> ML_58
+                 (= FDLPowerMsr_58 (* (- DelTheta_15 DelTheta_45) (/ 48.0 5.0)))))
+      (a!116 (=> ML_58
+                 (= BDLPowerMsr_58 (* (- DelTheta_45 DelTheta_15) (/ 48.0 5.0)))))
+      (a!117 (=> ML_59
+                 (= FDLPowerMsr_59
+                    (* (- DelTheta_14 DelTheta_46) (/ 1361.0 100.0)))))
+      (a!118 (=> ML_59
+                 (= BDLPowerMsr_59
+                    (* (- DelTheta_46 DelTheta_14) (/ 1361.0 100.0)))))
+      (a!119 (=> ML_60
+                 (= FDLPowerMsr_60
+                    (* (- DelTheta_46 DelTheta_47) (/ 1471.0 100.0)))))
+      (a!120 (=> ML_60
+                 (= BDLPowerMsr_60
+                    (* (- DelTheta_47 DelTheta_46) (/ 1471.0 100.0)))))
+      (a!121 (=> ML_61
+                 (= FDLPowerMsr_61
+                    (* (- DelTheta_47 DelTheta_48) (/ 1073.0 25.0)))))
+      (a!122 (=> ML_61
+                 (= BDLPowerMsr_61
+                    (* (- DelTheta_48 DelTheta_47) (/ 1073.0 25.0)))))
+      (a!123 (=> ML_62
+                 (= FDLPowerMsr_62 (* (- DelTheta_48 DelTheta_49) (/ 31.0 4.0)))))
+      (a!124 (=> ML_62
+                 (= BDLPowerMsr_62 (* (- DelTheta_49 DelTheta_48) (/ 31.0 4.0)))))
+      (a!125 (=> ML_63
+                 (= FDLPowerMsr_63
+                    (* (- DelTheta_49 DelTheta_50) (/ 781.0 100.0)))))
+      (a!126 (=> ML_63
+                 (= BDLPowerMsr_63
+                    (* (- DelTheta_50 DelTheta_49) (/ 781.0 100.0)))))
+      (a!127 (=> ML_64
+                 (= FDLPowerMsr_64
+                    (* (- DelTheta_50 DelTheta_51) (/ 91.0 20.0)))))
+      (a!128 (=> ML_64
+                 (= BDLPowerMsr_64
+                    (* (- DelTheta_51 DelTheta_50) (/ 91.0 20.0)))))
+      (a!129 (=> ML_65
+                 (= FDLPowerMsr_65
+                    (* (- DelTheta_10 DelTheta_51) (/ 351.0 25.0)))))
+      (a!130 (=> ML_65
+                 (= BDLPowerMsr_65
+                    (* (- DelTheta_51 DelTheta_10) (/ 351.0 25.0)))))
+      (a!131 (=> ML_66
+                 (= FDLPowerMsr_66
+                    (* (- DelTheta_13 DelTheta_49) (/ 131.0 25.0)))))
+      (a!132 (=> ML_66
+                 (= BDLPowerMsr_66
+                    (* (- DelTheta_49 DelTheta_13) (/ 131.0 25.0)))))
+      (a!133 (=> ML_67
+                 (= FDLPowerMsr_67
+                    (* (- DelTheta_29 DelTheta_52) (/ 107.0 20.0)))))
+      (a!134 (=> ML_67
+                 (= BDLPowerMsr_67
+                    (* (- DelTheta_52 DelTheta_29) (/ 107.0 20.0)))))
+      (a!135 (=> ML_68
+                 (= FDLPowerMsr_68
+                    (* (- DelTheta_52 DelTheta_53) (/ 254.0 25.0)))))
+      (a!136 (=> ML_68
+                 (= BDLPowerMsr_68
+                    (* (- DelTheta_53 DelTheta_52) (/ 254.0 25.0)))))
+      (a!137 (=> ML_69
+                 (= FDLPowerMsr_69
+                    (* (- DelTheta_53 DelTheta_54) (/ 431.0 100.0)))))
+      (a!138 (=> ML_69
+                 (= BDLPowerMsr_69
+                    (* (- DelTheta_54 DelTheta_53) (/ 431.0 100.0)))))
+      (a!139 (=> ML_70
+                 (= FDLPowerMsr_70
+                    (* (- DelTheta_54 DelTheta_55) (/ 221.0 50.0)))))
+      (a!140 (=> ML_70
+                 (= BDLPowerMsr_70
+                    (* (- DelTheta_55 DelTheta_54) (/ 221.0 50.0)))))
+      (a!141 (=> ML_71
+                 (= FDLPowerMsr_71
+                    (* (- DelTheta_11 DelTheta_43) (/ 327.0 50.0)))))
+      (a!142 (=> ML_71
+                 (= BDLPowerMsr_71
+                    (* (- DelTheta_43 DelTheta_11) (/ 327.0 50.0)))))
+      (a!143 (=> ML_72
+                 (= FDLPowerMsr_72
+                    (* (- DelTheta_44 DelTheta_45) (/ 161.0 20.0)))))
+      (a!144 (=> ML_72
+                 (= BDLPowerMsr_72
+                    (* (- DelTheta_45 DelTheta_44) (/ 161.0 20.0)))))
+      (a!145 (=> ML_73
+                 (= FDLPowerMsr_73
+                    (* (- DelTheta_40 DelTheta_56) (/ 21.0 25.0)))))
+      (a!146 (=> ML_73
+                 (= BDLPowerMsr_73
+                    (* (- DelTheta_56 DelTheta_40) (/ 21.0 25.0)))))
+      (a!147 (=> ML_74
+                 (= FDLPowerMsr_74
+                    (* (- DelTheta_56 DelTheta_41) (/ 91.0 50.0)))))
+      (a!148 (=> ML_74
+                 (= BDLPowerMsr_74
+                    (* (- DelTheta_41 DelTheta_56) (/ 91.0 50.0)))))
+      (a!149 (=> ML_75
+                 (= FDLPowerMsr_75
+                    (* (- DelTheta_56 DelTheta_42) (/ 141.0 50.0)))))
+      (a!150 (=> ML_75
+                 (= BDLPowerMsr_75
+                    (* (- DelTheta_42 DelTheta_56) (/ 141.0 50.0)))))
+      (a!151 (=> ML_76
+                 (= FDLPowerMsr_76
+                    (* (- DelTheta_39 DelTheta_57) (/ 37.0 50.0)))))
+      (a!152 (=> ML_76
+                 (= BDLPowerMsr_76
+                    (* (- DelTheta_57 DelTheta_39) (/ 37.0 50.0)))))
+      (a!153 (=> ML_77
+                 (= FDLPowerMsr_77
+                    (* (- DelTheta_57 DelTheta_56) (/ 77.0 20.0)))))
+      (a!154 (=> ML_77
+                 (= BDLPowerMsr_77
+                    (* (- DelTheta_56 DelTheta_57) (/ 77.0 20.0)))))
+      (a!155 (=> ML_78
+                 (= FDLPowerMsr_78
+                    (* (- DelTheta_38 DelTheta_49) (/ 113.0 20.0)))))
+      (a!156 (=> ML_78
+                 (= BDLPowerMsr_78
+                    (* (- DelTheta_49 DelTheta_38) (/ 113.0 20.0)))))
+      (a!157 (=> ML_79
+                 (= FDLPowerMsr_79 (* (- DelTheta_38 DelTheta_48) (/ 83.0 4.0)))))
+      (a!158 (=> ML_79
+                 (= BDLPowerMsr_79 (* (- DelTheta_48 DelTheta_38) (/ 83.0 4.0)))))
+      (a!159 (=> ML_80
+                 (= FDLPowerMsr_80 (* (- DelTheta_9 DelTheta_55) (/ 83.0 10.0)))))
+      (a!160 (=> ML_80
+                 (= BDLPowerMsr_80 (* (- DelTheta_55 DelTheta_9) (/ 83.0 10.0))))))
+  (and a!1
+       a!2
+       a!3
+       a!4
+       a!5
+       a!6
+       a!7
+       a!8
+       a!9
+       a!10
+       a!11
+       a!12
+       a!13
+       a!14
+       a!15
+       a!16
+       a!17
+       a!18
+       a!19
+       a!20
+       a!21
+       a!22
+       a!23
+       a!24
+       a!25
+       a!26
+       a!27
+       a!28
+       a!29
+       a!30
+       a!31
+       a!32
+       a!33
+       a!34
+       a!35
+       a!36
+       a!37
+       a!38
+       a!39
+       a!40
+       a!41
+       a!42
+       a!43
+       a!44
+       a!45
+       a!46
+       a!47
+       a!48
+       a!49
+       a!50
+       a!51
+       a!52
+       a!53
+       a!54
+       a!55
+       a!56
+       a!57
+       a!58
+       a!59
+       a!60
+       a!61
+       a!62
+       a!63
+       a!64
+       a!65
+       a!66
+       a!67
+       a!68
+       a!69
+       a!70
+       a!71
+       a!72
+       a!73
+       a!74
+       a!75
+       a!76
+       a!77
+       a!78
+       a!79
+       a!80
+       a!81
+       a!82
+       a!83
+       a!84
+       a!85
+       a!86
+       a!87
+       a!88
+       a!89
+       a!90
+       a!91
+       a!92
+       a!93
+       a!94
+       a!95
+       a!96
+       a!97
+       a!98
+       a!99
+       a!100
+       a!101
+       a!102
+       a!103
+       a!104
+       a!105
+       a!106
+       a!107
+       a!108
+       a!109
+       a!110
+       a!111
+       a!112
+       a!113
+       a!114
+       a!115
+       a!116
+       a!117
+       a!118
+       a!119
+       a!120
+       a!121
+       a!122
+       a!123
+       a!124
+       a!125
+       a!126
+       a!127
+       a!128
+       a!129
+       a!130
+       a!131
+       a!132
+       a!133
+       a!134
+       a!135
+       a!136
+       a!137
+       a!138
+       a!139
+       a!140
+       a!141
+       a!142
+       a!143
+       a!144
+       a!145
+       a!146
+       a!147
+       a!148
+       a!149
+       a!150
+       a!151
+       a!152
+       a!153
+       a!154
+       a!155
+       a!156
+       a!157
+       a!158
+       a!159
+       a!160)))
+(assert (= DelBusPower_1
+   (+ FDLPowerTopo_1
+      FDLPowerMsr_1
+      FDLPowerTopo_15
+      FDLPowerMsr_15
+      FDLPowerTopo_16
+      FDLPowerMsr_16
+      FDLPowerTopo_17
+      FDLPowerMsr_17)))
+(assert (= DelBusPower_2 (+ BDLPowerTopo_1 BDLPowerMsr_1 FDLPowerTopo_2 FDLPowerMsr_2)))
+(assert (= DelBusPower_3
+   (+ BDLPowerTopo_2
+      BDLPowerMsr_2
+      FDLPowerTopo_3
+      FDLPowerMsr_3
+      FDLPowerTopo_18
+      FDLPowerMsr_18)))
+(assert (= DelBusPower_4
+   (+ BDLPowerTopo_3
+      BDLPowerMsr_3
+      FDLPowerTopo_4
+      FDLPowerMsr_4
+      FDLPowerTopo_5
+      FDLPowerMsr_5
+      (+ FDLPowerTopo_20 FDLPowerMsr_20)
+      (+ FDLPowerTopo_20 FDLPowerMsr_20))))
+(assert (= DelBusPower_5
+   (+ BDLPowerTopo_4 BDLPowerMsr_4 FDLPowerTopo_21 FDLPowerMsr_21)))
+(assert (= DelBusPower_6
+   (+ BDLPowerTopo_5
+      BDLPowerMsr_5
+      FDLPowerTopo_6
+      FDLPowerMsr_6
+      FDLPowerTopo_7
+      FDLPowerMsr_7
+      BDLPowerTopo_21
+      BDLPowerMsr_21)))
+(assert (= DelBusPower_7
+   (+ BDLPowerTopo_6
+      BDLPowerMsr_6
+      FDLPowerTopo_22
+      FDLPowerMsr_22
+      FDLPowerTopo_41
+      FDLPowerMsr_41)))
+(assert (= DelBusPower_8
+   (+ BDLPowerTopo_7
+      BDLPowerMsr_7
+      FDLPowerTopo_8
+      FDLPowerMsr_8
+      BDLPowerTopo_22
+      BDLPowerMsr_22)))
+(assert (= DelBusPower_9
+   (+ BDLPowerTopo_8
+      BDLPowerMsr_8
+      FDLPowerTopo_9
+      FDLPowerMsr_9
+      FDLPowerTopo_10
+      FDLPowerMsr_10
+      FDLPowerTopo_11
+      FDLPowerMsr_11
+      FDLPowerTopo_12
+      FDLPowerMsr_12
+      FDLPowerTopo_80
+      FDLPowerMsr_80)))
+(assert (= DelBusPower_10
+   (+ BDLPowerTopo_9
+      BDLPowerMsr_9
+      FDLPowerTopo_23
+      FDLPowerMsr_23
+      FDLPowerTopo_65
+      FDLPowerMsr_65)))
+(assert (= DelBusPower_11
+   (+ BDLPowerTopo_10
+      BDLPowerMsr_10
+      FDLPowerTopo_24
+      FDLPowerMsr_24
+      FDLPowerTopo_54
+      FDLPowerMsr_54
+      FDLPowerTopo_71
+      FDLPowerMsr_71)))
+(assert (= DelBusPower_12
+   (+ BDLPowerTopo_11
+      BDLPowerMsr_11
+      BDLPowerTopo_23
+      BDLPowerMsr_23
+      FDLPowerTopo_25
+      FDLPowerMsr_25
+      FDLPowerTopo_26
+      FDLPowerMsr_26
+      FDLPowerTopo_27
+      FDLPowerMsr_27)))
+(assert (= DelBusPower_13
+   (+ BDLPowerTopo_12
+      BDLPowerMsr_12
+      FDLPowerTopo_13
+      FDLPowerMsr_13
+      FDLPowerTopo_14
+      FDLPowerMsr_14
+      BDLPowerTopo_24
+      BDLPowerMsr_24
+      BDLPowerTopo_25
+      BDLPowerMsr_25
+      FDLPowerTopo_66
+      FDLPowerMsr_66)))
+(assert (= DelBusPower_14
+   (+ BDLPowerTopo_13
+      BDLPowerMsr_13
+      FDLPowerTopo_28
+      FDLPowerMsr_28
+      FDLPowerTopo_59
+      FDLPowerMsr_59)))
+(assert (= DelBusPower_15
+   (+ BDLPowerTopo_14
+      BDLPowerMsr_14
+      BDLPowerTopo_15
+      BDLPowerMsr_15
+      BDLPowerTopo_18
+      BDLPowerMsr_18
+      BDLPowerTopo_28
+      BDLPowerMsr_28
+      FDLPowerTopo_58
+      FDLPowerMsr_58)))
+(assert (= DelBusPower_16
+   (+ BDLPowerTopo_16 BDLPowerMsr_16 BDLPowerTopo_26 BDLPowerMsr_26)))
+(assert (= DelBusPower_17
+   (+ BDLPowerTopo_17 BDLPowerMsr_17 BDLPowerTopo_27 BDLPowerMsr_27)))
+(assert (= DelBusPower_18
+   (+ (+ BDLPowerTopo_20 BDLPowerMsr_20)
+      (+ BDLPowerTopo_20 BDLPowerMsr_20)
+      FDLPowerTopo_29
+      FDLPowerMsr_29)))
+(assert (= DelBusPower_19
+   (+ BDLPowerTopo_29 BDLPowerMsr_29 FDLPowerTopo_30 FDLPowerMsr_30)))
+(assert (= DelBusPower_20
+   (+ BDLPowerTopo_30 BDLPowerMsr_30 BDLPowerTopo_31 BDLPowerMsr_31)))
+(assert (= DelBusPower_21
+   (+ FDLPowerTopo_31 FDLPowerMsr_31 FDLPowerTopo_32 FDLPowerMsr_32)))
+(assert (= DelBusPower_22
+   (+ BDLPowerTopo_32
+      BDLPowerMsr_32
+      FDLPowerTopo_33
+      FDLPowerMsr_33
+      FDLPowerTopo_53
+      FDLPowerMsr_53)))
+(assert (= DelBusPower_23
+   (+ BDLPowerTopo_33 BDLPowerMsr_33 FDLPowerTopo_34 FDLPowerMsr_34)))
+(assert (= DelBusPower_24
+   (+ BDLPowerTopo_34
+      BDLPowerMsr_34
+      (+ FDLPowerTopo_36 FDLPowerMsr_36)
+      (+ FDLPowerTopo_36 FDLPowerMsr_36)
+      FDLPowerTopo_37
+      FDLPowerMsr_37)))
+(assert (= DelBusPower_25
+   (+ (+ BDLPowerTopo_36 BDLPowerMsr_36)
+      (+ BDLPowerTopo_36 BDLPowerMsr_36)
+      FDLPowerTopo_42
+      FDLPowerMsr_42)))
+(assert (= DelBusPower_26
+   (+ BDLPowerTopo_37 BDLPowerMsr_37 FDLPowerTopo_38 FDLPowerMsr_38)))
+(assert (= DelBusPower_27
+   (+ BDLPowerTopo_38 BDLPowerMsr_38 FDLPowerTopo_39 FDLPowerMsr_39)))
+(assert (= DelBusPower_28
+   (+ BDLPowerTopo_39 BDLPowerMsr_39 FDLPowerTopo_40 FDLPowerMsr_40)))
+(assert (= DelBusPower_29
+   (+ BDLPowerTopo_40
+      BDLPowerMsr_40
+      BDLPowerTopo_41
+      BDLPowerMsr_41
+      FDLPowerTopo_67
+      FDLPowerMsr_67)))
+(assert (= DelBusPower_30
+   (+ BDLPowerTopo_42 BDLPowerMsr_42 FDLPowerTopo_43 FDLPowerMsr_43)))
+(assert (= DelBusPower_31
+   (+ BDLPowerTopo_43 BDLPowerMsr_43 FDLPowerTopo_44 FDLPowerMsr_44)))
+(assert (= DelBusPower_32
+   (+ BDLPowerTopo_44
+      BDLPowerMsr_44
+      FDLPowerTopo_45
+      FDLPowerMsr_45
+      BDLPowerTopo_46
+      BDLPowerMsr_46)))
+(assert (= DelBusPower_33 (+ BDLPowerTopo_45 BDLPowerMsr_45)))
+(assert (= DelBusPower_34
+   (+ FDLPowerTopo_46 FDLPowerMsr_46 FDLPowerTopo_47 FDLPowerMsr_47)))
+(assert (= DelBusPower_35
+   (+ BDLPowerTopo_47 BDLPowerMsr_47 FDLPowerTopo_48 FDLPowerMsr_48)))
+(assert (= DelBusPower_36
+   (+ BDLPowerTopo_48
+      BDLPowerMsr_48
+      FDLPowerTopo_49
+      FDLPowerMsr_49
+      FDLPowerTopo_52
+      FDLPowerMsr_52)))
+(assert (= DelBusPower_37
+   (+ BDLPowerTopo_49
+      BDLPowerMsr_49
+      FDLPowerTopo_50
+      FDLPowerMsr_50
+      FDLPowerTopo_51
+      FDLPowerMsr_51)))
+(assert (= DelBusPower_38
+   (+ BDLPowerTopo_50
+      BDLPowerMsr_50
+      BDLPowerTopo_53
+      BDLPowerMsr_53
+      FDLPowerTopo_57
+      FDLPowerMsr_57
+      FDLPowerTopo_78
+      FDLPowerMsr_78
+      FDLPowerTopo_79
+      FDLPowerMsr_79)))
+(assert (= DelBusPower_39
+   (+ BDLPowerTopo_51 BDLPowerMsr_51 FDLPowerTopo_76 FDLPowerMsr_76)))
+(assert (= DelBusPower_40
+   (+ BDLPowerTopo_52 BDLPowerMsr_52 FDLPowerTopo_73 FDLPowerMsr_73)))
+(assert (= DelBusPower_41
+   (+ BDLPowerTopo_54
+      BDLPowerMsr_54
+      FDLPowerTopo_55
+      FDLPowerMsr_55
+      FDLPowerTopo_56
+      FDLPowerMsr_56
+      BDLPowerTopo_74
+      BDLPowerMsr_74)))
+(assert (= DelBusPower_42
+   (+ BDLPowerTopo_55 BDLPowerMsr_55 BDLPowerTopo_75 BDLPowerMsr_75)))
+(assert (= DelBusPower_43
+   (+ BDLPowerTopo_56 BDLPowerMsr_56 BDLPowerTopo_71 BDLPowerMsr_71)))
+(assert (= DelBusPower_44
+   (+ BDLPowerTopo_57 BDLPowerMsr_57 FDLPowerTopo_72 FDLPowerMsr_72)))
+(assert (= DelBusPower_45
+   (+ BDLPowerTopo_58 BDLPowerMsr_58 BDLPowerTopo_72 BDLPowerMsr_72)))
+(assert (= DelBusPower_46
+   (+ BDLPowerTopo_59 BDLPowerMsr_59 FDLPowerTopo_60 FDLPowerMsr_60)))
+(assert (= DelBusPower_47
+   (+ BDLPowerTopo_60 BDLPowerMsr_60 FDLPowerTopo_61 FDLPowerMsr_61)))
+(assert (= DelBusPower_48
+   (+ BDLPowerTopo_61
+      BDLPowerMsr_61
+      FDLPowerTopo_62
+      FDLPowerMsr_62
+      BDLPowerTopo_79
+      BDLPowerMsr_79)))
+(assert (= DelBusPower_49
+   (+ BDLPowerTopo_62
+      BDLPowerMsr_62
+      FDLPowerTopo_63
+      FDLPowerMsr_63
+      BDLPowerTopo_66
+      BDLPowerMsr_66
+      BDLPowerTopo_78
+      BDLPowerMsr_78)))
+(assert (= DelBusPower_50
+   (+ BDLPowerTopo_63 BDLPowerMsr_63 FDLPowerTopo_64 FDLPowerMsr_64)))
+(assert (= DelBusPower_51
+   (+ BDLPowerTopo_64 BDLPowerMsr_64 BDLPowerTopo_65 BDLPowerMsr_65)))
+(assert (= DelBusPower_52
+   (+ BDLPowerTopo_67 BDLPowerMsr_67 FDLPowerTopo_68 FDLPowerMsr_68)))
+(assert (= DelBusPower_53
+   (+ BDLPowerTopo_68 BDLPowerMsr_68 FDLPowerTopo_69 FDLPowerMsr_69)))
+(assert (= DelBusPower_54
+   (+ BDLPowerTopo_69 BDLPowerMsr_69 FDLPowerTopo_70 FDLPowerMsr_70)))
+(assert (= DelBusPower_55
+   (+ BDLPowerTopo_70 BDLPowerMsr_70 BDLPowerTopo_80 BDLPowerMsr_80)))
+(assert (= DelBusPower_56
+   (+ BDLPowerTopo_73
+      BDLPowerMsr_73
+      FDLPowerTopo_74
+      FDLPowerMsr_74
+      FDLPowerTopo_75
+      FDLPowerMsr_75
+      BDLPowerTopo_77
+      BDLPowerMsr_77)))
+(assert (= DelBusPower_57
+   (+ BDLPowerTopo_76 BDLPowerMsr_76 FDLPowerTopo_77 FDLPowerMsr_77)))
+(assert (and (= CX_1 (or (> DelTheta_1 0.0) (< DelTheta_1 0.0)))
+     (= CX_2 (or (> DelTheta_2 0.0) (< DelTheta_2 0.0)))
+     (= CX_3 (or (> DelTheta_3 0.0) (< DelTheta_3 0.0)))
+     (= CX_4 (or (> DelTheta_4 0.0) (< DelTheta_4 0.0)))
+     (= CX_5 (or (> DelTheta_5 0.0) (< DelTheta_5 0.0)))
+     (= CX_6 (or (> DelTheta_6 0.0) (< DelTheta_6 0.0)))
+     (= CX_7 (or (> DelTheta_7 0.0) (< DelTheta_7 0.0)))
+     (= CX_8 (or (> DelTheta_8 0.0) (< DelTheta_8 0.0)))
+     (= CX_9 (or (> DelTheta_9 0.0) (< DelTheta_9 0.0)))
+     (= CX_10 (or (> DelTheta_10 0.0) (< DelTheta_10 0.0)))
+     (= CX_11 (or (> DelTheta_11 0.0) (< DelTheta_11 0.0)))
+     (= CX_12 (or (> DelTheta_12 0.0) (< DelTheta_12 0.0)))
+     (= CX_13 (or (> DelTheta_13 0.0) (< DelTheta_13 0.0)))
+     (= CX_14 (or (> DelTheta_14 0.0) (< DelTheta_14 0.0)))
+     (= CX_15 (or (> DelTheta_15 0.0) (< DelTheta_15 0.0)))
+     (= CX_16 (or (> DelTheta_16 0.0) (< DelTheta_16 0.0)))
+     (= CX_17 (or (> DelTheta_17 0.0) (< DelTheta_17 0.0)))
+     (= CX_18 (or (> DelTheta_18 0.0) (< DelTheta_18 0.0)))
+     (= CX_19 (or (> DelTheta_19 0.0) (< DelTheta_19 0.0)))
+     (= CX_20 (or (> DelTheta_20 0.0) (< DelTheta_20 0.0)))
+     (= CX_21 (or (> DelTheta_21 0.0) (< DelTheta_21 0.0)))
+     (= CX_22 (or (> DelTheta_22 0.0) (< DelTheta_22 0.0)))
+     (= CX_23 (or (> DelTheta_23 0.0) (< DelTheta_23 0.0)))
+     (= CX_24 (or (> DelTheta_24 0.0) (< DelTheta_24 0.0)))
+     (= CX_25 (or (> DelTheta_25 0.0) (< DelTheta_25 0.0)))
+     (= CX_26 (or (> DelTheta_26 0.0) (< DelTheta_26 0.0)))
+     (= CX_27 (or (> DelTheta_27 0.0) (< DelTheta_27 0.0)))
+     (= CX_28 (or (> DelTheta_28 0.0) (< DelTheta_28 0.0)))
+     (= CX_29 (or (> DelTheta_29 0.0) (< DelTheta_29 0.0)))
+     (= CX_30 (or (> DelTheta_30 0.0) (< DelTheta_30 0.0)))
+     (= CX_31 (or (> DelTheta_31 0.0) (< DelTheta_31 0.0)))
+     (= CX_32 (or (> DelTheta_32 0.0) (< DelTheta_32 0.0)))
+     (= CX_33 (or (> DelTheta_33 0.0) (< DelTheta_33 0.0)))
+     (= CX_34 (or (> DelTheta_34 0.0) (< DelTheta_34 0.0)))
+     (= CX_35 (or (> DelTheta_35 0.0) (< DelTheta_35 0.0)))
+     (= CX_36 (or (> DelTheta_36 0.0) (< DelTheta_36 0.0)))
+     (= CX_37 (or (> DelTheta_37 0.0) (< DelTheta_37 0.0)))
+     (= CX_38 (or (> DelTheta_38 0.0) (< DelTheta_38 0.0)))
+     (= CX_39 (or (> DelTheta_39 0.0) (< DelTheta_39 0.0)))
+     (= CX_40 (or (> DelTheta_40 0.0) (< DelTheta_40 0.0)))
+     (= CX_41 (or (> DelTheta_41 0.0) (< DelTheta_41 0.0)))
+     (= CX_42 (or (> DelTheta_42 0.0) (< DelTheta_42 0.0)))
+     (= CX_43 (or (> DelTheta_43 0.0) (< DelTheta_43 0.0)))
+     (= CX_44 (or (> DelTheta_44 0.0) (< DelTheta_44 0.0)))
+     (= CX_45 (or (> DelTheta_45 0.0) (< DelTheta_45 0.0)))
+     (= CX_46 (or (> DelTheta_46 0.0) (< DelTheta_46 0.0)))
+     (= CX_47 (or (> DelTheta_47 0.0) (< DelTheta_47 0.0)))
+     (= CX_48 (or (> DelTheta_48 0.0) (< DelTheta_48 0.0)))
+     (= CX_49 (or (> DelTheta_49 0.0) (< DelTheta_49 0.0)))
+     (= CX_50 (or (> DelTheta_50 0.0) (< DelTheta_50 0.0)))
+     (= CX_51 (or (> DelTheta_51 0.0) (< DelTheta_51 0.0)))
+     (= CX_52 (or (> DelTheta_52 0.0) (< DelTheta_52 0.0)))
+     (= CX_53 (or (> DelTheta_53 0.0) (< DelTheta_53 0.0)))
+     (= CX_54 (or (> DelTheta_54 0.0) (< DelTheta_54 0.0)))
+     (= CX_55 (or (> DelTheta_55 0.0) (< DelTheta_55 0.0)))
+     (= CX_56 (or (> DelTheta_56 0.0) (< DelTheta_56 0.0)))
+     (= CX_57 (or (> DelTheta_57 0.0) (< DelTheta_57 0.0)))))
+(assert and)
+(assert (= DelTheta_1 0.0))
+(assert (and (=> (not (= FDelLinePower_1 0.0)) (=> MZ_1 CZ_1))
+     (=> (not (= FDelLinePower_2 0.0)) (=> MZ_2 CZ_2))
+     (=> (not (= FDelLinePower_3 0.0)) (=> MZ_3 CZ_3))
+     (=> (not (= FDelLinePower_4 0.0)) (=> MZ_4 CZ_4))
+     (=> (not (= FDelLinePower_5 0.0)) (=> MZ_5 CZ_5))
+     (=> (not (= FDelLinePower_6 0.0)) (=> MZ_6 CZ_6))
+     (=> (not (= FDelLinePower_7 0.0)) (=> MZ_7 CZ_7))
+     (=> (not (= FDelLinePower_8 0.0)) (=> MZ_8 CZ_8))
+     (=> (not (= FDelLinePower_9 0.0)) (=> MZ_9 CZ_9))
+     (=> (not (= FDelLinePower_10 0.0)) (=> MZ_10 CZ_10))
+     (=> (not (= FDelLinePower_11 0.0)) (=> MZ_11 CZ_11))
+     (=> (not (= FDelLinePower_12 0.0)) (=> MZ_12 CZ_12))
+     (=> (not (= FDelLinePower_13 0.0)) (=> MZ_13 CZ_13))
+     (=> (not (= FDelLinePower_14 0.0)) (=> MZ_14 CZ_14))
+     (=> (not (= FDelLinePower_15 0.0)) (=> MZ_15 CZ_15))
+     (=> (not (= FDelLinePower_16 0.0)) (=> MZ_16 CZ_16))
+     (=> (not (= FDelLinePower_17 0.0)) (=> MZ_17 CZ_17))
+     (=> (not (= FDelLinePower_18 0.0)) (=> MZ_18 CZ_18))
+     (=> (not (= FDelLinePower_19 0.0)) (=> MZ_19 CZ_19))
+     (=> (not (= FDelLinePower_20 0.0)) (=> MZ_20 CZ_20))
+     (=> (not (= FDelLinePower_21 0.0)) (=> MZ_21 CZ_21))
+     (=> (not (= FDelLinePower_22 0.0)) (=> MZ_22 CZ_22))
+     (=> (not (= FDelLinePower_23 0.0)) (=> MZ_23 CZ_23))
+     (=> (not (= FDelLinePower_24 0.0)) (=> MZ_24 CZ_24))
+     (=> (not (= FDelLinePower_25 0.0)) (=> MZ_25 CZ_25))
+     (=> (not (= FDelLinePower_26 0.0)) (=> MZ_26 CZ_26))
+     (=> (not (= FDelLinePower_27 0.0)) (=> MZ_27 CZ_27))
+     (=> (not (= FDelLinePower_28 0.0)) (=> MZ_28 CZ_28))
+     (=> (not (= FDelLinePower_29 0.0)) (=> MZ_29 CZ_29))
+     (=> (not (= FDelLinePower_30 0.0)) (=> MZ_30 CZ_30))
+     (=> (not (= FDelLinePower_31 0.0)) (=> MZ_31 CZ_31))
+     (=> (not (= FDelLinePower_32 0.0)) (=> MZ_32 CZ_32))
+     (=> (not (= FDelLinePower_33 0.0)) (=> MZ_33 CZ_33))
+     (=> (not (= FDelLinePower_34 0.0)) (=> MZ_34 CZ_34))
+     (=> (not (= FDelLinePower_35 0.0)) (=> MZ_35 CZ_35))
+     (=> (not (= FDelLinePower_36 0.0)) (=> MZ_36 CZ_36))
+     (=> (not (= FDelLinePower_37 0.0)) (=> MZ_37 CZ_37))
+     (=> (not (= FDelLinePower_38 0.0)) (=> MZ_38 CZ_38))
+     (=> (not (= FDelLinePower_39 0.0)) (=> MZ_39 CZ_39))
+     (=> (not (= FDelLinePower_40 0.0)) (=> MZ_40 CZ_40))
+     (=> (not (= FDelLinePower_41 0.0)) (=> MZ_41 CZ_41))
+     (=> (not (= FDelLinePower_42 0.0)) (=> MZ_42 CZ_42))
+     (=> (not (= FDelLinePower_43 0.0)) (=> MZ_43 CZ_43))
+     (=> (not (= FDelLinePower_44 0.0)) (=> MZ_44 CZ_44))
+     (=> (not (= FDelLinePower_45 0.0)) (=> MZ_45 CZ_45))
+     (=> (not (= FDelLinePower_46 0.0)) (=> MZ_46 CZ_46))
+     (=> (not (= FDelLinePower_47 0.0)) (=> MZ_47 CZ_47))
+     (=> (not (= FDelLinePower_48 0.0)) (=> MZ_48 CZ_48))
+     (=> (not (= FDelLinePower_49 0.0)) (=> MZ_49 CZ_49))
+     (=> (not (= FDelLinePower_50 0.0)) (=> MZ_50 CZ_50))
+     (=> (not (= FDelLinePower_51 0.0)) (=> MZ_51 CZ_51))
+     (=> (not (= FDelLinePower_52 0.0)) (=> MZ_52 CZ_52))
+     (=> (not (= FDelLinePower_53 0.0)) (=> MZ_53 CZ_53))
+     (=> (not (= FDelLinePower_54 0.0)) (=> MZ_54 CZ_54))
+     (=> (not (= FDelLinePower_55 0.0)) (=> MZ_55 CZ_55))
+     (=> (not (= FDelLinePower_56 0.0)) (=> MZ_56 CZ_56))
+     (=> (not (= FDelLinePower_57 0.0)) (=> MZ_57 CZ_57))
+     (=> (not (= FDelLinePower_58 0.0)) (=> MZ_58 CZ_58))
+     (=> (not (= FDelLinePower_59 0.0)) (=> MZ_59 CZ_59))
+     (=> (not (= FDelLinePower_60 0.0)) (=> MZ_60 CZ_60))
+     (=> (not (= FDelLinePower_61 0.0)) (=> MZ_61 CZ_61))
+     (=> (not (= FDelLinePower_62 0.0)) (=> MZ_62 CZ_62))
+     (=> (not (= FDelLinePower_63 0.0)) (=> MZ_63 CZ_63))
+     (=> (not (= FDelLinePower_64 0.0)) (=> MZ_64 CZ_64))
+     (=> (not (= FDelLinePower_65 0.0)) (=> MZ_65 CZ_65))
+     (=> (not (= FDelLinePower_66 0.0)) (=> MZ_66 CZ_66))
+     (=> (not (= FDelLinePower_67 0.0)) (=> MZ_67 CZ_67))
+     (=> (not (= FDelLinePower_68 0.0)) (=> MZ_68 CZ_68))
+     (=> (not (= FDelLinePower_69 0.0)) (=> MZ_69 CZ_69))
+     (=> (not (= FDelLinePower_70 0.0)) (=> MZ_70 CZ_70))
+     (=> (not (= FDelLinePower_71 0.0)) (=> MZ_71 CZ_71))
+     (=> (not (= FDelLinePower_72 0.0)) (=> MZ_72 CZ_72))
+     (=> (not (= FDelLinePower_73 0.0)) (=> MZ_73 CZ_73))
+     (=> (not (= FDelLinePower_74 0.0)) (=> MZ_74 CZ_74))
+     (=> (not (= FDelLinePower_75 0.0)) (=> MZ_75 CZ_75))
+     (=> (not (= FDelLinePower_76 0.0)) (=> MZ_76 CZ_76))
+     (=> (not (= FDelLinePower_77 0.0)) (=> MZ_77 CZ_77))
+     (=> (not (= FDelLinePower_78 0.0)) (=> MZ_78 CZ_78))
+     (=> (not (= FDelLinePower_79 0.0)) (=> MZ_79 CZ_79))
+     (=> (not (= FDelLinePower_80 0.0)) (=> MZ_80 CZ_80))))
+(assert (and (=> (not (= BDelLinePower_1 0.0)) (=> MZ_81 CZ_81))
+     (=> (not (= BDelLinePower_2 0.0)) (=> MZ_82 CZ_82))
+     (=> (not (= BDelLinePower_3 0.0)) (=> MZ_83 CZ_83))
+     (=> (not (= BDelLinePower_4 0.0)) (=> MZ_84 CZ_84))
+     (=> (not (= BDelLinePower_5 0.0)) (=> MZ_85 CZ_85))
+     (=> (not (= BDelLinePower_6 0.0)) (=> MZ_86 CZ_86))
+     (=> (not (= BDelLinePower_7 0.0)) (=> MZ_87 CZ_87))
+     (=> (not (= BDelLinePower_8 0.0)) (=> MZ_88 CZ_88))
+     (=> (not (= BDelLinePower_9 0.0)) (=> MZ_89 CZ_89))
+     (=> (not (= BDelLinePower_10 0.0)) (=> MZ_90 CZ_90))
+     (=> (not (= BDelLinePower_11 0.0)) (=> MZ_91 CZ_91))
+     (=> (not (= BDelLinePower_12 0.0)) (=> MZ_92 CZ_92))
+     (=> (not (= BDelLinePower_13 0.0)) (=> MZ_93 CZ_93))
+     (=> (not (= BDelLinePower_14 0.0)) (=> MZ_94 CZ_94))
+     (=> (not (= BDelLinePower_15 0.0)) (=> MZ_95 CZ_95))
+     (=> (not (= BDelLinePower_16 0.0)) (=> MZ_96 CZ_96))
+     (=> (not (= BDelLinePower_17 0.0)) (=> MZ_97 CZ_97))
+     (=> (not (= BDelLinePower_18 0.0)) (=> MZ_98 CZ_98))
+     (=> (not (= BDelLinePower_19 0.0)) (=> MZ_99 CZ_99))
+     (=> (not (= BDelLinePower_20 0.0)) (=> MZ_100 CZ_100))
+     (=> (not (= BDelLinePower_21 0.0)) (=> MZ_101 CZ_101))
+     (=> (not (= BDelLinePower_22 0.0)) (=> MZ_102 CZ_102))
+     (=> (not (= BDelLinePower_23 0.0)) (=> MZ_103 CZ_103))
+     (=> (not (= BDelLinePower_24 0.0)) (=> MZ_104 CZ_104))
+     (=> (not (= BDelLinePower_25 0.0)) (=> MZ_105 CZ_105))
+     (=> (not (= BDelLinePower_26 0.0)) (=> MZ_106 CZ_106))
+     (=> (not (= BDelLinePower_27 0.0)) (=> MZ_107 CZ_107))
+     (=> (not (= BDelLinePower_28 0.0)) (=> MZ_108 CZ_108))
+     (=> (not (= BDelLinePower_29 0.0)) (=> MZ_109 CZ_109))
+     (=> (not (= BDelLinePower_30 0.0)) (=> MZ_110 CZ_110))
+     (=> (not (= BDelLinePower_31 0.0)) (=> MZ_111 CZ_111))
+     (=> (not (= BDelLinePower_32 0.0)) (=> MZ_112 CZ_112))
+     (=> (not (= BDelLinePower_33 0.0)) (=> MZ_113 CZ_113))
+     (=> (not (= BDelLinePower_34 0.0)) (=> MZ_114 CZ_114))
+     (=> (not (= BDelLinePower_35 0.0)) (=> MZ_115 CZ_115))
+     (=> (not (= BDelLinePower_36 0.0)) (=> MZ_116 CZ_116))
+     (=> (not (= BDelLinePower_37 0.0)) (=> MZ_117 CZ_117))
+     (=> (not (= BDelLinePower_38 0.0)) (=> MZ_118 CZ_118))
+     (=> (not (= BDelLinePower_39 0.0)) (=> MZ_119 CZ_119))
+     (=> (not (= BDelLinePower_40 0.0)) (=> MZ_120 CZ_120))
+     (=> (not (= BDelLinePower_41 0.0)) (=> MZ_121 CZ_121))
+     (=> (not (= BDelLinePower_42 0.0)) (=> MZ_122 CZ_122))
+     (=> (not (= BDelLinePower_43 0.0)) (=> MZ_123 CZ_123))
+     (=> (not (= BDelLinePower_44 0.0)) (=> MZ_124 CZ_124))
+     (=> (not (= BDelLinePower_45 0.0)) (=> MZ_125 CZ_125))
+     (=> (not (= BDelLinePower_46 0.0)) (=> MZ_126 CZ_126))
+     (=> (not (= BDelLinePower_47 0.0)) (=> MZ_127 CZ_127))
+     (=> (not (= BDelLinePower_48 0.0)) (=> MZ_128 CZ_128))
+     (=> (not (= BDelLinePower_49 0.0)) (=> MZ_129 CZ_129))
+     (=> (not (= BDelLinePower_50 0.0)) (=> MZ_130 CZ_130))
+     (=> (not (= BDelLinePower_51 0.0)) (=> MZ_131 CZ_131))
+     (=> (not (= BDelLinePower_52 0.0)) (=> MZ_132 CZ_132))
+     (=> (not (= BDelLinePower_53 0.0)) (=> MZ_133 CZ_133))
+     (=> (not (= BDelLinePower_54 0.0)) (=> MZ_134 CZ_134))
+     (=> (not (= BDelLinePower_55 0.0)) (=> MZ_135 CZ_135))
+     (=> (not (= BDelLinePower_56 0.0)) (=> MZ_136 CZ_136))
+     (=> (not (= BDelLinePower_57 0.0)) (=> MZ_137 CZ_137))
+     (=> (not (= BDelLinePower_58 0.0)) (=> MZ_138 CZ_138))
+     (=> (not (= BDelLinePower_59 0.0)) (=> MZ_139 CZ_139))
+     (=> (not (= BDelLinePower_60 0.0)) (=> MZ_140 CZ_140))
+     (=> (not (= BDelLinePower_61 0.0)) (=> MZ_141 CZ_141))
+     (=> (not (= BDelLinePower_62 0.0)) (=> MZ_142 CZ_142))
+     (=> (not (= BDelLinePower_63 0.0)) (=> MZ_143 CZ_143))
+     (=> (not (= BDelLinePower_64 0.0)) (=> MZ_144 CZ_144))
+     (=> (not (= BDelLinePower_65 0.0)) (=> MZ_145 CZ_145))
+     (=> (not (= BDelLinePower_66 0.0)) (=> MZ_146 CZ_146))
+     (=> (not (= BDelLinePower_67 0.0)) (=> MZ_147 CZ_147))
+     (=> (not (= BDelLinePower_68 0.0)) (=> MZ_148 CZ_148))
+     (=> (not (= BDelLinePower_69 0.0)) (=> MZ_149 CZ_149))
+     (=> (not (= BDelLinePower_70 0.0)) (=> MZ_150 CZ_150))
+     (=> (not (= BDelLinePower_71 0.0)) (=> MZ_151 CZ_151))
+     (=> (not (= BDelLinePower_72 0.0)) (=> MZ_152 CZ_152))
+     (=> (not (= BDelLinePower_73 0.0)) (=> MZ_153 CZ_153))
+     (=> (not (= BDelLinePower_74 0.0)) (=> MZ_154 CZ_154))
+     (=> (not (= BDelLinePower_75 0.0)) (=> MZ_155 CZ_155))
+     (=> (not (= BDelLinePower_76 0.0)) (=> MZ_156 CZ_156))
+     (=> (not (= BDelLinePower_77 0.0)) (=> MZ_157 CZ_157))
+     (=> (not (= BDelLinePower_78 0.0)) (=> MZ_158 CZ_158))
+     (=> (not (= BDelLinePower_79 0.0)) (=> MZ_159 CZ_159))
+     (=> (not (= BDelLinePower_80 0.0)) (=> MZ_160 CZ_160))))
+(assert (and (=> CZ_1 (not (= FDelLinePower_1 0.0)))
+     (=> CZ_2 (not (= FDelLinePower_2 0.0)))
+     (=> CZ_3 (not (= FDelLinePower_3 0.0)))
+     (=> CZ_4 (not (= FDelLinePower_4 0.0)))
+     (=> CZ_5 (not (= FDelLinePower_5 0.0)))
+     (=> CZ_6 (not (= FDelLinePower_6 0.0)))
+     (=> CZ_7 (not (= FDelLinePower_7 0.0)))
+     (=> CZ_8 (not (= FDelLinePower_8 0.0)))
+     (=> CZ_9 (not (= FDelLinePower_9 0.0)))
+     (=> CZ_10 (not (= FDelLinePower_10 0.0)))
+     (=> CZ_11 (not (= FDelLinePower_11 0.0)))
+     (=> CZ_12 (not (= FDelLinePower_12 0.0)))
+     (=> CZ_13 (not (= FDelLinePower_13 0.0)))
+     (=> CZ_14 (not (= FDelLinePower_14 0.0)))
+     (=> CZ_15 (not (= FDelLinePower_15 0.0)))
+     (=> CZ_16 (not (= FDelLinePower_16 0.0)))
+     (=> CZ_17 (not (= FDelLinePower_17 0.0)))
+     (=> CZ_18 (not (= FDelLinePower_18 0.0)))
+     (=> CZ_19 (not (= FDelLinePower_19 0.0)))
+     (=> CZ_20 (not (= FDelLinePower_20 0.0)))
+     (=> CZ_21 (not (= FDelLinePower_21 0.0)))
+     (=> CZ_22 (not (= FDelLinePower_22 0.0)))
+     (=> CZ_23 (not (= FDelLinePower_23 0.0)))
+     (=> CZ_24 (not (= FDelLinePower_24 0.0)))
+     (=> CZ_25 (not (= FDelLinePower_25 0.0)))
+     (=> CZ_26 (not (= FDelLinePower_26 0.0)))
+     (=> CZ_27 (not (= FDelLinePower_27 0.0)))
+     (=> CZ_28 (not (= FDelLinePower_28 0.0)))
+     (=> CZ_29 (not (= FDelLinePower_29 0.0)))
+     (=> CZ_30 (not (= FDelLinePower_30 0.0)))
+     (=> CZ_31 (not (= FDelLinePower_31 0.0)))
+     (=> CZ_32 (not (= FDelLinePower_32 0.0)))
+     (=> CZ_33 (not (= FDelLinePower_33 0.0)))
+     (=> CZ_34 (not (= FDelLinePower_34 0.0)))
+     (=> CZ_35 (not (= FDelLinePower_35 0.0)))
+     (=> CZ_36 (not (= FDelLinePower_36 0.0)))
+     (=> CZ_37 (not (= FDelLinePower_37 0.0)))
+     (=> CZ_38 (not (= FDelLinePower_38 0.0)))
+     (=> CZ_39 (not (= FDelLinePower_39 0.0)))
+     (=> CZ_40 (not (= FDelLinePower_40 0.0)))
+     (=> CZ_41 (not (= FDelLinePower_41 0.0)))
+     (=> CZ_42 (not (= FDelLinePower_42 0.0)))
+     (=> CZ_43 (not (= FDelLinePower_43 0.0)))
+     (=> CZ_44 (not (= FDelLinePower_44 0.0)))
+     (=> CZ_45 (not (= FDelLinePower_45 0.0)))
+     (=> CZ_46 (not (= FDelLinePower_46 0.0)))
+     (=> CZ_47 (not (= FDelLinePower_47 0.0)))
+     (=> CZ_48 (not (= FDelLinePower_48 0.0)))
+     (=> CZ_49 (not (= FDelLinePower_49 0.0)))
+     (=> CZ_50 (not (= FDelLinePower_50 0.0)))
+     (=> CZ_51 (not (= FDelLinePower_51 0.0)))
+     (=> CZ_52 (not (= FDelLinePower_52 0.0)))
+     (=> CZ_53 (not (= FDelLinePower_53 0.0)))
+     (=> CZ_54 (not (= FDelLinePower_54 0.0)))
+     (=> CZ_55 (not (= FDelLinePower_55 0.0)))
+     (=> CZ_56 (not (= FDelLinePower_56 0.0)))
+     (=> CZ_57 (not (= FDelLinePower_57 0.0)))
+     (=> CZ_58 (not (= FDelLinePower_58 0.0)))
+     (=> CZ_59 (not (= FDelLinePower_59 0.0)))
+     (=> CZ_60 (not (= FDelLinePower_60 0.0)))
+     (=> CZ_61 (not (= FDelLinePower_61 0.0)))
+     (=> CZ_62 (not (= FDelLinePower_62 0.0)))
+     (=> CZ_63 (not (= FDelLinePower_63 0.0)))
+     (=> CZ_64 (not (= FDelLinePower_64 0.0)))
+     (=> CZ_65 (not (= FDelLinePower_65 0.0)))
+     (=> CZ_66 (not (= FDelLinePower_66 0.0)))
+     (=> CZ_67 (not (= FDelLinePower_67 0.0)))
+     (=> CZ_68 (not (= FDelLinePower_68 0.0)))
+     (=> CZ_69 (not (= FDelLinePower_69 0.0)))
+     (=> CZ_70 (not (= FDelLinePower_70 0.0)))
+     (=> CZ_71 (not (= FDelLinePower_71 0.0)))
+     (=> CZ_72 (not (= FDelLinePower_72 0.0)))
+     (=> CZ_73 (not (= FDelLinePower_73 0.0)))
+     (=> CZ_74 (not (= FDelLinePower_74 0.0)))
+     (=> CZ_75 (not (= FDelLinePower_75 0.0)))
+     (=> CZ_76 (not (= FDelLinePower_76 0.0)))
+     (=> CZ_77 (not (= FDelLinePower_77 0.0)))
+     (=> CZ_78 (not (= FDelLinePower_78 0.0)))
+     (=> CZ_79 (not (= FDelLinePower_79 0.0)))
+     (=> CZ_80 (not (= FDelLinePower_80 0.0)))))
+(assert (and (=> CZ_81 (not (= BDelLinePower_1 0.0)))
+     (=> CZ_82 (not (= BDelLinePower_2 0.0)))
+     (=> CZ_83 (not (= BDelLinePower_3 0.0)))
+     (=> CZ_84 (not (= BDelLinePower_4 0.0)))
+     (=> CZ_85 (not (= BDelLinePower_5 0.0)))
+     (=> CZ_86 (not (= BDelLinePower_6 0.0)))
+     (=> CZ_87 (not (= BDelLinePower_7 0.0)))
+     (=> CZ_88 (not (= BDelLinePower_8 0.0)))
+     (=> CZ_89 (not (= BDelLinePower_9 0.0)))
+     (=> CZ_90 (not (= BDelLinePower_10 0.0)))
+     (=> CZ_91 (not (= BDelLinePower_11 0.0)))
+     (=> CZ_92 (not (= BDelLinePower_12 0.0)))
+     (=> CZ_93 (not (= BDelLinePower_13 0.0)))
+     (=> CZ_94 (not (= BDelLinePower_14 0.0)))
+     (=> CZ_95 (not (= BDelLinePower_15 0.0)))
+     (=> CZ_96 (not (= BDelLinePower_16 0.0)))
+     (=> CZ_97 (not (= BDelLinePower_17 0.0)))
+     (=> CZ_98 (not (= BDelLinePower_18 0.0)))
+     (=> CZ_99 (not (= BDelLinePower_19 0.0)))
+     (=> CZ_100 (not (= BDelLinePower_20 0.0)))
+     (=> CZ_101 (not (= BDelLinePower_21 0.0)))
+     (=> CZ_102 (not (= BDelLinePower_22 0.0)))
+     (=> CZ_103 (not (= BDelLinePower_23 0.0)))
+     (=> CZ_104 (not (= BDelLinePower_24 0.0)))
+     (=> CZ_105 (not (= BDelLinePower_25 0.0)))
+     (=> CZ_106 (not (= BDelLinePower_26 0.0)))
+     (=> CZ_107 (not (= BDelLinePower_27 0.0)))
+     (=> CZ_108 (not (= BDelLinePower_28 0.0)))
+     (=> CZ_109 (not (= BDelLinePower_29 0.0)))
+     (=> CZ_110 (not (= BDelLinePower_30 0.0)))
+     (=> CZ_111 (not (= BDelLinePower_31 0.0)))
+     (=> CZ_112 (not (= BDelLinePower_32 0.0)))
+     (=> CZ_113 (not (= BDelLinePower_33 0.0)))
+     (=> CZ_114 (not (= BDelLinePower_34 0.0)))
+     (=> CZ_115 (not (= BDelLinePower_35 0.0)))
+     (=> CZ_116 (not (= BDelLinePower_36 0.0)))
+     (=> CZ_117 (not (= BDelLinePower_37 0.0)))
+     (=> CZ_118 (not (= BDelLinePower_38 0.0)))
+     (=> CZ_119 (not (= BDelLinePower_39 0.0)))
+     (=> CZ_120 (not (= BDelLinePower_40 0.0)))
+     (=> CZ_121 (not (= BDelLinePower_41 0.0)))
+     (=> CZ_122 (not (= BDelLinePower_42 0.0)))
+     (=> CZ_123 (not (= BDelLinePower_43 0.0)))
+     (=> CZ_124 (not (= BDelLinePower_44 0.0)))
+     (=> CZ_125 (not (= BDelLinePower_45 0.0)))
+     (=> CZ_126 (not (= BDelLinePower_46 0.0)))
+     (=> CZ_127 (not (= BDelLinePower_47 0.0)))
+     (=> CZ_128 (not (= BDelLinePower_48 0.0)))
+     (=> CZ_129 (not (= BDelLinePower_49 0.0)))
+     (=> CZ_130 (not (= BDelLinePower_50 0.0)))
+     (=> CZ_131 (not (= BDelLinePower_51 0.0)))
+     (=> CZ_132 (not (= BDelLinePower_52 0.0)))
+     (=> CZ_133 (not (= BDelLinePower_53 0.0)))
+     (=> CZ_134 (not (= BDelLinePower_54 0.0)))
+     (=> CZ_135 (not (= BDelLinePower_55 0.0)))
+     (=> CZ_136 (not (= BDelLinePower_56 0.0)))
+     (=> CZ_137 (not (= BDelLinePower_57 0.0)))
+     (=> CZ_138 (not (= BDelLinePower_58 0.0)))
+     (=> CZ_139 (not (= BDelLinePower_59 0.0)))
+     (=> CZ_140 (not (= BDelLinePower_60 0.0)))
+     (=> CZ_141 (not (= BDelLinePower_61 0.0)))
+     (=> CZ_142 (not (= BDelLinePower_62 0.0)))
+     (=> CZ_143 (not (= BDelLinePower_63 0.0)))
+     (=> CZ_144 (not (= BDelLinePower_64 0.0)))
+     (=> CZ_145 (not (= BDelLinePower_65 0.0)))
+     (=> CZ_146 (not (= BDelLinePower_66 0.0)))
+     (=> CZ_147 (not (= BDelLinePower_67 0.0)))
+     (=> CZ_148 (not (= BDelLinePower_68 0.0)))
+     (=> CZ_149 (not (= BDelLinePower_69 0.0)))
+     (=> CZ_150 (not (= BDelLinePower_70 0.0)))
+     (=> CZ_151 (not (= BDelLinePower_71 0.0)))
+     (=> CZ_152 (not (= BDelLinePower_72 0.0)))
+     (=> CZ_153 (not (= BDelLinePower_73 0.0)))
+     (=> CZ_154 (not (= BDelLinePower_74 0.0)))
+     (=> CZ_155 (not (= BDelLinePower_75 0.0)))
+     (=> CZ_156 (not (= BDelLinePower_76 0.0)))
+     (=> CZ_157 (not (= BDelLinePower_77 0.0)))
+     (=> CZ_158 (not (= BDelLinePower_78 0.0)))
+     (=> CZ_159 (not (= BDelLinePower_79 0.0)))
+     (=> CZ_160 (not (= BDelLinePower_80 0.0)))))
+(assert (and (=> (not (= DelBusPower_1 0.0)) (=> MZ_161 CZ_161))
+     (=> (not (= DelBusPower_2 0.0)) (=> MZ_162 CZ_162))
+     (=> (not (= DelBusPower_3 0.0)) (=> MZ_163 CZ_163))
+     (=> (not (= DelBusPower_4 0.0)) (=> MZ_164 CZ_164))
+     (=> (not (= DelBusPower_5 0.0)) (=> MZ_165 CZ_165))
+     (=> (not (= DelBusPower_6 0.0)) (=> MZ_166 CZ_166))
+     (=> (not (= DelBusPower_7 0.0)) (=> MZ_167 CZ_167))
+     (=> (not (= DelBusPower_8 0.0)) (=> MZ_168 CZ_168))
+     (=> (not (= DelBusPower_9 0.0)) (=> MZ_169 CZ_169))
+     (=> (not (= DelBusPower_10 0.0)) (=> MZ_170 CZ_170))
+     (=> (not (= DelBusPower_11 0.0)) (=> MZ_171 CZ_171))
+     (=> (not (= DelBusPower_12 0.0)) (=> MZ_172 CZ_172))
+     (=> (not (= DelBusPower_13 0.0)) (=> MZ_173 CZ_173))
+     (=> (not (= DelBusPower_14 0.0)) (=> MZ_174 CZ_174))
+     (=> (not (= DelBusPower_15 0.0)) (=> MZ_175 CZ_175))
+     (=> (not (= DelBusPower_16 0.0)) (=> MZ_176 CZ_176))
+     (=> (not (= DelBusPower_17 0.0)) (=> MZ_177 CZ_177))
+     (=> (not (= DelBusPower_18 0.0)) (=> MZ_178 CZ_178))
+     (=> (not (= DelBusPower_19 0.0)) (=> MZ_179 CZ_179))
+     (=> (not (= DelBusPower_20 0.0)) (=> MZ_180 CZ_180))
+     (=> (not (= DelBusPower_21 0.0)) (=> MZ_181 CZ_181))
+     (=> (not (= DelBusPower_22 0.0)) (=> MZ_182 CZ_182))
+     (=> (not (= DelBusPower_23 0.0)) (=> MZ_183 CZ_183))
+     (=> (not (= DelBusPower_24 0.0)) (=> MZ_184 CZ_184))
+     (=> (not (= DelBusPower_25 0.0)) (=> MZ_185 CZ_185))
+     (=> (not (= DelBusPower_26 0.0)) (=> MZ_186 CZ_186))
+     (=> (not (= DelBusPower_27 0.0)) (=> MZ_187 CZ_187))
+     (=> (not (= DelBusPower_28 0.0)) (=> MZ_188 CZ_188))
+     (=> (not (= DelBusPower_29 0.0)) (=> MZ_189 CZ_189))
+     (=> (not (= DelBusPower_30 0.0)) (=> MZ_190 CZ_190))
+     (=> (not (= DelBusPower_31 0.0)) (=> MZ_191 CZ_191))
+     (=> (not (= DelBusPower_32 0.0)) (=> MZ_192 CZ_192))
+     (=> (not (= DelBusPower_33 0.0)) (=> MZ_193 CZ_193))
+     (=> (not (= DelBusPower_34 0.0)) (=> MZ_194 CZ_194))
+     (=> (not (= DelBusPower_35 0.0)) (=> MZ_195 CZ_195))
+     (=> (not (= DelBusPower_36 0.0)) (=> MZ_196 CZ_196))
+     (=> (not (= DelBusPower_37 0.0)) (=> MZ_197 CZ_197))
+     (=> (not (= DelBusPower_38 0.0)) (=> MZ_198 CZ_198))
+     (=> (not (= DelBusPower_39 0.0)) (=> MZ_199 CZ_199))
+     (=> (not (= DelBusPower_40 0.0)) (=> MZ_200 CZ_200))
+     (=> (not (= DelBusPower_41 0.0)) (=> MZ_201 CZ_201))
+     (=> (not (= DelBusPower_42 0.0)) (=> MZ_202 CZ_202))
+     (=> (not (= DelBusPower_43 0.0)) (=> MZ_203 CZ_203))
+     (=> (not (= DelBusPower_44 0.0)) (=> MZ_204 CZ_204))
+     (=> (not (= DelBusPower_45 0.0)) (=> MZ_205 CZ_205))
+     (=> (not (= DelBusPower_46 0.0)) (=> MZ_206 CZ_206))
+     (=> (not (= DelBusPower_47 0.0)) (=> MZ_207 CZ_207))
+     (=> (not (= DelBusPower_48 0.0)) (=> MZ_208 CZ_208))
+     (=> (not (= DelBusPower_49 0.0)) (=> MZ_209 CZ_209))
+     (=> (not (= DelBusPower_50 0.0)) (=> MZ_210 CZ_210))
+     (=> (not (= DelBusPower_51 0.0)) (=> MZ_211 CZ_211))
+     (=> (not (= DelBusPower_52 0.0)) (=> MZ_212 CZ_212))
+     (=> (not (= DelBusPower_53 0.0)) (=> MZ_213 CZ_213))
+     (=> (not (= DelBusPower_54 0.0)) (=> MZ_214 CZ_214))
+     (=> (not (= DelBusPower_55 0.0)) (=> MZ_215 CZ_215))
+     (=> (not (= DelBusPower_56 0.0)) (=> MZ_216 CZ_216))
+     (=> (not (= DelBusPower_57 0.0)) (=> MZ_217 CZ_217))))
+(assert (and (=> CZ_161 (not (= DelBusPower_1 0.0)))
+     (=> CZ_162 (not (= DelBusPower_2 0.0)))
+     (=> CZ_163 (not (= DelBusPower_3 0.0)))
+     (=> CZ_164 (not (= DelBusPower_4 0.0)))
+     (=> CZ_165 (not (= DelBusPower_5 0.0)))
+     (=> CZ_166 (not (= DelBusPower_6 0.0)))
+     (=> CZ_167 (not (= DelBusPower_7 0.0)))
+     (=> CZ_168 (not (= DelBusPower_8 0.0)))
+     (=> CZ_169 (not (= DelBusPower_9 0.0)))
+     (=> CZ_170 (not (= DelBusPower_10 0.0)))
+     (=> CZ_171 (not (= DelBusPower_11 0.0)))
+     (=> CZ_172 (not (= DelBusPower_12 0.0)))
+     (=> CZ_173 (not (= DelBusPower_13 0.0)))
+     (=> CZ_174 (not (= DelBusPower_14 0.0)))
+     (=> CZ_175 (not (= DelBusPower_15 0.0)))
+     (=> CZ_176 (not (= DelBusPower_16 0.0)))
+     (=> CZ_177 (not (= DelBusPower_17 0.0)))
+     (=> CZ_178 (not (= DelBusPower_18 0.0)))
+     (=> CZ_179 (not (= DelBusPower_19 0.0)))
+     (=> CZ_180 (not (= DelBusPower_20 0.0)))
+     (=> CZ_181 (not (= DelBusPower_21 0.0)))
+     (=> CZ_182 (not (= DelBusPower_22 0.0)))
+     (=> CZ_183 (not (= DelBusPower_23 0.0)))
+     (=> CZ_184 (not (= DelBusPower_24 0.0)))
+     (=> CZ_185 (not (= DelBusPower_25 0.0)))
+     (=> CZ_186 (not (= DelBusPower_26 0.0)))
+     (=> CZ_187 (not (= DelBusPower_27 0.0)))
+     (=> CZ_188 (not (= DelBusPower_28 0.0)))
+     (=> CZ_189 (not (= DelBusPower_29 0.0)))
+     (=> CZ_190 (not (= DelBusPower_30 0.0)))
+     (=> CZ_191 (not (= DelBusPower_31 0.0)))
+     (=> CZ_192 (not (= DelBusPower_32 0.0)))
+     (=> CZ_193 (not (= DelBusPower_33 0.0)))
+     (=> CZ_194 (not (= DelBusPower_34 0.0)))
+     (=> CZ_195 (not (= DelBusPower_35 0.0)))
+     (=> CZ_196 (not (= DelBusPower_36 0.0)))
+     (=> CZ_197 (not (= DelBusPower_37 0.0)))
+     (=> CZ_198 (not (= DelBusPower_38 0.0)))
+     (=> CZ_199 (not (= DelBusPower_39 0.0)))
+     (=> CZ_200 (not (= DelBusPower_40 0.0)))
+     (=> CZ_201 (not (= DelBusPower_41 0.0)))
+     (=> CZ_202 (not (= DelBusPower_42 0.0)))
+     (=> CZ_203 (not (= DelBusPower_43 0.0)))
+     (=> CZ_204 (not (= DelBusPower_44 0.0)))
+     (=> CZ_205 (not (= DelBusPower_45 0.0)))
+     (=> CZ_206 (not (= DelBusPower_46 0.0)))
+     (=> CZ_207 (not (= DelBusPower_47 0.0)))
+     (=> CZ_208 (not (= DelBusPower_48 0.0)))
+     (=> CZ_209 (not (= DelBusPower_49 0.0)))
+     (=> CZ_210 (not (= DelBusPower_50 0.0)))
+     (=> CZ_211 (not (= DelBusPower_51 0.0)))
+     (=> CZ_212 (not (= DelBusPower_52 0.0)))
+     (=> CZ_213 (not (= DelBusPower_53 0.0)))
+     (=> CZ_214 (not (= DelBusPower_54 0.0)))
+     (=> CZ_215 (not (= DelBusPower_55 0.0)))
+     (=> CZ_216 (not (= DelBusPower_56 0.0)))
+     (=> CZ_217 (not (= DelBusPower_57 0.0)))))
+(assert (and (=> (or CZ_1 CZ_81) BD_1)
+     (=> (or CZ_2 CZ_82) BD_2)
+     (=> (or CZ_3 CZ_83) BD_3)
+     (=> (or CZ_4 CZ_84) BD_4)
+     (=> (or CZ_5 CZ_85) BD_5)
+     (=> (or CZ_6 CZ_86) BD_6)
+     (=> (or CZ_7 CZ_87) BD_7)
+     (=> (or CZ_8 CZ_88) BD_8)
+     (=> (or CZ_9 CZ_89) BD_9)
+     (=> (or CZ_10 CZ_90) BD_10)
+     (=> (or CZ_11 CZ_91) BD_11)
+     (=> (or CZ_12 CZ_92) BD_12)
+     (=> (or CZ_13 CZ_93) BD_13)
+     (=> (or CZ_14 CZ_94) BD_14)
+     (=> (or CZ_15 CZ_95) BD_15)
+     (=> (or CZ_16 CZ_96) BD_16)
+     (=> (or CZ_17 CZ_97) BD_17)
+     (=> (or CZ_18 CZ_98) BD_18)
+     (=> (or CZ_19 CZ_99) BD_19)
+     (=> (or CZ_20 CZ_100) BD_20)
+     (=> (or CZ_21 CZ_101) BD_21)
+     (=> (or CZ_22 CZ_102) BD_22)
+     (=> (or CZ_23 CZ_103) BD_23)
+     (=> (or CZ_24 CZ_104) BD_24)
+     (=> (or CZ_25 CZ_105) BD_25)
+     (=> (or CZ_26 CZ_106) BD_26)
+     (=> (or CZ_27 CZ_107) BD_27)
+     (=> (or CZ_28 CZ_108) BD_28)
+     (=> (or CZ_29 CZ_109) BD_29)
+     (=> (or CZ_30 CZ_110) BD_30)
+     (=> (or CZ_31 CZ_111) BD_31)
+     (=> (or CZ_32 CZ_112) BD_32)
+     (=> (or CZ_33 CZ_113) BD_33)
+     (=> (or CZ_34 CZ_114) BD_34)
+     (=> (or CZ_35 CZ_115) BD_35)
+     (=> (or CZ_36 CZ_116) BD_36)
+     (=> (or CZ_37 CZ_117) BD_37)
+     (=> (or CZ_38 CZ_118) BD_38)
+     (=> (or CZ_39 CZ_119) BD_39)
+     (=> (or CZ_40 CZ_120) BD_40)
+     (=> (or CZ_41 CZ_121) BD_41)
+     (=> (or CZ_42 CZ_122) BD_42)
+     (=> (or CZ_43 CZ_123) BD_43)
+     (=> (or CZ_44 CZ_124) BD_44)
+     (=> (or CZ_45 CZ_125) BD_45)
+     (=> (or CZ_46 CZ_126) BD_46)
+     (=> (or CZ_47 CZ_127) BD_47)
+     (=> (or CZ_48 CZ_128) BD_48)
+     (=> (or CZ_49 CZ_129) BD_49)
+     (=> (or CZ_50 CZ_130) BD_50)
+     (=> (or CZ_51 CZ_131) BD_51)
+     (=> (or CZ_52 CZ_132) BD_52)
+     (=> (or CZ_53 CZ_133) BD_53)
+     (=> (or CZ_54 CZ_134) BD_54)
+     (=> (or CZ_55 CZ_135) BD_55)
+     (=> (or CZ_56 CZ_136) BD_56)
+     (=> (or CZ_57 CZ_137) BD_57)
+     (=> (or CZ_58 CZ_138) BD_58)
+     (=> (or CZ_59 CZ_139) BD_59)
+     (=> (or CZ_60 CZ_140) BD_60)
+     (=> (or CZ_61 CZ_141) BD_61)
+     (=> (or CZ_62 CZ_142) BD_62)
+     (=> (or CZ_63 CZ_143) BD_63)
+     (=> (or CZ_64 CZ_144) BD_64)
+     (=> (or CZ_65 CZ_145) BD_65)
+     (=> (or CZ_66 CZ_146) BD_66)
+     (=> (or CZ_67 CZ_147) BD_67)
+     (=> (or CZ_68 CZ_148) BD_68)
+     (=> (or CZ_69 CZ_149) BD_69)
+     (=> (or CZ_70 CZ_150) BD_70)
+     (=> (or CZ_71 CZ_151) BD_71)
+     (=> (or CZ_72 CZ_152) BD_72)
+     (=> (or CZ_73 CZ_153) BD_73)
+     (=> (or CZ_74 CZ_154) BD_74)
+     (=> (or CZ_75 CZ_155) BD_75)
+     (=> (or CZ_76 CZ_156) BD_76)
+     (=> (or CZ_77 CZ_157) BD_77)
+     (=> (or CZ_78 CZ_158) BD_78)
+     (=> (or CZ_79 CZ_159) BD_79)
+     (=> (or CZ_80 CZ_160) BD_80)))
+(assert (and (=> CZ_1 (and MZ_1 AZ_1 (not SZ_1)))
+     (=> CZ_2 (and MZ_2 AZ_2 (not SZ_2)))
+     (=> CZ_3 (and MZ_3 AZ_3 (not SZ_3)))
+     (=> CZ_4 (and MZ_4 AZ_4 (not SZ_4)))
+     (=> CZ_5 (and MZ_5 AZ_5 (not SZ_5)))
+     (=> CZ_6 (and MZ_6 AZ_6 (not SZ_6)))
+     (=> CZ_7 (and MZ_7 AZ_7 (not SZ_7)))
+     (=> CZ_8 (and MZ_8 AZ_8 (not SZ_8)))
+     (=> CZ_9 (and MZ_9 AZ_9 (not SZ_9)))
+     (=> CZ_10 (and MZ_10 AZ_10 (not SZ_10)))
+     (=> CZ_11 (and MZ_11 AZ_11 (not SZ_11)))
+     (=> CZ_12 (and MZ_12 AZ_12 (not SZ_12)))
+     (=> CZ_13 (and MZ_13 AZ_13 (not SZ_13)))
+     (=> CZ_14 (and MZ_14 AZ_14 (not SZ_14)))
+     (=> CZ_15 (and MZ_15 AZ_15 (not SZ_15)))
+     (=> CZ_16 (and MZ_16 AZ_16 (not SZ_16)))
+     (=> CZ_17 (and MZ_17 AZ_17 (not SZ_17)))
+     (=> CZ_18 (and MZ_18 AZ_18 (not SZ_18)))
+     (=> CZ_19 (and MZ_19 AZ_19 (not SZ_19)))
+     (=> CZ_20 (and MZ_20 AZ_20 (not SZ_20)))
+     (=> CZ_21 (and MZ_21 AZ_21 (not SZ_21)))
+     (=> CZ_22 (and MZ_22 AZ_22 (not SZ_22)))
+     (=> CZ_23 (and MZ_23 AZ_23 (not SZ_23)))
+     (=> CZ_24 (and MZ_24 AZ_24 (not SZ_24)))
+     (=> CZ_25 (and MZ_25 AZ_25 (not SZ_25)))
+     (=> CZ_26 (and MZ_26 AZ_26 (not SZ_26)))
+     (=> CZ_27 (and MZ_27 AZ_27 (not SZ_27)))
+     (=> CZ_28 (and MZ_28 AZ_28 (not SZ_28)))
+     (=> CZ_29 (and MZ_29 AZ_29 (not SZ_29)))
+     (=> CZ_30 (and MZ_30 AZ_30 (not SZ_30)))
+     (=> CZ_31 (and MZ_31 AZ_31 (not SZ_31)))
+     (=> CZ_32 (and MZ_32 AZ_32 (not SZ_32)))
+     (=> CZ_33 (and MZ_33 AZ_33 (not SZ_33)))
+     (=> CZ_34 (and MZ_34 AZ_34 (not SZ_34)))
+     (=> CZ_35 (and MZ_35 AZ_35 (not SZ_35)))
+     (=> CZ_36 (and MZ_36 AZ_36 (not SZ_36)))
+     (=> CZ_37 (and MZ_37 AZ_37 (not SZ_37)))
+     (=> CZ_38 (and MZ_38 AZ_38 (not SZ_38)))
+     (=> CZ_39 (and MZ_39 AZ_39 (not SZ_39)))
+     (=> CZ_40 (and MZ_40 AZ_40 (not SZ_40)))
+     (=> CZ_41 (and MZ_41 AZ_41 (not SZ_41)))
+     (=> CZ_42 (and MZ_42 AZ_42 (not SZ_42)))
+     (=> CZ_43 (and MZ_43 AZ_43 (not SZ_43)))
+     (=> CZ_44 (and MZ_44 AZ_44 (not SZ_44)))
+     (=> CZ_45 (and MZ_45 AZ_45 (not SZ_45)))
+     (=> CZ_46 (and MZ_46 AZ_46 (not SZ_46)))
+     (=> CZ_47 (and MZ_47 AZ_47 (not SZ_47)))
+     (=> CZ_48 (and MZ_48 AZ_48 (not SZ_48)))
+     (=> CZ_49 (and MZ_49 AZ_49 (not SZ_49)))
+     (=> CZ_50 (and MZ_50 AZ_50 (not SZ_50)))
+     (=> CZ_51 (and MZ_51 AZ_51 (not SZ_51)))
+     (=> CZ_52 (and MZ_52 AZ_52 (not SZ_52)))
+     (=> CZ_53 (and MZ_53 AZ_53 (not SZ_53)))
+     (=> CZ_54 (and MZ_54 AZ_54 (not SZ_54)))
+     (=> CZ_55 (and MZ_55 AZ_55 (not SZ_55)))
+     (=> CZ_56 (and MZ_56 AZ_56 (not SZ_56)))
+     (=> CZ_57 (and MZ_57 AZ_57 (not SZ_57)))
+     (=> CZ_58 (and MZ_58 AZ_58 (not SZ_58)))
+     (=> CZ_59 (and MZ_59 AZ_59 (not SZ_59)))
+     (=> CZ_60 (and MZ_60 AZ_60 (not SZ_60)))
+     (=> CZ_61 (and MZ_61 AZ_61 (not SZ_61)))
+     (=> CZ_62 (and MZ_62 AZ_62 (not SZ_62)))
+     (=> CZ_63 (and MZ_63 AZ_63 (not SZ_63)))
+     (=> CZ_64 (and MZ_64 AZ_64 (not SZ_64)))
+     (=> CZ_65 (and MZ_65 AZ_65 (not SZ_65)))
+     (=> CZ_66 (and MZ_66 AZ_66 (not SZ_66)))
+     (=> CZ_67 (and MZ_67 AZ_67 (not SZ_67)))
+     (=> CZ_68 (and MZ_68 AZ_68 (not SZ_68)))
+     (=> CZ_69 (and MZ_69 AZ_69 (not SZ_69)))
+     (=> CZ_70 (and MZ_70 AZ_70 (not SZ_70)))
+     (=> CZ_71 (and MZ_71 AZ_71 (not SZ_71)))
+     (=> CZ_72 (and MZ_72 AZ_72 (not SZ_72)))
+     (=> CZ_73 (and MZ_73 AZ_73 (not SZ_73)))
+     (=> CZ_74 (and MZ_74 AZ_74 (not SZ_74)))
+     (=> CZ_75 (and MZ_75 AZ_75 (not SZ_75)))
+     (=> CZ_76 (and MZ_76 AZ_76 (not SZ_76)))
+     (=> CZ_77 (and MZ_77 AZ_77 (not SZ_77)))
+     (=> CZ_78 (and MZ_78 AZ_78 (not SZ_78)))
+     (=> CZ_79 (and MZ_79 AZ_79 (not SZ_79)))
+     (=> CZ_80 (and MZ_80 AZ_80 (not SZ_80)))
+     (=> CZ_81 (and MZ_81 AZ_81 (not SZ_81)))
+     (=> CZ_82 (and MZ_82 AZ_82 (not SZ_82)))
+     (=> CZ_83 (and MZ_83 AZ_83 (not SZ_83)))
+     (=> CZ_84 (and MZ_84 AZ_84 (not SZ_84)))
+     (=> CZ_85 (and MZ_85 AZ_85 (not SZ_85)))
+     (=> CZ_86 (and MZ_86 AZ_86 (not SZ_86)))
+     (=> CZ_87 (and MZ_87 AZ_87 (not SZ_87)))
+     (=> CZ_88 (and MZ_88 AZ_88 (not SZ_88)))
+     (=> CZ_89 (and MZ_89 AZ_89 (not SZ_89)))
+     (=> CZ_90 (and MZ_90 AZ_90 (not SZ_90)))
+     (=> CZ_91 (and MZ_91 AZ_91 (not SZ_91)))
+     (=> CZ_92 (and MZ_92 AZ_92 (not SZ_92)))
+     (=> CZ_93 (and MZ_93 AZ_93 (not SZ_93)))
+     (=> CZ_94 (and MZ_94 AZ_94 (not SZ_94)))
+     (=> CZ_95 (and MZ_95 AZ_95 (not SZ_95)))
+     (=> CZ_96 (and MZ_96 AZ_96 (not SZ_96)))
+     (=> CZ_97 (and MZ_97 AZ_97 (not SZ_97)))
+     (=> CZ_98 (and MZ_98 AZ_98 (not SZ_98)))
+     (=> CZ_99 (and MZ_99 AZ_99 (not SZ_99)))
+     (=> CZ_100 (and MZ_100 AZ_100 (not SZ_100)))
+     (=> CZ_101 (and MZ_101 AZ_101 (not SZ_101)))
+     (=> CZ_102 (and MZ_102 AZ_102 (not SZ_102)))
+     (=> CZ_103 (and MZ_103 AZ_103 (not SZ_103)))
+     (=> CZ_104 (and MZ_104 AZ_104 (not SZ_104)))
+     (=> CZ_105 (and MZ_105 AZ_105 (not SZ_105)))
+     (=> CZ_106 (and MZ_106 AZ_106 (not SZ_106)))
+     (=> CZ_107 (and MZ_107 AZ_107 (not SZ_107)))
+     (=> CZ_108 (and MZ_108 AZ_108 (not SZ_108)))
+     (=> CZ_109 (and MZ_109 AZ_109 (not SZ_109)))
+     (=> CZ_110 (and MZ_110 AZ_110 (not SZ_110)))
+     (=> CZ_111 (and MZ_111 AZ_111 (not SZ_111)))
+     (=> CZ_112 (and MZ_112 AZ_112 (not SZ_112)))
+     (=> CZ_113 (and MZ_113 AZ_113 (not SZ_113)))
+     (=> CZ_114 (and MZ_114 AZ_114 (not SZ_114)))
+     (=> CZ_115 (and MZ_115 AZ_115 (not SZ_115)))
+     (=> CZ_116 (and MZ_116 AZ_116 (not SZ_116)))
+     (=> CZ_117 (and MZ_117 AZ_117 (not SZ_117)))
+     (=> CZ_118 (and MZ_118 AZ_118 (not SZ_118)))
+     (=> CZ_119 (and MZ_119 AZ_119 (not SZ_119)))
+     (=> CZ_120 (and MZ_120 AZ_120 (not SZ_120)))
+     (=> CZ_121 (and MZ_121 AZ_121 (not SZ_121)))
+     (=> CZ_122 (and MZ_122 AZ_122 (not SZ_122)))
+     (=> CZ_123 (and MZ_123 AZ_123 (not SZ_123)))
+     (=> CZ_124 (and MZ_124 AZ_124 (not SZ_124)))
+     (=> CZ_125 (and MZ_125 AZ_125 (not SZ_125)))
+     (=> CZ_126 (and MZ_126 AZ_126 (not SZ_126)))
+     (=> CZ_127 (and MZ_127 AZ_127 (not SZ_127)))
+     (=> CZ_128 (and MZ_128 AZ_128 (not SZ_128)))
+     (=> CZ_129 (and MZ_129 AZ_129 (not SZ_129)))
+     (=> CZ_130 (and MZ_130 AZ_130 (not SZ_130)))
+     (=> CZ_131 (and MZ_131 AZ_131 (not SZ_131)))
+     (=> CZ_132 (and MZ_132 AZ_132 (not SZ_132)))
+     (=> CZ_133 (and MZ_133 AZ_133 (not SZ_133)))
+     (=> CZ_134 (and MZ_134 AZ_134 (not SZ_134)))
+     (=> CZ_135 (and MZ_135 AZ_135 (not SZ_135)))
+     (=> CZ_136 (and MZ_136 AZ_136 (not SZ_136)))
+     (=> CZ_137 (and MZ_137 AZ_137 (not SZ_137)))
+     (=> CZ_138 (and MZ_138 AZ_138 (not SZ_138)))
+     (=> CZ_139 (and MZ_139 AZ_139 (not SZ_139)))
+     (=> CZ_140 (and MZ_140 AZ_140 (not SZ_140)))
+     (=> CZ_141 (and MZ_141 AZ_141 (not SZ_141)))
+     (=> CZ_142 (and MZ_142 AZ_142 (not SZ_142)))
+     (=> CZ_143 (and MZ_143 AZ_143 (not SZ_143)))
+     (=> CZ_144 (and MZ_144 AZ_144 (not SZ_144)))
+     (=> CZ_145 (and MZ_145 AZ_145 (not SZ_145)))
+     (=> CZ_146 (and MZ_146 AZ_146 (not SZ_146)))
+     (=> CZ_147 (and MZ_147 AZ_147 (not SZ_147)))
+     (=> CZ_148 (and MZ_148 AZ_148 (not SZ_148)))
+     (=> CZ_149 (and MZ_149 AZ_149 (not SZ_149)))
+     (=> CZ_150 (and MZ_150 AZ_150 (not SZ_150)))
+     (=> CZ_151 (and MZ_151 AZ_151 (not SZ_151)))
+     (=> CZ_152 (and MZ_152 AZ_152 (not SZ_152)))
+     (=> CZ_153 (and MZ_153 AZ_153 (not SZ_153)))
+     (=> CZ_154 (and MZ_154 AZ_154 (not SZ_154)))
+     (=> CZ_155 (and MZ_155 AZ_155 (not SZ_155)))
+     (=> CZ_156 (and MZ_156 AZ_156 (not SZ_156)))
+     (=> CZ_157 (and MZ_157 AZ_157 (not SZ_157)))
+     (=> CZ_158 (and MZ_158 AZ_158 (not SZ_158)))
+     (=> CZ_159 (and MZ_159 AZ_159 (not SZ_159)))
+     (=> CZ_160 (and MZ_160 AZ_160 (not SZ_160)))
+     (=> CZ_161 (and MZ_161 AZ_161 (not SZ_161)))
+     (=> CZ_162 (and MZ_162 AZ_162 (not SZ_162)))
+     (=> CZ_163 (and MZ_163 AZ_163 (not SZ_163)))
+     (=> CZ_164 (and MZ_164 AZ_164 (not SZ_164)))
+     (=> CZ_165 (and MZ_165 AZ_165 (not SZ_165)))
+     (=> CZ_166 (and MZ_166 AZ_166 (not SZ_166)))
+     (=> CZ_167 (and MZ_167 AZ_167 (not SZ_167)))
+     (=> CZ_168 (and MZ_168 AZ_168 (not SZ_168)))
+     (=> CZ_169 (and MZ_169 AZ_169 (not SZ_169)))
+     (=> CZ_170 (and MZ_170 AZ_170 (not SZ_170)))
+     (=> CZ_171 (and MZ_171 AZ_171 (not SZ_171)))
+     (=> CZ_172 (and MZ_172 AZ_172 (not SZ_172)))
+     (=> CZ_173 (and MZ_173 AZ_173 (not SZ_173)))
+     (=> CZ_174 (and MZ_174 AZ_174 (not SZ_174)))
+     (=> CZ_175 (and MZ_175 AZ_175 (not SZ_175)))
+     (=> CZ_176 (and MZ_176 AZ_176 (not SZ_176)))
+     (=> CZ_177 (and MZ_177 AZ_177 (not SZ_177)))
+     (=> CZ_178 (and MZ_178 AZ_178 (not SZ_178)))
+     (=> CZ_179 (and MZ_179 AZ_179 (not SZ_179)))
+     (=> CZ_180 (and MZ_180 AZ_180 (not SZ_180)))
+     (=> CZ_181 (and MZ_181 AZ_181 (not SZ_181)))
+     (=> CZ_182 (and MZ_182 AZ_182 (not SZ_182)))
+     (=> CZ_183 (and MZ_183 AZ_183 (not SZ_183)))
+     (=> CZ_184 (and MZ_184 AZ_184 (not SZ_184)))
+     (=> CZ_185 (and MZ_185 AZ_185 (not SZ_185)))
+     (=> CZ_186 (and MZ_186 AZ_186 (not SZ_186)))
+     (=> CZ_187 (and MZ_187 AZ_187 (not SZ_187)))
+     (=> CZ_188 (and MZ_188 AZ_188 (not SZ_188)))
+     (=> CZ_189 (and MZ_189 AZ_189 (not SZ_189)))
+     (=> CZ_190 (and MZ_190 AZ_190 (not SZ_190)))
+     (=> CZ_191 (and MZ_191 AZ_191 (not SZ_191)))
+     (=> CZ_192 (and MZ_192 AZ_192 (not SZ_192)))
+     (=> CZ_193 (and MZ_193 AZ_193 (not SZ_193)))
+     (=> CZ_194 (and MZ_194 AZ_194 (not SZ_194)))
+     (=> CZ_195 (and MZ_195 AZ_195 (not SZ_195)))
+     (=> CZ_196 (and MZ_196 AZ_196 (not SZ_196)))
+     (=> CZ_197 (and MZ_197 AZ_197 (not SZ_197)))
+     (=> CZ_198 (and MZ_198 AZ_198 (not SZ_198)))
+     (=> CZ_199 (and MZ_199 AZ_199 (not SZ_199)))
+     (=> CZ_200 (and MZ_200 AZ_200 (not SZ_200)))
+     (=> CZ_201 (and MZ_201 AZ_201 (not SZ_201)))
+     (=> CZ_202 (and MZ_202 AZ_202 (not SZ_202)))
+     (=> CZ_203 (and MZ_203 AZ_203 (not SZ_203)))
+     (=> CZ_204 (and MZ_204 AZ_204 (not SZ_204)))
+     (=> CZ_205 (and MZ_205 AZ_205 (not SZ_205)))
+     (=> CZ_206 (and MZ_206 AZ_206 (not SZ_206)))
+     (=> CZ_207 (and MZ_207 AZ_207 (not SZ_207)))
+     (=> CZ_208 (and MZ_208 AZ_208 (not SZ_208)))
+     (=> CZ_209 (and MZ_209 AZ_209 (not SZ_209)))
+     (=> CZ_210 (and MZ_210 AZ_210 (not SZ_210)))
+     (=> CZ_211 (and MZ_211 AZ_211 (not SZ_211)))
+     (=> CZ_212 (and MZ_212 AZ_212 (not SZ_212)))
+     (=> CZ_213 (and MZ_213 AZ_213 (not SZ_213)))
+     (=> CZ_214 (and MZ_214 AZ_214 (not SZ_214)))
+     (=> CZ_215 (and MZ_215 AZ_215 (not SZ_215)))
+     (=> CZ_216 (and MZ_216 AZ_216 (not SZ_216)))
+     (=> CZ_217 (and MZ_217 AZ_217 (not SZ_217)))))
+(assert (and (=> CZ_1 CB_1)
+     (=> CZ_2 CB_2)
+     (=> CZ_3 CB_3)
+     (=> CZ_4 CB_4)
+     (=> CZ_5 CB_4)
+     (=> CZ_6 CB_6)
+     (=> CZ_7 CB_6)
+     (=> CZ_8 CB_8)
+     (=> CZ_9 CB_9)
+     (=> CZ_10 CB_9)
+     (=> CZ_11 CB_9)
+     (=> CZ_12 CB_9)
+     (=> CZ_13 CB_13)
+     (=> CZ_14 CB_13)
+     (=> CZ_15 CB_1)
+     (=> CZ_16 CB_1)
+     (=> CZ_17 CB_1)
+     (=> CZ_18 CB_3)
+     (=> CZ_19 CB_4)
+     (=> CZ_20 CB_4)
+     (=> CZ_21 CB_5)
+     (=> CZ_22 CB_7)
+     (=> CZ_23 CB_10)
+     (=> CZ_24 CB_11)
+     (=> CZ_25 CB_12)
+     (=> CZ_26 CB_12)
+     (=> CZ_27 CB_12)
+     (=> CZ_28 CB_14)
+     (=> CZ_29 CB_18)
+     (=> CZ_30 CB_19)
+     (=> CZ_31 CB_21)
+     (=> CZ_32 CB_21)
+     (=> CZ_33 CB_22)
+     (=> CZ_34 CB_23)
+     (=> CZ_35 CB_24)
+     (=> CZ_36 CB_24)
+     (=> CZ_37 CB_24)
+     (=> CZ_38 CB_26)
+     (=> CZ_39 CB_27)
+     (=> CZ_40 CB_28)
+     (=> CZ_41 CB_7)
+     (=> CZ_42 CB_25)
+     (=> CZ_43 CB_30)
+     (=> CZ_44 CB_31)
+     (=> CZ_45 CB_32)
+     (=> CZ_46 CB_34)
+     (=> CZ_47 CB_34)
+     (=> CZ_48 CB_35)
+     (=> CZ_49 CB_36)
+     (=> CZ_50 CB_37)
+     (=> CZ_51 CB_37)
+     (=> CZ_52 CB_36)
+     (=> CZ_53 CB_22)
+     (=> CZ_54 CB_11)
+     (=> CZ_55 CB_41)
+     (=> CZ_56 CB_41)
+     (=> CZ_57 CB_38)
+     (=> CZ_58 CB_15)
+     (=> CZ_59 CB_14)
+     (=> CZ_60 CB_46)
+     (=> CZ_61 CB_47)
+     (=> CZ_62 CB_48)
+     (=> CZ_63 CB_49)
+     (=> CZ_64 CB_50)
+     (=> CZ_65 CB_10)
+     (=> CZ_66 CB_13)
+     (=> CZ_67 CB_29)
+     (=> CZ_68 CB_52)
+     (=> CZ_69 CB_53)
+     (=> CZ_70 CB_54)
+     (=> CZ_71 CB_11)
+     (=> CZ_72 CB_44)
+     (=> CZ_73 CB_40)
+     (=> CZ_74 CB_56)
+     (=> CZ_75 CB_56)
+     (=> CZ_76 CB_39)
+     (=> CZ_77 CB_57)
+     (=> CZ_78 CB_38)
+     (=> CZ_79 CB_38)
+     (=> CZ_80 CB_9)
+     (=> CZ_81 CB_2)
+     (=> CZ_82 CB_3)
+     (=> CZ_83 CB_4)
+     (=> CZ_84 CB_5)
+     (=> CZ_85 CB_6)
+     (=> CZ_86 CB_7)
+     (=> CZ_87 CB_8)
+     (=> CZ_88 CB_9)
+     (=> CZ_89 CB_10)
+     (=> CZ_90 CB_11)
+     (=> CZ_91 CB_12)
+     (=> CZ_92 CB_13)
+     (=> CZ_93 CB_14)
+     (=> CZ_94 CB_15)
+     (=> CZ_95 CB_15)
+     (=> CZ_96 CB_16)
+     (=> CZ_97 CB_17)
+     (=> CZ_98 CB_15)
+     (=> CZ_99 CB_18)
+     (=> CZ_100 CB_18)
+     (=> CZ_101 CB_6)
+     (=> CZ_102 CB_8)
+     (=> CZ_103 CB_12)
+     (=> CZ_104 CB_13)
+     (=> CZ_105 CB_13)
+     (=> CZ_106 CB_16)
+     (=> CZ_107 CB_17)
+     (=> CZ_108 CB_15)
+     (=> CZ_109 CB_19)
+     (=> CZ_110 CB_20)
+     (=> CZ_111 CB_20)
+     (=> CZ_112 CB_22)
+     (=> CZ_113 CB_23)
+     (=> CZ_114 CB_24)
+     (=> CZ_115 CB_25)
+     (=> CZ_116 CB_25)
+     (=> CZ_117 CB_26)
+     (=> CZ_118 CB_27)
+     (=> CZ_119 CB_28)
+     (=> CZ_120 CB_29)
+     (=> CZ_121 CB_29)
+     (=> CZ_122 CB_30)
+     (=> CZ_123 CB_31)
+     (=> CZ_124 CB_32)
+     (=> CZ_125 CB_33)
+     (=> CZ_126 CB_32)
+     (=> CZ_127 CB_35)
+     (=> CZ_128 CB_36)
+     (=> CZ_129 CB_37)
+     (=> CZ_130 CB_38)
+     (=> CZ_131 CB_39)
+     (=> CZ_132 CB_40)
+     (=> CZ_133 CB_38)
+     (=> CZ_134 CB_41)
+     (=> CZ_135 CB_42)
+     (=> CZ_136 CB_43)
+     (=> CZ_137 CB_44)
+     (=> CZ_138 CB_45)
+     (=> CZ_139 CB_46)
+     (=> CZ_140 CB_47)
+     (=> CZ_141 CB_48)
+     (=> CZ_142 CB_49)
+     (=> CZ_143 CB_50)
+     (=> CZ_144 CB_51)
+     (=> CZ_145 CB_51)
+     (=> CZ_146 CB_49)
+     (=> CZ_147 CB_52)
+     (=> CZ_148 CB_53)
+     (=> CZ_149 CB_54)
+     (=> CZ_150 CB_55)
+     (=> CZ_151 CB_43)
+     (=> CZ_152 CB_45)
+     (=> CZ_153 CB_56)
+     (=> CZ_154 CB_41)
+     (=> CZ_155 CB_42)
+     (=> CZ_156 CB_57)
+     (=> CZ_157 CB_56)
+     (=> CZ_158 CB_49)
+     (=> CZ_159 CB_48)
+     (=> CZ_160 CB_55)
+     (=> CZ_161 CB_1)
+     (=> CZ_162 CB_2)
+     (=> CZ_163 CB_3)
+     (=> CZ_164 CB_4)
+     (=> CZ_165 CB_5)
+     (=> CZ_166 CB_6)
+     (=> CZ_167 CB_7)
+     (=> CZ_168 CB_8)
+     (=> CZ_169 CB_9)
+     (=> CZ_170 CB_10)
+     (=> CZ_171 CB_11)
+     (=> CZ_172 CB_12)
+     (=> CZ_173 CB_13)
+     (=> CZ_174 CB_14)
+     (=> CZ_175 CB_15)
+     (=> CZ_176 CB_16)
+     (=> CZ_177 CB_17)
+     (=> CZ_178 CB_18)
+     (=> CZ_179 CB_19)
+     (=> CZ_180 CB_20)
+     (=> CZ_181 CB_21)
+     (=> CZ_182 CB_22)
+     (=> CZ_183 CB_23)
+     (=> CZ_184 CB_24)
+     (=> CZ_185 CB_25)
+     (=> CZ_186 CB_26)
+     (=> CZ_187 CB_27)
+     (=> CZ_188 CB_28)
+     (=> CZ_189 CB_29)
+     (=> CZ_190 CB_30)
+     (=> CZ_191 CB_31)
+     (=> CZ_192 CB_32)
+     (=> CZ_193 CB_33)
+     (=> CZ_194 CB_34)
+     (=> CZ_195 CB_35)
+     (=> CZ_196 CB_36)
+     (=> CZ_197 CB_37)
+     (=> CZ_198 CB_38)
+     (=> CZ_199 CB_39)
+     (=> CZ_200 CB_40)
+     (=> CZ_201 CB_41)
+     (=> CZ_202 CB_42)
+     (=> CZ_203 CB_43)
+     (=> CZ_204 CB_44)
+     (=> CZ_205 CB_45)
+     (=> CZ_206 CB_46)
+     (=> CZ_207 CB_47)
+     (=> CZ_208 CB_48)
+     (=> CZ_209 CB_49)
+     (=> CZ_210 CB_50)
+     (=> CZ_211 CB_51)
+     (=> CZ_212 CB_52)
+     (=> CZ_213 CB_53)
+     (=> CZ_214 CB_54)
+     (=> CZ_215 CB_55)
+     (=> CZ_216 CB_56)
+     (=> CZ_217 CB_57)))
+(assert (and (=> CB_1 (or CZ_1 CZ_15 CZ_16 CZ_17 CZ_161))
+     (=> CB_2 (or CZ_81 CZ_2 CZ_162))
+     (=> CB_3 (or CZ_82 CZ_3 CZ_18 CZ_163))
+     (=> CB_4 (or CZ_83 CZ_4 CZ_5 CZ_20 CZ_20 CZ_164))
+     (=> CB_5 (or CZ_84 CZ_21 CZ_165))
+     (=> CB_6 (or CZ_85 CZ_6 CZ_7 CZ_101 CZ_166))
+     (=> CB_7 (or CZ_86 CZ_22 CZ_41 CZ_167))
+     (=> CB_8 (or CZ_87 CZ_8 CZ_102 CZ_168))
+     (=> CB_9 (or CZ_88 CZ_9 CZ_10 CZ_11 CZ_12 CZ_80 CZ_169))
+     (=> CB_10 (or CZ_89 CZ_23 CZ_65 CZ_170))
+     (=> CB_11 (or CZ_90 CZ_24 CZ_54 CZ_71 CZ_171))
+     (=> CB_12 (or CZ_91 CZ_103 CZ_25 CZ_26 CZ_27 CZ_172))
+     (=> CB_13 (or CZ_92 CZ_13 CZ_14 CZ_104 CZ_105 CZ_66 CZ_173))
+     (=> CB_14 (or CZ_93 CZ_28 CZ_59 CZ_174))
+     (=> CB_15 (or CZ_94 CZ_95 CZ_98 CZ_108 CZ_58 CZ_175))
+     (=> CB_16 (or CZ_96 CZ_106 CZ_176))
+     (=> CB_17 (or CZ_97 CZ_107 CZ_177))
+     (=> CB_18 (or CZ_100 CZ_100 CZ_29 CZ_178))
+     (=> CB_19 (or CZ_109 CZ_30 CZ_179))
+     (=> CB_20 (or CZ_110 CZ_111 CZ_180))
+     (=> CB_21 (or CZ_31 CZ_32 CZ_181))
+     (=> CB_22 (or CZ_112 CZ_33 CZ_53 CZ_182))
+     (=> CB_23 (or CZ_113 CZ_34 CZ_183))
+     (=> CB_24 (or CZ_114 CZ_36 CZ_36 CZ_37 CZ_184))
+     (=> CB_25 (or CZ_116 CZ_116 CZ_42 CZ_185))
+     (=> CB_26 (or CZ_117 CZ_38 CZ_186))
+     (=> CB_27 (or CZ_118 CZ_39 CZ_187))
+     (=> CB_28 (or CZ_119 CZ_40 CZ_188))
+     (=> CB_29 (or CZ_120 CZ_121 CZ_67 CZ_189))
+     (=> CB_30 (or CZ_122 CZ_43 CZ_190))
+     (=> CB_31 (or CZ_123 CZ_44 CZ_191))
+     (=> CB_32 (or CZ_124 CZ_45 CZ_126 CZ_192))
+     (=> CB_33 (or CZ_125 CZ_193))
+     (=> CB_34 (or CZ_46 CZ_47 CZ_194))
+     (=> CB_35 (or CZ_127 CZ_48 CZ_195))
+     (=> CB_36 (or CZ_128 CZ_49 CZ_52 CZ_196))
+     (=> CB_37 (or CZ_129 CZ_50 CZ_51 CZ_197))
+     (=> CB_38 (or CZ_130 CZ_133 CZ_57 CZ_78 CZ_79 CZ_198))
+     (=> CB_39 (or CZ_131 CZ_76 CZ_199))
+     (=> CB_40 (or CZ_132 CZ_73 CZ_200))
+     (=> CB_41 (or CZ_134 CZ_55 CZ_56 CZ_154 CZ_201))
+     (=> CB_42 (or CZ_135 CZ_155 CZ_202))
+     (=> CB_43 (or CZ_136 CZ_151 CZ_203))
+     (=> CB_44 (or CZ_137 CZ_72 CZ_204))
+     (=> CB_45 (or CZ_138 CZ_152 CZ_205))
+     (=> CB_46 (or CZ_139 CZ_60 CZ_206))
+     (=> CB_47 (or CZ_140 CZ_61 CZ_207))
+     (=> CB_48 (or CZ_141 CZ_62 CZ_159 CZ_208))
+     (=> CB_49 (or CZ_142 CZ_63 CZ_146 CZ_158 CZ_209))
+     (=> CB_50 (or CZ_143 CZ_64 CZ_210))
+     (=> CB_51 (or CZ_144 CZ_145 CZ_211))
+     (=> CB_52 (or CZ_147 CZ_68 CZ_212))
+     (=> CB_53 (or CZ_148 CZ_69 CZ_213))
+     (=> CB_54 (or CZ_149 CZ_70 CZ_214))
+     (=> CB_55 (or CZ_150 CZ_160 CZ_215))
+     (=> CB_56 (or CZ_153 CZ_74 CZ_75 CZ_157 CZ_216))
+     (=> CB_57 (or CZ_156 CZ_77 CZ_217))))
+(assert (and (=> CZ_1 (= CZ2_1 1))
+     (=> (not CZ_1) (= CZ2_1 0))
+     (=> CZ_2 (= CZ2_2 1))
+     (=> (not CZ_2) (= CZ2_2 0))
+     (=> CZ_3 (= CZ2_3 1))
+     (=> (not CZ_3) (= CZ2_3 0))
+     (=> CZ_4 (= CZ2_4 1))
+     (=> (not CZ_4) (= CZ2_4 0))
+     (=> CZ_5 (= CZ2_5 1))
+     (=> (not CZ_5) (= CZ2_5 0))
+     (=> CZ_6 (= CZ2_6 1))
+     (=> (not CZ_6) (= CZ2_6 0))
+     (=> CZ_7 (= CZ2_7 1))
+     (=> (not CZ_7) (= CZ2_7 0))
+     (=> CZ_8 (= CZ2_8 1))
+     (=> (not CZ_8) (= CZ2_8 0))
+     (=> CZ_9 (= CZ2_9 1))
+     (=> (not CZ_9) (= CZ2_9 0))
+     (=> CZ_10 (= CZ2_10 1))
+     (=> (not CZ_10) (= CZ2_10 0))
+     (=> CZ_11 (= CZ2_11 1))
+     (=> (not CZ_11) (= CZ2_11 0))
+     (=> CZ_12 (= CZ2_12 1))
+     (=> (not CZ_12) (= CZ2_12 0))
+     (=> CZ_13 (= CZ2_13 1))
+     (=> (not CZ_13) (= CZ2_13 0))
+     (=> CZ_14 (= CZ2_14 1))
+     (=> (not CZ_14) (= CZ2_14 0))
+     (=> CZ_15 (= CZ2_15 1))
+     (=> (not CZ_15) (= CZ2_15 0))
+     (=> CZ_16 (= CZ2_16 1))
+     (=> (not CZ_16) (= CZ2_16 0))
+     (=> CZ_17 (= CZ2_17 1))
+     (=> (not CZ_17) (= CZ2_17 0))
+     (=> CZ_18 (= CZ2_18 1))
+     (=> (not CZ_18) (= CZ2_18 0))
+     (=> CZ_19 (= CZ2_19 1))
+     (=> (not CZ_19) (= CZ2_19 0))
+     (=> CZ_20 (= CZ2_20 1))
+     (=> (not CZ_20) (= CZ2_20 0))
+     (=> CZ_21 (= CZ2_21 1))
+     (=> (not CZ_21) (= CZ2_21 0))
+     (=> CZ_22 (= CZ2_22 1))
+     (=> (not CZ_22) (= CZ2_22 0))
+     (=> CZ_23 (= CZ2_23 1))
+     (=> (not CZ_23) (= CZ2_23 0))
+     (=> CZ_24 (= CZ2_24 1))
+     (=> (not CZ_24) (= CZ2_24 0))
+     (=> CZ_25 (= CZ2_25 1))
+     (=> (not CZ_25) (= CZ2_25 0))
+     (=> CZ_26 (= CZ2_26 1))
+     (=> (not CZ_26) (= CZ2_26 0))
+     (=> CZ_27 (= CZ2_27 1))
+     (=> (not CZ_27) (= CZ2_27 0))
+     (=> CZ_28 (= CZ2_28 1))
+     (=> (not CZ_28) (= CZ2_28 0))
+     (=> CZ_29 (= CZ2_29 1))
+     (=> (not CZ_29) (= CZ2_29 0))
+     (=> CZ_30 (= CZ2_30 1))
+     (=> (not CZ_30) (= CZ2_30 0))
+     (=> CZ_31 (= CZ2_31 1))
+     (=> (not CZ_31) (= CZ2_31 0))
+     (=> CZ_32 (= CZ2_32 1))
+     (=> (not CZ_32) (= CZ2_32 0))
+     (=> CZ_33 (= CZ2_33 1))
+     (=> (not CZ_33) (= CZ2_33 0))
+     (=> CZ_34 (= CZ2_34 1))
+     (=> (not CZ_34) (= CZ2_34 0))
+     (=> CZ_35 (= CZ2_35 1))
+     (=> (not CZ_35) (= CZ2_35 0))
+     (=> CZ_36 (= CZ2_36 1))
+     (=> (not CZ_36) (= CZ2_36 0))
+     (=> CZ_37 (= CZ2_37 1))
+     (=> (not CZ_37) (= CZ2_37 0))
+     (=> CZ_38 (= CZ2_38 1))
+     (=> (not CZ_38) (= CZ2_38 0))
+     (=> CZ_39 (= CZ2_39 1))
+     (=> (not CZ_39) (= CZ2_39 0))
+     (=> CZ_40 (= CZ2_40 1))
+     (=> (not CZ_40) (= CZ2_40 0))
+     (=> CZ_41 (= CZ2_41 1))
+     (=> (not CZ_41) (= CZ2_41 0))
+     (=> CZ_42 (= CZ2_42 1))
+     (=> (not CZ_42) (= CZ2_42 0))
+     (=> CZ_43 (= CZ2_43 1))
+     (=> (not CZ_43) (= CZ2_43 0))
+     (=> CZ_44 (= CZ2_44 1))
+     (=> (not CZ_44) (= CZ2_44 0))
+     (=> CZ_45 (= CZ2_45 1))
+     (=> (not CZ_45) (= CZ2_45 0))
+     (=> CZ_46 (= CZ2_46 1))
+     (=> (not CZ_46) (= CZ2_46 0))
+     (=> CZ_47 (= CZ2_47 1))
+     (=> (not CZ_47) (= CZ2_47 0))
+     (=> CZ_48 (= CZ2_48 1))
+     (=> (not CZ_48) (= CZ2_48 0))
+     (=> CZ_49 (= CZ2_49 1))
+     (=> (not CZ_49) (= CZ2_49 0))
+     (=> CZ_50 (= CZ2_50 1))
+     (=> (not CZ_50) (= CZ2_50 0))
+     (=> CZ_51 (= CZ2_51 1))
+     (=> (not CZ_51) (= CZ2_51 0))
+     (=> CZ_52 (= CZ2_52 1))
+     (=> (not CZ_52) (= CZ2_52 0))
+     (=> CZ_53 (= CZ2_53 1))
+     (=> (not CZ_53) (= CZ2_53 0))
+     (=> CZ_54 (= CZ2_54 1))
+     (=> (not CZ_54) (= CZ2_54 0))
+     (=> CZ_55 (= CZ2_55 1))
+     (=> (not CZ_55) (= CZ2_55 0))
+     (=> CZ_56 (= CZ2_56 1))
+     (=> (not CZ_56) (= CZ2_56 0))
+     (=> CZ_57 (= CZ2_57 1))
+     (=> (not CZ_57) (= CZ2_57 0))
+     (=> CZ_58 (= CZ2_58 1))
+     (=> (not CZ_58) (= CZ2_58 0))
+     (=> CZ_59 (= CZ2_59 1))
+     (=> (not CZ_59) (= CZ2_59 0))
+     (=> CZ_60 (= CZ2_60 1))
+     (=> (not CZ_60) (= CZ2_60 0))
+     (=> CZ_61 (= CZ2_61 1))
+     (=> (not CZ_61) (= CZ2_61 0))
+     (=> CZ_62 (= CZ2_62 1))
+     (=> (not CZ_62) (= CZ2_62 0))
+     (=> CZ_63 (= CZ2_63 1))
+     (=> (not CZ_63) (= CZ2_63 0))
+     (=> CZ_64 (= CZ2_64 1))
+     (=> (not CZ_64) (= CZ2_64 0))
+     (=> CZ_65 (= CZ2_65 1))
+     (=> (not CZ_65) (= CZ2_65 0))
+     (=> CZ_66 (= CZ2_66 1))
+     (=> (not CZ_66) (= CZ2_66 0))
+     (=> CZ_67 (= CZ2_67 1))
+     (=> (not CZ_67) (= CZ2_67 0))
+     (=> CZ_68 (= CZ2_68 1))
+     (=> (not CZ_68) (= CZ2_68 0))
+     (=> CZ_69 (= CZ2_69 1))
+     (=> (not CZ_69) (= CZ2_69 0))
+     (=> CZ_70 (= CZ2_70 1))
+     (=> (not CZ_70) (= CZ2_70 0))
+     (=> CZ_71 (= CZ2_71 1))
+     (=> (not CZ_71) (= CZ2_71 0))
+     (=> CZ_72 (= CZ2_72 1))
+     (=> (not CZ_72) (= CZ2_72 0))
+     (=> CZ_73 (= CZ2_73 1))
+     (=> (not CZ_73) (= CZ2_73 0))
+     (=> CZ_74 (= CZ2_74 1))
+     (=> (not CZ_74) (= CZ2_74 0))
+     (=> CZ_75 (= CZ2_75 1))
+     (=> (not CZ_75) (= CZ2_75 0))
+     (=> CZ_76 (= CZ2_76 1))
+     (=> (not CZ_76) (= CZ2_76 0))
+     (=> CZ_77 (= CZ2_77 1))
+     (=> (not CZ_77) (= CZ2_77 0))
+     (=> CZ_78 (= CZ2_78 1))
+     (=> (not CZ_78) (= CZ2_78 0))
+     (=> CZ_79 (= CZ2_79 1))
+     (=> (not CZ_79) (= CZ2_79 0))
+     (=> CZ_80 (= CZ2_80 1))
+     (=> (not CZ_80) (= CZ2_80 0))
+     (=> CZ_81 (= CZ2_81 1))
+     (=> (not CZ_81) (= CZ2_81 0))
+     (=> CZ_82 (= CZ2_82 1))
+     (=> (not CZ_82) (= CZ2_82 0))
+     (=> CZ_83 (= CZ2_83 1))
+     (=> (not CZ_83) (= CZ2_83 0))
+     (=> CZ_84 (= CZ2_84 1))
+     (=> (not CZ_84) (= CZ2_84 0))
+     (=> CZ_85 (= CZ2_85 1))
+     (=> (not CZ_85) (= CZ2_85 0))
+     (=> CZ_86 (= CZ2_86 1))
+     (=> (not CZ_86) (= CZ2_86 0))
+     (=> CZ_87 (= CZ2_87 1))
+     (=> (not CZ_87) (= CZ2_87 0))
+     (=> CZ_88 (= CZ2_88 1))
+     (=> (not CZ_88) (= CZ2_88 0))
+     (=> CZ_89 (= CZ2_89 1))
+     (=> (not CZ_89) (= CZ2_89 0))
+     (=> CZ_90 (= CZ2_90 1))
+     (=> (not CZ_90) (= CZ2_90 0))
+     (=> CZ_91 (= CZ2_91 1))
+     (=> (not CZ_91) (= CZ2_91 0))
+     (=> CZ_92 (= CZ2_92 1))
+     (=> (not CZ_92) (= CZ2_92 0))
+     (=> CZ_93 (= CZ2_93 1))
+     (=> (not CZ_93) (= CZ2_93 0))
+     (=> CZ_94 (= CZ2_94 1))
+     (=> (not CZ_94) (= CZ2_94 0))
+     (=> CZ_95 (= CZ2_95 1))
+     (=> (not CZ_95) (= CZ2_95 0))
+     (=> CZ_96 (= CZ2_96 1))
+     (=> (not CZ_96) (= CZ2_96 0))
+     (=> CZ_97 (= CZ2_97 1))
+     (=> (not CZ_97) (= CZ2_97 0))
+     (=> CZ_98 (= CZ2_98 1))
+     (=> (not CZ_98) (= CZ2_98 0))
+     (=> CZ_99 (= CZ2_99 1))
+     (=> (not CZ_99) (= CZ2_99 0))
+     (=> CZ_100 (= CZ2_100 1))
+     (=> (not CZ_100) (= CZ2_100 0))
+     (=> CZ_101 (= CZ2_101 1))
+     (=> (not CZ_101) (= CZ2_101 0))
+     (=> CZ_102 (= CZ2_102 1))
+     (=> (not CZ_102) (= CZ2_102 0))
+     (=> CZ_103 (= CZ2_103 1))
+     (=> (not CZ_103) (= CZ2_103 0))
+     (=> CZ_104 (= CZ2_104 1))
+     (=> (not CZ_104) (= CZ2_104 0))
+     (=> CZ_105 (= CZ2_105 1))
+     (=> (not CZ_105) (= CZ2_105 0))
+     (=> CZ_106 (= CZ2_106 1))
+     (=> (not CZ_106) (= CZ2_106 0))
+     (=> CZ_107 (= CZ2_107 1))
+     (=> (not CZ_107) (= CZ2_107 0))
+     (=> CZ_108 (= CZ2_108 1))
+     (=> (not CZ_108) (= CZ2_108 0))
+     (=> CZ_109 (= CZ2_109 1))
+     (=> (not CZ_109) (= CZ2_109 0))
+     (=> CZ_110 (= CZ2_110 1))
+     (=> (not CZ_110) (= CZ2_110 0))
+     (=> CZ_111 (= CZ2_111 1))
+     (=> (not CZ_111) (= CZ2_111 0))
+     (=> CZ_112 (= CZ2_112 1))
+     (=> (not CZ_112) (= CZ2_112 0))
+     (=> CZ_113 (= CZ2_113 1))
+     (=> (not CZ_113) (= CZ2_113 0))
+     (=> CZ_114 (= CZ2_114 1))
+     (=> (not CZ_114) (= CZ2_114 0))
+     (=> CZ_115 (= CZ2_115 1))
+     (=> (not CZ_115) (= CZ2_115 0))
+     (=> CZ_116 (= CZ2_116 1))
+     (=> (not CZ_116) (= CZ2_116 0))
+     (=> CZ_117 (= CZ2_117 1))
+     (=> (not CZ_117) (= CZ2_117 0))
+     (=> CZ_118 (= CZ2_118 1))
+     (=> (not CZ_118) (= CZ2_118 0))
+     (=> CZ_119 (= CZ2_119 1))
+     (=> (not CZ_119) (= CZ2_119 0))
+     (=> CZ_120 (= CZ2_120 1))
+     (=> (not CZ_120) (= CZ2_120 0))
+     (=> CZ_121 (= CZ2_121 1))
+     (=> (not CZ_121) (= CZ2_121 0))
+     (=> CZ_122 (= CZ2_122 1))
+     (=> (not CZ_122) (= CZ2_122 0))
+     (=> CZ_123 (= CZ2_123 1))
+     (=> (not CZ_123) (= CZ2_123 0))
+     (=> CZ_124 (= CZ2_124 1))
+     (=> (not CZ_124) (= CZ2_124 0))
+     (=> CZ_125 (= CZ2_125 1))
+     (=> (not CZ_125) (= CZ2_125 0))
+     (=> CZ_126 (= CZ2_126 1))
+     (=> (not CZ_126) (= CZ2_126 0))
+     (=> CZ_127 (= CZ2_127 1))
+     (=> (not CZ_127) (= CZ2_127 0))
+     (=> CZ_128 (= CZ2_128 1))
+     (=> (not CZ_128) (= CZ2_128 0))
+     (=> CZ_129 (= CZ2_129 1))
+     (=> (not CZ_129) (= CZ2_129 0))
+     (=> CZ_130 (= CZ2_130 1))
+     (=> (not CZ_130) (= CZ2_130 0))
+     (=> CZ_131 (= CZ2_131 1))
+     (=> (not CZ_131) (= CZ2_131 0))
+     (=> CZ_132 (= CZ2_132 1))
+     (=> (not CZ_132) (= CZ2_132 0))
+     (=> CZ_133 (= CZ2_133 1))
+     (=> (not CZ_133) (= CZ2_133 0))
+     (=> CZ_134 (= CZ2_134 1))
+     (=> (not CZ_134) (= CZ2_134 0))
+     (=> CZ_135 (= CZ2_135 1))
+     (=> (not CZ_135) (= CZ2_135 0))
+     (=> CZ_136 (= CZ2_136 1))
+     (=> (not CZ_136) (= CZ2_136 0))
+     (=> CZ_137 (= CZ2_137 1))
+     (=> (not CZ_137) (= CZ2_137 0))
+     (=> CZ_138 (= CZ2_138 1))
+     (=> (not CZ_138) (= CZ2_138 0))
+     (=> CZ_139 (= CZ2_139 1))
+     (=> (not CZ_139) (= CZ2_139 0))
+     (=> CZ_140 (= CZ2_140 1))
+     (=> (not CZ_140) (= CZ2_140 0))
+     (=> CZ_141 (= CZ2_141 1))
+     (=> (not CZ_141) (= CZ2_141 0))
+     (=> CZ_142 (= CZ2_142 1))
+     (=> (not CZ_142) (= CZ2_142 0))
+     (=> CZ_143 (= CZ2_143 1))
+     (=> (not CZ_143) (= CZ2_143 0))
+     (=> CZ_144 (= CZ2_144 1))
+     (=> (not CZ_144) (= CZ2_144 0))
+     (=> CZ_145 (= CZ2_145 1))
+     (=> (not CZ_145) (= CZ2_145 0))
+     (=> CZ_146 (= CZ2_146 1))
+     (=> (not CZ_146) (= CZ2_146 0))
+     (=> CZ_147 (= CZ2_147 1))
+     (=> (not CZ_147) (= CZ2_147 0))
+     (=> CZ_148 (= CZ2_148 1))
+     (=> (not CZ_148) (= CZ2_148 0))
+     (=> CZ_149 (= CZ2_149 1))
+     (=> (not CZ_149) (= CZ2_149 0))
+     (=> CZ_150 (= CZ2_150 1))
+     (=> (not CZ_150) (= CZ2_150 0))
+     (=> CZ_151 (= CZ2_151 1))
+     (=> (not CZ_151) (= CZ2_151 0))
+     (=> CZ_152 (= CZ2_152 1))
+     (=> (not CZ_152) (= CZ2_152 0))
+     (=> CZ_153 (= CZ2_153 1))
+     (=> (not CZ_153) (= CZ2_153 0))
+     (=> CZ_154 (= CZ2_154 1))
+     (=> (not CZ_154) (= CZ2_154 0))
+     (=> CZ_155 (= CZ2_155 1))
+     (=> (not CZ_155) (= CZ2_155 0))
+     (=> CZ_156 (= CZ2_156 1))
+     (=> (not CZ_156) (= CZ2_156 0))
+     (=> CZ_157 (= CZ2_157 1))
+     (=> (not CZ_157) (= CZ2_157 0))
+     (=> CZ_158 (= CZ2_158 1))
+     (=> (not CZ_158) (= CZ2_158 0))
+     (=> CZ_159 (= CZ2_159 1))
+     (=> (not CZ_159) (= CZ2_159 0))
+     (=> CZ_160 (= CZ2_160 1))
+     (=> (not CZ_160) (= CZ2_160 0))
+     (=> CZ_161 (= CZ2_161 1))
+     (=> (not CZ_161) (= CZ2_161 0))
+     (=> CZ_162 (= CZ2_162 1))
+     (=> (not CZ_162) (= CZ2_162 0))
+     (=> CZ_163 (= CZ2_163 1))
+     (=> (not CZ_163) (= CZ2_163 0))
+     (=> CZ_164 (= CZ2_164 1))
+     (=> (not CZ_164) (= CZ2_164 0))
+     (=> CZ_165 (= CZ2_165 1))
+     (=> (not CZ_165) (= CZ2_165 0))
+     (=> CZ_166 (= CZ2_166 1))
+     (=> (not CZ_166) (= CZ2_166 0))
+     (=> CZ_167 (= CZ2_167 1))
+     (=> (not CZ_167) (= CZ2_167 0))
+     (=> CZ_168 (= CZ2_168 1))
+     (=> (not CZ_168) (= CZ2_168 0))
+     (=> CZ_169 (= CZ2_169 1))
+     (=> (not CZ_169) (= CZ2_169 0))
+     (=> CZ_170 (= CZ2_170 1))
+     (=> (not CZ_170) (= CZ2_170 0))
+     (=> CZ_171 (= CZ2_171 1))
+     (=> (not CZ_171) (= CZ2_171 0))
+     (=> CZ_172 (= CZ2_172 1))
+     (=> (not CZ_172) (= CZ2_172 0))
+     (=> CZ_173 (= CZ2_173 1))
+     (=> (not CZ_173) (= CZ2_173 0))
+     (=> CZ_174 (= CZ2_174 1))
+     (=> (not CZ_174) (= CZ2_174 0))
+     (=> CZ_175 (= CZ2_175 1))
+     (=> (not CZ_175) (= CZ2_175 0))
+     (=> CZ_176 (= CZ2_176 1))
+     (=> (not CZ_176) (= CZ2_176 0))
+     (=> CZ_177 (= CZ2_177 1))
+     (=> (not CZ_177) (= CZ2_177 0))
+     (=> CZ_178 (= CZ2_178 1))
+     (=> (not CZ_178) (= CZ2_178 0))
+     (=> CZ_179 (= CZ2_179 1))
+     (=> (not CZ_179) (= CZ2_179 0))
+     (=> CZ_180 (= CZ2_180 1))
+     (=> (not CZ_180) (= CZ2_180 0))
+     (=> CZ_181 (= CZ2_181 1))
+     (=> (not CZ_181) (= CZ2_181 0))
+     (=> CZ_182 (= CZ2_182 1))
+     (=> (not CZ_182) (= CZ2_182 0))
+     (=> CZ_183 (= CZ2_183 1))
+     (=> (not CZ_183) (= CZ2_183 0))
+     (=> CZ_184 (= CZ2_184 1))
+     (=> (not CZ_184) (= CZ2_184 0))
+     (=> CZ_185 (= CZ2_185 1))
+     (=> (not CZ_185) (= CZ2_185 0))
+     (=> CZ_186 (= CZ2_186 1))
+     (=> (not CZ_186) (= CZ2_186 0))
+     (=> CZ_187 (= CZ2_187 1))
+     (=> (not CZ_187) (= CZ2_187 0))
+     (=> CZ_188 (= CZ2_188 1))
+     (=> (not CZ_188) (= CZ2_188 0))
+     (=> CZ_189 (= CZ2_189 1))
+     (=> (not CZ_189) (= CZ2_189 0))
+     (=> CZ_190 (= CZ2_190 1))
+     (=> (not CZ_190) (= CZ2_190 0))
+     (=> CZ_191 (= CZ2_191 1))
+     (=> (not CZ_191) (= CZ2_191 0))
+     (=> CZ_192 (= CZ2_192 1))
+     (=> (not CZ_192) (= CZ2_192 0))
+     (=> CZ_193 (= CZ2_193 1))
+     (=> (not CZ_193) (= CZ2_193 0))
+     (=> CZ_194 (= CZ2_194 1))
+     (=> (not CZ_194) (= CZ2_194 0))
+     (=> CZ_195 (= CZ2_195 1))
+     (=> (not CZ_195) (= CZ2_195 0))
+     (=> CZ_196 (= CZ2_196 1))
+     (=> (not CZ_196) (= CZ2_196 0))
+     (=> CZ_197 (= CZ2_197 1))
+     (=> (not CZ_197) (= CZ2_197 0))
+     (=> CZ_198 (= CZ2_198 1))
+     (=> (not CZ_198) (= CZ2_198 0))
+     (=> CZ_199 (= CZ2_199 1))
+     (=> (not CZ_199) (= CZ2_199 0))
+     (=> CZ_200 (= CZ2_200 1))
+     (=> (not CZ_200) (= CZ2_200 0))
+     (=> CZ_201 (= CZ2_201 1))
+     (=> (not CZ_201) (= CZ2_201 0))
+     (=> CZ_202 (= CZ2_202 1))
+     (=> (not CZ_202) (= CZ2_202 0))
+     (=> CZ_203 (= CZ2_203 1))
+     (=> (not CZ_203) (= CZ2_203 0))
+     (=> CZ_204 (= CZ2_204 1))
+     (=> (not CZ_204) (= CZ2_204 0))
+     (=> CZ_205 (= CZ2_205 1))
+     (=> (not CZ_205) (= CZ2_205 0))
+     (=> CZ_206 (= CZ2_206 1))
+     (=> (not CZ_206) (= CZ2_206 0))
+     (=> CZ_207 (= CZ2_207 1))
+     (=> (not CZ_207) (= CZ2_207 0))
+     (=> CZ_208 (= CZ2_208 1))
+     (=> (not CZ_208) (= CZ2_208 0))
+     (=> CZ_209 (= CZ2_209 1))
+     (=> (not CZ_209) (= CZ2_209 0))
+     (=> CZ_210 (= CZ2_210 1))
+     (=> (not CZ_210) (= CZ2_210 0))
+     (=> CZ_211 (= CZ2_211 1))
+     (=> (not CZ_211) (= CZ2_211 0))
+     (=> CZ_212 (= CZ2_212 1))
+     (=> (not CZ_212) (= CZ2_212 0))
+     (=> CZ_213 (= CZ2_213 1))
+     (=> (not CZ_213) (= CZ2_213 0))
+     (=> CZ_214 (= CZ2_214 1))
+     (=> (not CZ_214) (= CZ2_214 0))
+     (=> CZ_215 (= CZ2_215 1))
+     (=> (not CZ_215) (= CZ2_215 0))
+     (=> CZ_216 (= CZ2_216 1))
+     (=> (not CZ_216) (= CZ2_216 0))
+     (=> CZ_217 (= CZ2_217 1))
+     (=> (not CZ_217) (= CZ2_217 0))))
+(assert (<= (+ CZ2_1
+       CZ2_2
+       CZ2_3
+       CZ2_4
+       CZ2_5
+       CZ2_6
+       CZ2_7
+       CZ2_8
+       CZ2_9
+       CZ2_10
+       CZ2_11
+       CZ2_12
+       CZ2_13
+       CZ2_14
+       CZ2_15
+       CZ2_16
+       CZ2_17
+       CZ2_18
+       CZ2_19
+       CZ2_20
+       CZ2_21
+       CZ2_22
+       CZ2_23
+       CZ2_24
+       CZ2_25
+       CZ2_26
+       CZ2_27
+       CZ2_28
+       CZ2_29
+       CZ2_30
+       CZ2_31
+       CZ2_32
+       CZ2_33
+       CZ2_34
+       CZ2_35
+       CZ2_36
+       CZ2_37
+       CZ2_38
+       CZ2_39
+       CZ2_40
+       CZ2_41
+       CZ2_42
+       CZ2_43
+       CZ2_44
+       CZ2_45
+       CZ2_46
+       CZ2_47
+       CZ2_48
+       CZ2_49
+       CZ2_50
+       CZ2_51
+       CZ2_52
+       CZ2_53
+       CZ2_54
+       CZ2_55
+       CZ2_56
+       CZ2_57
+       CZ2_58
+       CZ2_59
+       CZ2_60
+       CZ2_61
+       CZ2_62
+       CZ2_63
+       CZ2_64
+       CZ2_65
+       CZ2_66
+       CZ2_67
+       CZ2_68
+       CZ2_69
+       CZ2_70
+       CZ2_71
+       CZ2_72
+       CZ2_73
+       CZ2_74
+       CZ2_75
+       CZ2_76
+       CZ2_77
+       CZ2_78
+       CZ2_79
+       CZ2_80
+       CZ2_81
+       CZ2_82
+       CZ2_83
+       CZ2_84
+       CZ2_85
+       CZ2_86
+       CZ2_87
+       CZ2_88
+       CZ2_89
+       CZ2_90
+       CZ2_91
+       CZ2_92
+       CZ2_93
+       CZ2_94
+       CZ2_95
+       CZ2_96
+       CZ2_97
+       CZ2_98
+       CZ2_99
+       CZ2_100
+       CZ2_101
+       CZ2_102
+       CZ2_103
+       CZ2_104
+       CZ2_105
+       CZ2_106
+       CZ2_107
+       CZ2_108
+       CZ2_109
+       CZ2_110
+       CZ2_111
+       CZ2_112
+       CZ2_113
+       CZ2_114
+       CZ2_115
+       CZ2_116
+       CZ2_117
+       CZ2_118
+       CZ2_119
+       CZ2_120
+       CZ2_121
+       CZ2_122
+       CZ2_123
+       CZ2_124
+       CZ2_125
+       CZ2_126
+       CZ2_127
+       CZ2_128
+       CZ2_129
+       CZ2_130
+       CZ2_131
+       CZ2_132
+       CZ2_133
+       CZ2_134
+       CZ2_135
+       CZ2_136
+       CZ2_137
+       CZ2_138
+       CZ2_139
+       CZ2_140
+       CZ2_141
+       CZ2_142
+       CZ2_143
+       CZ2_144
+       CZ2_145
+       CZ2_146
+       CZ2_147
+       CZ2_148
+       CZ2_149
+       CZ2_150
+       CZ2_151
+       CZ2_152
+       CZ2_153
+       CZ2_154
+       CZ2_155
+       CZ2_156
+       CZ2_157
+       CZ2_158
+       CZ2_159
+       CZ2_160
+       CZ2_161
+       CZ2_162
+       CZ2_163
+       CZ2_164
+       CZ2_165
+       CZ2_166
+       CZ2_167
+       CZ2_168
+       CZ2_169
+       CZ2_170
+       CZ2_171
+       CZ2_172
+       CZ2_173
+       CZ2_174
+       CZ2_175
+       CZ2_176
+       CZ2_177
+       CZ2_178
+       CZ2_179
+       CZ2_180
+       CZ2_181
+       CZ2_182
+       CZ2_183
+       CZ2_184
+       CZ2_185
+       CZ2_186
+       CZ2_187
+       CZ2_188
+       CZ2_189
+       CZ2_190
+       CZ2_191
+       CZ2_192
+       CZ2_193
+       CZ2_194
+       CZ2_195
+       CZ2_196
+       CZ2_197
+       CZ2_198
+       CZ2_199
+       CZ2_200
+       CZ2_201
+       CZ2_202
+       CZ2_203
+       CZ2_204
+       CZ2_205
+       CZ2_206
+       CZ2_207
+       CZ2_208
+       CZ2_209
+       CZ2_210
+       CZ2_211
+       CZ2_212
+       CZ2_213
+       CZ2_214
+       CZ2_215
+       CZ2_216
+       CZ2_217)
+    25))
+(assert (and (=> CX_1 (= CX2_1 1))
+     (=> (not CX_1) (= CX2_1 0))
+     (=> CX_2 (= CX2_2 1))
+     (=> (not CX_2) (= CX2_2 0))
+     (=> CX_3 (= CX2_3 1))
+     (=> (not CX_3) (= CX2_3 0))
+     (=> CX_4 (= CX2_4 1))
+     (=> (not CX_4) (= CX2_4 0))
+     (=> CX_5 (= CX2_5 1))
+     (=> (not CX_5) (= CX2_5 0))
+     (=> CX_6 (= CX2_6 1))
+     (=> (not CX_6) (= CX2_6 0))
+     (=> CX_7 (= CX2_7 1))
+     (=> (not CX_7) (= CX2_7 0))
+     (=> CX_8 (= CX2_8 1))
+     (=> (not CX_8) (= CX2_8 0))
+     (=> CX_9 (= CX2_9 1))
+     (=> (not CX_9) (= CX2_9 0))
+     (=> CX_10 (= CX2_10 1))
+     (=> (not CX_10) (= CX2_10 0))
+     (=> CX_11 (= CX2_11 1))
+     (=> (not CX_11) (= CX2_11 0))
+     (=> CX_12 (= CX2_12 1))
+     (=> (not CX_12) (= CX2_12 0))
+     (=> CX_13 (= CX2_13 1))
+     (=> (not CX_13) (= CX2_13 0))
+     (=> CX_14 (= CX2_14 1))
+     (=> (not CX_14) (= CX2_14 0))
+     (=> CX_15 (= CX2_15 1))
+     (=> (not CX_15) (= CX2_15 0))
+     (=> CX_16 (= CX2_16 1))
+     (=> (not CX_16) (= CX2_16 0))
+     (=> CX_17 (= CX2_17 1))
+     (=> (not CX_17) (= CX2_17 0))
+     (=> CX_18 (= CX2_18 1))
+     (=> (not CX_18) (= CX2_18 0))
+     (=> CX_19 (= CX2_19 1))
+     (=> (not CX_19) (= CX2_19 0))
+     (=> CX_20 (= CX2_20 1))
+     (=> (not CX_20) (= CX2_20 0))
+     (=> CX_21 (= CX2_21 1))
+     (=> (not CX_21) (= CX2_21 0))
+     (=> CX_22 (= CX2_22 1))
+     (=> (not CX_22) (= CX2_22 0))
+     (=> CX_23 (= CX2_23 1))
+     (=> (not CX_23) (= CX2_23 0))
+     (=> CX_24 (= CX2_24 1))
+     (=> (not CX_24) (= CX2_24 0))
+     (=> CX_25 (= CX2_25 1))
+     (=> (not CX_25) (= CX2_25 0))
+     (=> CX_26 (= CX2_26 1))
+     (=> (not CX_26) (= CX2_26 0))
+     (=> CX_27 (= CX2_27 1))
+     (=> (not CX_27) (= CX2_27 0))
+     (=> CX_28 (= CX2_28 1))
+     (=> (not CX_28) (= CX2_28 0))
+     (=> CX_29 (= CX2_29 1))
+     (=> (not CX_29) (= CX2_29 0))
+     (=> CX_30 (= CX2_30 1))
+     (=> (not CX_30) (= CX2_30 0))
+     (=> CX_31 (= CX2_31 1))
+     (=> (not CX_31) (= CX2_31 0))
+     (=> CX_32 (= CX2_32 1))
+     (=> (not CX_32) (= CX2_32 0))
+     (=> CX_33 (= CX2_33 1))
+     (=> (not CX_33) (= CX2_33 0))
+     (=> CX_34 (= CX2_34 1))
+     (=> (not CX_34) (= CX2_34 0))
+     (=> CX_35 (= CX2_35 1))
+     (=> (not CX_35) (= CX2_35 0))
+     (=> CX_36 (= CX2_36 1))
+     (=> (not CX_36) (= CX2_36 0))
+     (=> CX_37 (= CX2_37 1))
+     (=> (not CX_37) (= CX2_37 0))
+     (=> CX_38 (= CX2_38 1))
+     (=> (not CX_38) (= CX2_38 0))
+     (=> CX_39 (= CX2_39 1))
+     (=> (not CX_39) (= CX2_39 0))
+     (=> CX_40 (= CX2_40 1))
+     (=> (not CX_40) (= CX2_40 0))
+     (=> CX_41 (= CX2_41 1))
+     (=> (not CX_41) (= CX2_41 0))
+     (=> CX_42 (= CX2_42 1))
+     (=> (not CX_42) (= CX2_42 0))
+     (=> CX_43 (= CX2_43 1))
+     (=> (not CX_43) (= CX2_43 0))
+     (=> CX_44 (= CX2_44 1))
+     (=> (not CX_44) (= CX2_44 0))
+     (=> CX_45 (= CX2_45 1))
+     (=> (not CX_45) (= CX2_45 0))
+     (=> CX_46 (= CX2_46 1))
+     (=> (not CX_46) (= CX2_46 0))
+     (=> CX_47 (= CX2_47 1))
+     (=> (not CX_47) (= CX2_47 0))
+     (=> CX_48 (= CX2_48 1))
+     (=> (not CX_48) (= CX2_48 0))
+     (=> CX_49 (= CX2_49 1))
+     (=> (not CX_49) (= CX2_49 0))
+     (=> CX_50 (= CX2_50 1))
+     (=> (not CX_50) (= CX2_50 0))
+     (=> CX_51 (= CX2_51 1))
+     (=> (not CX_51) (= CX2_51 0))
+     (=> CX_52 (= CX2_52 1))
+     (=> (not CX_52) (= CX2_52 0))
+     (=> CX_53 (= CX2_53 1))
+     (=> (not CX_53) (= CX2_53 0))
+     (=> CX_54 (= CX2_54 1))
+     (=> (not CX_54) (= CX2_54 0))
+     (=> CX_55 (= CX2_55 1))
+     (=> (not CX_55) (= CX2_55 0))
+     (=> CX_56 (= CX2_56 1))
+     (=> (not CX_56) (= CX2_56 0))
+     (=> CX_57 (= CX2_57 1))
+     (=> (not CX_57) (= CX2_57 0))))
+(assert (let ((a!1 (+ CX2_1
+              CX2_2
+              CX2_3
+              CX2_4
+              CX2_5
+              CX2_6
+              CX2_7
+              CX2_8
+              CX2_9
+              CX2_10
+              CX2_11
+              CX2_12
+              CX2_13
+              CX2_14
+              CX2_15
+              CX2_16
+              CX2_17
+              CX2_18
+              CX2_19
+              CX2_20
+              CX2_21
+              CX2_22
+              CX2_23
+              CX2_24
+              CX2_25
+              CX2_26
+              CX2_27
+              CX2_28
+              CX2_29
+              CX2_30
+              CX2_31
+              CX2_32
+              CX2_33
+              CX2_34
+              CX2_35
+              CX2_36
+              CX2_37
+              CX2_38
+              CX2_39
+              CX2_40
+              CX2_41
+              CX2_42
+              CX2_43
+              CX2_44
+              CX2_45
+              CX2_46
+              CX2_47
+              CX2_48
+              CX2_49
+              CX2_50
+              CX2_51
+              CX2_52
+              CX2_53
+              CX2_54
+              CX2_55
+              CX2_56
+              CX2_57)))
+  (and (>= a!1 0) (<= a!1 56))))
+(assert (and (=> CB_1 (= CB2_1 1))
+     (=> (not CB_1) (= CB2_1 0))
+     (=> CB_2 (= CB2_2 1))
+     (=> (not CB_2) (= CB2_2 0))
+     (=> CB_3 (= CB2_3 1))
+     (=> (not CB_3) (= CB2_3 0))
+     (=> CB_4 (= CB2_4 1))
+     (=> (not CB_4) (= CB2_4 0))
+     (=> CB_5 (= CB2_5 1))
+     (=> (not CB_5) (= CB2_5 0))
+     (=> CB_6 (= CB2_6 1))
+     (=> (not CB_6) (= CB2_6 0))
+     (=> CB_7 (= CB2_7 1))
+     (=> (not CB_7) (= CB2_7 0))
+     (=> CB_8 (= CB2_8 1))
+     (=> (not CB_8) (= CB2_8 0))
+     (=> CB_9 (= CB2_9 1))
+     (=> (not CB_9) (= CB2_9 0))
+     (=> CB_10 (= CB2_10 1))
+     (=> (not CB_10) (= CB2_10 0))
+     (=> CB_11 (= CB2_11 1))
+     (=> (not CB_11) (= CB2_11 0))
+     (=> CB_12 (= CB2_12 1))
+     (=> (not CB_12) (= CB2_12 0))
+     (=> CB_13 (= CB2_13 1))
+     (=> (not CB_13) (= CB2_13 0))
+     (=> CB_14 (= CB2_14 1))
+     (=> (not CB_14) (= CB2_14 0))
+     (=> CB_15 (= CB2_15 1))
+     (=> (not CB_15) (= CB2_15 0))
+     (=> CB_16 (= CB2_16 1))
+     (=> (not CB_16) (= CB2_16 0))
+     (=> CB_17 (= CB2_17 1))
+     (=> (not CB_17) (= CB2_17 0))
+     (=> CB_18 (= CB2_18 1))
+     (=> (not CB_18) (= CB2_18 0))
+     (=> CB_19 (= CB2_19 1))
+     (=> (not CB_19) (= CB2_19 0))
+     (=> CB_20 (= CB2_20 1))
+     (=> (not CB_20) (= CB2_20 0))
+     (=> CB_21 (= CB2_21 1))
+     (=> (not CB_21) (= CB2_21 0))
+     (=> CB_22 (= CB2_22 1))
+     (=> (not CB_22) (= CB2_22 0))
+     (=> CB_23 (= CB2_23 1))
+     (=> (not CB_23) (= CB2_23 0))
+     (=> CB_24 (= CB2_24 1))
+     (=> (not CB_24) (= CB2_24 0))
+     (=> CB_25 (= CB2_25 1))
+     (=> (not CB_25) (= CB2_25 0))
+     (=> CB_26 (= CB2_26 1))
+     (=> (not CB_26) (= CB2_26 0))
+     (=> CB_27 (= CB2_27 1))
+     (=> (not CB_27) (= CB2_27 0))
+     (=> CB_28 (= CB2_28 1))
+     (=> (not CB_28) (= CB2_28 0))
+     (=> CB_29 (= CB2_29 1))
+     (=> (not CB_29) (= CB2_29 0))
+     (=> CB_30 (= CB2_30 1))
+     (=> (not CB_30) (= CB2_30 0))
+     (=> CB_31 (= CB2_31 1))
+     (=> (not CB_31) (= CB2_31 0))
+     (=> CB_32 (= CB2_32 1))
+     (=> (not CB_32) (= CB2_32 0))
+     (=> CB_33 (= CB2_33 1))
+     (=> (not CB_33) (= CB2_33 0))
+     (=> CB_34 (= CB2_34 1))
+     (=> (not CB_34) (= CB2_34 0))
+     (=> CB_35 (= CB2_35 1))
+     (=> (not CB_35) (= CB2_35 0))
+     (=> CB_36 (= CB2_36 1))
+     (=> (not CB_36) (= CB2_36 0))
+     (=> CB_37 (= CB2_37 1))
+     (=> (not CB_37) (= CB2_37 0))
+     (=> CB_38 (= CB2_38 1))
+     (=> (not CB_38) (= CB2_38 0))
+     (=> CB_39 (= CB2_39 1))
+     (=> (not CB_39) (= CB2_39 0))
+     (=> CB_40 (= CB2_40 1))
+     (=> (not CB_40) (= CB2_40 0))
+     (=> CB_41 (= CB2_41 1))
+     (=> (not CB_41) (= CB2_41 0))
+     (=> CB_42 (= CB2_42 1))
+     (=> (not CB_42) (= CB2_42 0))
+     (=> CB_43 (= CB2_43 1))
+     (=> (not CB_43) (= CB2_43 0))
+     (=> CB_44 (= CB2_44 1))
+     (=> (not CB_44) (= CB2_44 0))
+     (=> CB_45 (= CB2_45 1))
+     (=> (not CB_45) (= CB2_45 0))
+     (=> CB_46 (= CB2_46 1))
+     (=> (not CB_46) (= CB2_46 0))
+     (=> CB_47 (= CB2_47 1))
+     (=> (not CB_47) (= CB2_47 0))
+     (=> CB_48 (= CB2_48 1))
+     (=> (not CB_48) (= CB2_48 0))
+     (=> CB_49 (= CB2_49 1))
+     (=> (not CB_49) (= CB2_49 0))
+     (=> CB_50 (= CB2_50 1))
+     (=> (not CB_50) (= CB2_50 0))
+     (=> CB_51 (= CB2_51 1))
+     (=> (not CB_51) (= CB2_51 0))
+     (=> CB_52 (= CB2_52 1))
+     (=> (not CB_52) (= CB2_52 0))
+     (=> CB_53 (= CB2_53 1))
+     (=> (not CB_53) (= CB2_53 0))
+     (=> CB_54 (= CB2_54 1))
+     (=> (not CB_54) (= CB2_54 0))
+     (=> CB_55 (= CB2_55 1))
+     (=> (not CB_55) (= CB2_55 0))
+     (=> CB_56 (= CB2_56 1))
+     (=> (not CB_56) (= CB2_56 0))
+     (=> CB_57 (= CB2_57 1))
+     (=> (not CB_57) (= CB2_57 0))))
+(assert (<= (+ CB2_1
+       CB2_2
+       CB2_3
+       CB2_4
+       CB2_5
+       CB2_6
+       CB2_7
+       CB2_8
+       CB2_9
+       CB2_10
+       CB2_11
+       CB2_12
+       CB2_13
+       CB2_14
+       CB2_15
+       CB2_16
+       CB2_17
+       CB2_18
+       CB2_19
+       CB2_20
+       CB2_21
+       CB2_22
+       CB2_23
+       CB2_24
+       CB2_25
+       CB2_26
+       CB2_27
+       CB2_28
+       CB2_29
+       CB2_30
+       CB2_31
+       CB2_32
+       CB2_33
+       CB2_34
+       CB2_35
+       CB2_36
+       CB2_37
+       CB2_38
+       CB2_39
+       CB2_40
+       CB2_41
+       CB2_42
+       CB2_43
+       CB2_44
+       CB2_45
+       CB2_46
+       CB2_47
+       CB2_48
+       CB2_49
+       CB2_50
+       CB2_51
+       CB2_52
+       CB2_53
+       CB2_54
+       CB2_55
+       CB2_56
+       CB2_57)
+    5))
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Searching for another solution...
+Required time: 13906.3781

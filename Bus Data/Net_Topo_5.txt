@@ -1,0 +1,12 @@
+############ setting up topo for 14 Bus #############
+#num of clusters
+5
+#numOfhub
+2
+#list of clusters in each hub
+1	2	3
+4	5
+#numOfserver
+1
+#list of hubs in each server
+1	2

@@ -1,0 +1,2727 @@
+**************** 5/27/2020 12:17:25 PM ****************
+Problem with Buses 14 and Lines 20:...........
+The states that are required to attack: ...........
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:1 5:1 6:1 7:1 8:167/142 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 14 21 22 34 41 42 45 47 48 
+The buses at which one or more measurements are required to alter:
+1 2 5 7 8 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 -112/25 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 112/25 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 -112/25 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 
+Backward line flows: 169/10 112/25 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+Bus power consumptions: -1069/50 169/10 0 0 112/25 0 -1 1 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+8:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+14 17 20 34 37 40 47 48 49 53 54 
+The buses at which one or more measurements are required to alter:
+7 8 9 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 0 -37/10 0 0 -287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 0 37/10 0 0 287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 0 -37/10 0 0 -287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 0 37/10 0 0 287/100 
+Bus power consumptions: 0 0 0 0 0 0 -142/25 142/25 -37/10 0 0 0 -287/100 657/100 
+..................................
+We have a solution
+The states that are attacked: 
+10:1 14:-1283/370 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+16 17 18 20 36 37 38 40 49 50 51 53 54 
+The buses at which one or more measurements are required to alter:
+9 10 11 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 1283/100 521/100 0 368221/37000 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 -1283/100 -521/100 0 -368221/37000 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 1283/100 521/100 0 368221/37000 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 -1283/100 -521/100 0 -368221/37000 
+Bus power consumptions: 0 0 0 0 0 0 0 0 1 426/25 -521/100 0 368221/37000 -842931/37000 
+..................................
+We have a solution
+The states that are attacked: 
+10:1 14:-1183/370 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+16 17 18 20 36 37 38 40 50 51 53 54 
+The buses at which one or more measurements are required to alter:
+9 10 11 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 1183/100 521/100 0 339521/37000 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 -1183/100 -521/100 0 -339521/37000 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 1183/100 521/100 0 339521/37000 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 -1183/100 -521/100 0 -339521/37000 
+Bus power consumptions: 0 0 0 0 0 0 0 0 0 426/25 -521/100 0 339521/37000 -777231/37000 
+..................................
+We have a solution
+The states that are attacked: 
+6:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 17 30 31 37 45 46 49 51 54 
+The buses at which one or more measurements are required to alter:
+5 6 9 11 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 0 0 0 0 37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 0 0 0 0 -37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 0 0 0 0 37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 0 0 0 0 -37/10 0 0 0 
+Bus power consumptions: 0 0 0 0 397/100 -9 0 0 37/10 0 503/100 0 0 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+17 20 37 40 49 53 54 
+The buses at which one or more measurements are required to alter:
+9 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37/10 0 0 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37/10 0 0 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37/10 0 0 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37/10 0 0 -287/100 
+Bus power consumptions: 0 0 0 0 0 0 0 0 37/10 0 0 0 287/100 -657/100 
+..................................
+We have a solution
+The states that are attacked: 
+12:-504576/112217 13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 49 52 53 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 126144/7175 -126144/7175 0 0 0 -37/10 0 -3807315/112217 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -126144/7175 126144/7175 0 0 0 37/10 0 3807315/112217 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 126144/7175 -126144/7175 0 0 0 -37/10 0 -3807315/112217 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -126144/7175 126144/7175 0 0 0 37/10 0 3807315/112217 -37/10 
+Bus power consumptions: 0 0 0 0 0 0 0 0 -37/10 0 0 -20643597/400775 44252929/801550 0 
+..................................
+We have a solution
+The states that are attacked: 
+13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+13 17 19 20 33 37 39 40 46 49 52 53 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 -126144/7175 0 0 0 -37/10 0 -3285/287 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 126144/7175 0 0 0 37/10 0 3285/287 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 -126144/7175 0 0 0 -37/10 0 -3285/287 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 126144/7175 0 0 0 37/10 0 3285/287 -37/10 
+Bus power consumptions: 0 0 0 0 0 -126144/7175 0 0 -37/10 0 0 -3285/287 469633/14350 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:36500/28413 13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 53 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -142715/28413 -126144/7175 0 0 0 -37/10 0 -142715/28413 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 142715/28413 126144/7175 0 0 0 37/10 0 142715/28413 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -142715/28413 -126144/7175 0 0 0 -37/10 0 -142715/28413 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 142715/28413 126144/7175 0 0 0 37/10 0 142715/28413 -37/10 
+Bus power consumptions: 0 0 0 0 0 -2293733/101475 0 0 -37/10 0 0 0 5338381/202950 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 52 53 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 -126144/7175 0 0 0 -37/10 0 -4720/287 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 126144/7175 0 0 0 37/10 0 4720/287 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 -126144/7175 0 0 0 -37/10 0 -4720/287 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 126144/7175 0 0 0 37/10 0 4720/287 -37/10 
+Bus power consumptions: 0 0 0 0 0 -392359/28700 0 0 -37/10 0 0 -584217/28700 541383/14350 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:657/287 13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 20 32 33 37 40 46 49 52 53 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -256887/28700 -126144/7175 0 0 0 -37/10 0 0 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 256887/28700 126144/7175 0 0 0 37/10 0 0 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -256887/28700 -126144/7175 0 0 0 -37/10 0 0 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 256887/28700 126144/7175 0 0 0 37/10 0 0 -37/10 
+Bus power consumptions: 0 0 0 0 0 -761463/28700 0 0 -37/10 0 0 256887/28700 305383/14350 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:469633/71750 13:657/287 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 52 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -183626503/7175000 -126144/7175 0 0 0 -37/10 0 305383/14350 37/10 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 183626503/7175000 126144/7175 0 0 0 37/10 0 -305383/14350 -37/10 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -183626503/7175000 -126144/7175 0 0 0 -37/10 0 305383/14350 37/10 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 183626503/7175000 126144/7175 0 0 0 37/10 0 -305383/14350 -37/10 
+Bus power consumptions: 0 0 0 0 0 -44252929/1025000 0 0 -37/10 0 0 48045429/1025000 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+
+The buses at which one or more measurements are required to alter:
+
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+8:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+14 34 47 48 
+The buses at which one or more measurements are required to alter:
+7 8 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 0 0 0 0 0 
+Bus power consumptions: 0 0 0 0 0 0 -142/25 142/25 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 19 32 39 46 52 53 
+The buses at which one or more measurements are required to alter:
+6 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 0 0 5 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 0 0 -5 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 0 0 5 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 0 0 -5 0 
+Bus power consumptions: 0 0 0 0 0 -391/100 0 0 0 0 0 891/100 -5 0 
+..................................
+We have a solution
+The states that are attacked: 
+8:1 12:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 14 19 32 34 39 46 47 48 52 53 
+The buses at which one or more measurements are required to alter:
+6 7 8 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 -142/25 0 0 0 0 5 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 0 142/25 0 0 0 0 -5 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 -142/25 0 0 0 0 5 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 0 142/25 0 0 0 0 -5 0 
+Bus power consumptions: 0 0 0 0 0 -391/100 -142/25 142/25 0 0 0 891/100 -5 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-121/101 3:-1 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 21 22 23 24 25 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 20449/1010 112/25 -1 -567/505 -115/101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -20449/1010 -112/25 1 567/505 115/101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 20449/1010 112/25 -1 -567/505 -115/101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -20449/1010 -112/25 1 567/505 115/101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 124869/5050 -23743/1010 1 567/505 -8437/2525 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1023/575 3:-1 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 21 22 23 24 25 41 42 43 44 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 172887/5750 112/25 -11312/2875 -63504/14375 -112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -172887/5750 -112/25 11312/2875 63504/14375 112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 172887/5750 112/25 -11312/2875 -63504/14375 -112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -172887/5750 -112/25 11312/2875 63504/14375 112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 198647/5750 -1233363/28750 11312/2875 63504/14375 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 3 4 5 21 23 24 25 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 0 -101/20 -567/100 -23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 0 101/20 567/100 23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 0 -101/20 -567/100 -23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 0 101/20 567/100 23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 169/10 -3337/100 101/20 567/100 23/4 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:845/224 4:845/224 5:845/224 6:845/224 7:845/224 8:845/224 9:845/224 10:845/224 11:845/224 12:845/224 13:845/224 14:845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 21 22 23 24 25 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 -169/10 -107969/4480 -86589/3200 -24587/896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 169/10 107969/4480 86589/3200 24587/896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 -169/10 -107969/4480 -86589/3200 -24587/896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 169/10 107969/4480 86589/3200 24587/896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -2139203/22400 107969/4480 86589/3200 198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-1 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 21 22 41 42 45 
+The buses at which one or more measurements are required to alter:
+1 2 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -112/25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 1069/50 -169/10 0 0 -112/25 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-3337/1647 4:-3337/1647 5:-3337/1647 6:-3337/1647 7:-3337/1647 8:-3337/1647 9:-3337/1647 10:-3337/1647 11:-3337/1647 12:-3337/1647 13:-3337/1647 14:-3337/1647 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 21 22 23 24 25 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 373744/41175 17069/3294 3549/610 19435/3294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -373744/41175 -17069/3294 -3549/610 -19435/3294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 373744/41175 17069/3294 3549/610 19435/3294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -373744/41175 -17069/3294 -3549/610 -19435/3294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 2139203/82350 0 -17069/3294 -3549/610 -411121/27450 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 3 4 5 22 23 24 25 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 101/20 567/100 23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 -101/20 -567/100 -23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 101/20 567/100 23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 -101/20 -567/100 -23/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 1647/100 -101/20 -567/100 -1023/100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+11:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 18 31 38 46 50 51 
+The buses at which one or more measurements are required to alter:
+6 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 0 0 521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 0 0 -521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 0 0 521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 0 0 -521/100 0 0 
+Bus power consumptions: 0 0 0 0 0 503/100 0 0 0 521/100 -256/25 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+11:-1 12:503/391 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 12 18 19 31 32 38 39 50 51 52 53 
+The buses at which one or more measurements are required to alter:
+6 10 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 -503/100 0 0 0 0 0 521/100 2515/391 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 503/100 0 0 0 0 0 -521/100 -2515/391 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 -503/100 0 0 0 0 0 521/100 2515/391 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 503/100 0 0 0 0 0 -521/100 -2515/391 0 
+Bus power consumptions: 0 0 0 0 0 0 0 0 0 521/100 -256/25 448173/39100 -2515/391 0 
+..................................
+We have a solution
+The states that are attacked: 
+11:-1 12:403/391 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 12 18 19 31 32 38 39 46 50 51 52 53 
+The buses at which one or more measurements are required to alter:
+6 10 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 -403/100 0 0 0 0 0 521/100 2015/391 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 403/100 0 0 0 0 0 -521/100 -2015/391 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 -403/100 0 0 0 0 0 521/100 2015/391 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 403/100 0 0 0 0 0 -521/100 -2015/391 0 
+Bus power consumptions: 0 0 0 0 0 1 0 0 0 521/100 -256/25 359073/39100 -2015/391 0 
+..................................
+We have a solution
+The states that are attacked: 
+10:-1 11:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 16 31 36 46 49 50 51 
+The buses at which one or more measurements are required to alter:
+6 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 1183/100 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 -1183/100 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 1183/100 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 -1183/100 0 0 0 0 
+Bus power consumptions: 0 0 0 0 0 503/100 0 0 1183/100 -1183/100 -503/100 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+10:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+16 18 36 38 49 50 51 
+The buses at which one or more measurements are required to alter:
+9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 0 -521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 0 521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1183/100 0 -521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1183/100 0 521/100 0 0 
+Bus power consumptions: 0 0 0 0 0 0 0 0 1183/100 -426/25 521/100 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+10:-1024/521 11:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 16 18 31 36 38 46 49 50 
+The buses at which one or more measurements are required to alter:
+6 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 302848/13025 0 -503/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 -302848/13025 0 503/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 0 0 0 0 302848/13025 0 -503/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 0 0 -302848/13025 0 503/100 0 0 
+Bus power consumptions: 0 0 0 0 0 503/100 0 0 302848/13025 -294691/10420 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+10:-1 11:-1704/521 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 16 18 31 36 38 46 49 51 
+The buses at which one or more measurements are required to alter:
+6 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 214278/13025 0 0 0 0 1183/100 0 1183/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -214278/13025 0 0 0 0 -1183/100 0 -1183/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 214278/13025 0 0 0 0 1183/100 0 1183/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -214278/13025 0 0 0 0 -1183/100 0 -1183/100 0 0 
+Bus power consumptions: 0 0 0 0 0 214278/13025 0 0 1183/100 0 -294691/10420 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+10:-1 11:-1804/521 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 16 18 31 36 38 46 49 50 51 
+The buses at which one or more measurements are required to alter:
+6 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 226853/13025 0 0 0 0 1183/100 0 1283/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -226853/13025 0 0 0 0 -1183/100 0 -1283/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 226853/13025 0 0 0 0 1183/100 0 1283/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -226853/13025 0 0 0 0 -1183/100 0 -1283/100 0 0 
+Bus power consumptions: 0 0 0 0 0 226853/13025 0 0 1183/100 1 -315171/10420 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+8:1 10:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+14 16 18 34 36 38 47 48 49 50 51 
+The buses at which one or more measurements are required to alter:
+7 8 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 1183/100 0 -521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 -1183/100 0 521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 -142/25 0 1183/100 0 -521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 0 142/25 0 -1183/100 0 521/100 0 0 
+Bus power consumptions: 0 0 0 0 0 0 -142/25 142/25 1183/100 -426/25 521/100 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+8:1 11:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+11 14 18 31 34 38 46 47 48 50 51 
+The buses at which one or more measurements are required to alter:
+6 7 8 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 503/100 0 0 -142/25 0 0 0 521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 142/25 0 0 0 -521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 503/100 0 0 -142/25 0 0 0 521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 -503/100 0 0 142/25 0 0 0 -521/100 0 0 
+Bus power consumptions: 0 0 0 0 0 503/100 -142/25 142/25 0 521/100 -256/25 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 6 23 26 42 43 44 
+The buses at which one or more measurements are required to alter:
+2 3 4 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 101/20 0 0 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 -101/20 0 0 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 101/20 0 0 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 -101/20 0 0 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 101/20 -109/10 117/20 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1 8:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 6 14 23 26 34 42 43 44 47 48 
+The buses at which one or more measurements are required to alter:
+2 3 4 7 8 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 101/20 0 0 -117/20 0 0 0 0 0 0 0 -142/25 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 -101/20 0 0 117/20 0 0 0 0 0 0 0 142/25 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 101/20 0 0 -117/20 0 0 0 0 0 0 0 -142/25 0 0 0 0 0 0 
+Backward line flows: 0 0 -101/20 0 0 117/20 0 0 0 0 0 0 0 142/25 0 0 0 0 0 0 
+Bus power consumptions: 0 101/20 -109/10 117/20 0 0 -142/25 142/25 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+4:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+4 6 7 10 24 26 27 30 42 43 44 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 -567/100 0 -117/20 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 567/100 0 117/20 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 -567/100 0 -117/20 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 0 567/100 0 117/20 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -567/100 -117/20 3527/100 -693/25 397/100 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:1 4:218/117 6:218/117 7:218/117 8:218/117 9:218/117 10:218/117 11:218/117 12:218/117 13:218/117 14:218/117 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 4 6 7 10 23 24 26 27 30 42 44 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 -101/20 -6867/650 0 -101/20 10355/234 0 0 -43273/5850 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 101/20 6867/650 0 101/20 -10355/234 0 0 43273/5850 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 -101/20 -6867/650 0 -101/20 10355/234 0 0 -43273/5850 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 101/20 6867/650 0 101/20 -10355/234 0 0 43273/5850 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -20299/1300 0 700441/11700 -16786/325 43273/5850 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-567/505 4:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 4 6 7 10 23 24 26 27 30 43 44 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 567/100 -567/100 0 -31356/2525 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 -567/100 567/100 0 31356/2525 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 567/100 -567/100 0 -31356/2525 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 -567/100 567/100 0 31356/2525 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 0 -182691/10100 211283/5050 -693/25 397/100 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1 4:605/567 6:605/567 7:605/567 8:605/567 9:605/567 10:605/567 11:605/567 12:605/567 13:605/567 14:605/567 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 4 6 7 10 23 24 26 27 30 42 43 44 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 101/20 -121/20 0 -3809/315 57475/2268 0 0 -48037/11340 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 -101/20 121/20 0 3809/315 -57475/2268 0 0 48037/11340 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 101/20 -121/20 0 -3809/315 57475/2268 0 0 -48037/11340 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 -101/20 121/20 0 3809/315 -57475/2268 0 0 48037/11340 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -1 -21599/1260 246553/5670 -1331/45 48037/11340 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:426767/66339 4:605/567 6:605/567 7:605/567 8:605/567 9:605/567 10:605/567 11:605/567 12:605/567 13:605/567 14:605/567 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 4 6 7 10 23 24 26 27 30 42 43 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 -43103467/1326780 -121/20 0 177991/5670 57475/2268 0 0 -48037/11340 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 43103467/1326780 121/20 0 -177991/5670 -57475/2268 0 0 48037/11340 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 -43103467/1326780 -121/20 0 177991/5670 57475/2268 0 0 -48037/11340 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 43103467/1326780 121/20 0 -177991/5670 -57475/2268 0 0 48037/11340 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -25565243/663390 12107623/189540 0 -1331/45 48037/11340 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 4 5 6 21 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 0 0 567/100 23/4 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 0 0 -567/100 -23/4 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 0 0 567/100 23/4 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 0 0 -567/100 -23/4 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -169/10 708/25 117/20 -288/25 -23/4 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 5 7 10 21 25 27 30 41 42 44 45 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 0 0 0 23/4 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 0 0 0 -23/4 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 0 0 0 23/4 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 0 0 0 -23/4 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -169/10 453/20 0 95/4 -3347/100 397/100 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:891/391 12:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 12 13 19 30 31 32 33 39 45 46 51 53 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -353727/39100 448173/39100 5 171072/9775 0 0 0 0 0 5 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 353727/39100 -448173/39100 -5 -171072/9775 0 0 0 0 0 -5 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -353727/39100 448173/39100 5 171072/9775 0 0 0 0 0 5 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 353727/39100 -448173/39100 -5 -171072/9775 0 0 0 0 0 -5 0 
+Bus power consumptions: 0 0 0 0 -353727/39100 420422/9775 0 0 0 0 -448173/39100 0 -219947/9775 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 12:2059/391 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 12 13 19 30 31 32 33 39 45 51 52 53 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 -417/25 192/25 0 0 0 0 0 10295/391 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 417/25 -192/25 0 0 0 0 0 -10295/391 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 -417/25 192/25 0 0 0 0 0 10295/391 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 417/25 -192/25 0 0 0 0 0 -10295/391 0 
+Bus power consumptions: 0 0 0 0 -397/100 0 0 0 0 0 -503/100 420422/9775 -332447/9775 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 12:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 13 19 30 31 33 39 45 46 51 52 53 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 192/25 0 0 0 0 0 5 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 -192/25 0 0 0 0 0 -5 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 192/25 0 0 0 0 0 5 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 -192/25 0 0 0 0 0 -5 0 
+Bus power consumptions: 0 0 0 0 -397/100 417/25 0 0 0 0 -503/100 5 -317/25 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 12 13 30 31 32 33 45 46 51 52 53 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 391/100 192/25 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 -391/100 -192/25 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 391/100 192/25 0 0 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 -391/100 -192/25 0 0 0 0 0 0 0 
+Bus power consumptions: 0 0 0 0 -397/100 2059/100 0 0 0 0 -503/100 -391/100 -192/25 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 12:-192/125 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 12 13 19 30 31 32 33 39 45 46 51 52 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 123947/12500 192/25 0 0 0 0 0 -192/25 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 -123947/12500 -192/25 0 0 0 0 0 192/25 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 123947/12500 192/25 0 0 0 0 0 -192/25 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 -123947/12500 -192/25 0 0 0 0 0 192/25 0 
+Bus power consumptions: 0 0 0 0 -397/100 332447/12500 0 0 0 0 -503/100 -219947/12500 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 12:-217/125 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 12 13 19 30 31 32 33 39 45 46 51 52 53 
+The buses at which one or more measurements are required to alter:
+5 6 11 12 13 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 66861/6250 192/25 0 0 0 0 0 -217/25 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 -66861/6250 -192/25 0 0 0 0 0 217/25 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 66861/6250 192/25 0 0 0 0 0 -217/25 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 -66861/6250 -192/25 0 0 0 0 0 217/25 0 
+Bus power consumptions: 0 0 0 0 -397/100 171111/6250 0 0 0 0 -503/100 -121111/6250 1 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:1 4:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 4 7 10 23 24 27 30 42 43 44 45 46 
+The buses at which one or more measurements are required to alter:
+2 3 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 -101/20 -567/100 0 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 101/20 567/100 0 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 -101/20 -567/100 0 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 101/20 567/100 0 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -268/25 101/20 1471/50 -693/25 397/100 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 12:1 13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 11 20 30 31 40 45 46 51 53 54 
+The buses at which one or more measurements are required to alter:
+5 6 11 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 0 0 0 0 0 0 0 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 0 0 0 0 0 0 0 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 503/100 0 0 0 0 0 0 0 0 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 -503/100 0 0 0 0 0 0 0 0 -287/100 
+Bus power consumptions: 0 0 0 0 -397/100 9 0 0 0 0 -503/100 0 287/100 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-1 4:-1 5:-453/115 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 5 7 10 21 22 25 27 30 41 44 45 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 50736/2875 0 0 169/10 0 3211/46 0 0 -67093/5750 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -50736/2875 0 0 -169/10 0 -3211/46 0 0 67093/5750 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 50736/2875 0 0 169/10 0 3211/46 0 0 -67093/5750 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -50736/2875 0 0 -169/10 0 -3211/46 0 0 67093/5750 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 198647/5750 0 0 3211/46 -5801/50 67093/5750 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+9 10 15 29 30 35 44 45 46 47 49 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 -9/5 -397/100 0 0 0 0 -909/100 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 9/5 397/100 0 0 0 0 909/100 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 -9/5 -397/100 0 0 0 0 -909/100 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 9/5 397/100 0 0 0 0 909/100 0 0 0 0 0 
+Bus power consumptions: 0 0 0 -9/5 -397/100 397/100 -909/100 0 1089/100 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+9:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+9 15 16 17 29 35 36 37 44 47 49 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 -9/5 0 0 0 0 0 -909/100 1183/100 37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 9/5 0 0 0 0 0 909/100 -1183/100 -37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 -9/5 0 0 0 0 0 -909/100 1183/100 37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 9/5 0 0 0 0 0 909/100 -1183/100 -37/10 0 0 0 
+Bus power consumptions: 0 0 0 -9/5 0 0 -909/100 0 1321/50 -1183/100 0 0 0 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+7:1 8:1 9:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 16 17 28 29 36 37 44 47 49 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 -9/5 0 0 0 0 0 0 1183/100 37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 9/5 0 0 0 0 0 0 -1183/100 -37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -239/50 -9/5 0 0 0 0 0 0 1183/100 37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 239/50 9/5 0 0 0 0 0 0 -1183/100 -37/10 0 0 0 
+Bus power consumptions: 0 0 0 -329/50 0 0 239/50 0 1733/100 -1183/100 0 0 0 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+7:1 8:1 9:1387/909 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 15 16 17 28 29 35 36 37 44 49 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 -1387/505 0 0 0 0 0 -239/50 1640821/90900 51319/9090 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 1387/505 0 0 0 0 0 239/50 -1640821/90900 -51319/9090 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -239/50 -1387/505 0 0 0 0 0 -239/50 1640821/90900 51319/9090 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 239/50 1387/505 0 0 0 0 0 239/50 -1640821/90900 -51319/9090 0 0 0 
+Bus power consumptions: 0 0 0 -38009/5050 0 0 0 0 2838173/90900 -1640821/90900 0 0 0 -51319/9090 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-1 9:239/90 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 15 16 17 28 29 35 36 37 47 49 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 -239/50 0 0 0 0 0 -33229/1000 282737/9000 8843/900 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 239/50 0 0 0 0 0 33229/1000 -282737/9000 -8843/900 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 -239/50 0 0 0 0 0 -33229/1000 282737/9000 8843/900 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 239/50 0 0 0 0 0 33229/1000 -282737/9000 -8843/900 0 0 0 
+Bus power consumptions: 0 0 0 0 0 0 -38009/1000 0 89156/1125 -282737/9000 0 0 0 -8843/900 
+..................................
+We have a solution
+The states that are attacked: 
+7:1 8:1 9:1487/909 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 15 16 17 28 29 35 36 37 44 47 49 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 -1487/505 0 0 0 0 0 -289/50 1759121/90900 55019/9090 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 1487/505 0 0 0 0 0 289/50 -1759121/90900 -55019/9090 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -239/50 -1487/505 0 0 0 0 0 -289/50 1759121/90900 55019/9090 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 239/50 1487/505 0 0 0 0 0 289/50 -1759121/90900 -55019/9090 0 0 0 
+Bus power consumptions: 0 0 0 -39009/5050 0 0 -1 0 3102373/90900 -1759121/90900 0 0 0 -55019/9090 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 10 28 29 30 44 45 46 47 49 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 -9/5 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 9/5 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -239/50 -9/5 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 239/50 9/5 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 0 0 -329/50 -397/100 397/100 239/50 0 9/5 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:2642/909 8:2642/909 9:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 15 16 17 28 29 35 36 37 44 47 50 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -315719/22725 -9/5 0 0 0 0 0 1733/100 1183/100 37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 315719/22725 9/5 0 0 0 0 0 -1733/100 -1183/100 -37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -315719/22725 -9/5 0 0 0 0 0 1733/100 1183/100 37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 315719/22725 9/5 0 0 0 0 0 -1733/100 -1183/100 -37/10 0 0 0 
+Bus power consumptions: 0 0 0 -356624/22725 0 0 2838173/90900 0 0 -1183/100 0 0 0 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+6:239/90 7:-1 8:-1 9:239/90 10:239/90 11:239/90 12:239/90 13:239/90 14:239/90 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 10 15 28 29 30 35 45 46 47 49 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 -239/50 -94883/9000 0 0 0 0 -33229/1000 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 239/50 94883/9000 0 0 0 0 33229/1000 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 -239/50 -94883/9000 0 0 0 0 -33229/1000 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 239/50 94883/9000 0 0 0 0 33229/1000 0 0 0 0 0 
+Bus power consumptions: 0 0 0 0 -94883/9000 94883/9000 -38009/1000 0 38009/1000 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:239/90 7:24139/13870 8:24139/13870 9:239/90 10:239/90 11:239/90 12:239/90 13:239/90 14:239/90 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 10 15 28 29 30 35 44 45 46 49 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -5769221/693500 -239/50 -94883/9000 0 0 0 0 -5769221/693500 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 5769221/693500 239/50 94883/9000 0 0 0 0 5769221/693500 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -5769221/693500 -239/50 -94883/9000 0 0 0 0 -5769221/693500 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 5769221/693500 239/50 94883/9000 0 0 0 0 5769221/693500 0 0 0 0 0 
+Bus power consumptions: 0 0 0 -9084151/693500 -94883/9000 94883/9000 0 0 9084151/693500 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 7:121/101 8:121/101 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 10 15 28 29 30 35 44 45 46 47 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -28919/5050 -9/5 -397/100 0 0 0 0 9/5 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 28919/5050 9/5 397/100 0 0 0 0 -9/5 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -28919/5050 -9/5 -397/100 0 0 0 0 9/5 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 28919/5050 9/5 397/100 0 0 0 0 -9/5 0 0 0 0 0 
+Bus power consumptions: 0 0 0 -38009/5050 -397/100 397/100 38009/5050 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1487/909 7:1 8:1 9:1487/909 10:1487/909 11:1487/909 12:1487/909 13:1487/909 14:1487/909 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 9 10 15 28 29 30 35 44 45 46 47 49 
+The buses at which one or more measurements are required to alter:
+4 5 6 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 -1487/505 -590339/90900 0 0 0 0 -289/50 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 1487/505 590339/90900 0 0 0 0 289/50 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 -239/50 -1487/505 -590339/90900 0 0 0 0 -289/50 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 239/50 1487/505 590339/90900 0 0 0 0 289/50 0 0 0 0 0 
+Bus power consumptions: 0 0 0 -39009/5050 -590339/90900 590339/90900 -1 0 44059/5050 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 20 32 33 40 46 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 0 0 0 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 0 0 0 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 0 0 0 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 0 0 0 -287/100 
+Bus power consumptions: 0 0 0 0 0 -1159/100 0 0 0 0 0 391/100 211/20 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+12:311/100 13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 19 20 32 33 39 40 46 52 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -121601/10000 -192/25 0 0 0 0 0 211/20 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 121601/10000 192/25 0 0 0 0 0 -211/20 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -121601/10000 -192/25 0 0 0 0 0 211/20 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 121601/10000 192/25 0 0 0 0 0 -211/20 -287/100 
+Bus power consumptions: 0 0 0 0 0 -198401/10000 0 0 0 0 0 227101/10000 0 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+12:-768/391 13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 19 20 32 33 39 40 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 0 0 -5795/391 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 0 0 5795/391 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 0 0 -5795/391 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 0 0 5795/391 -287/100 
+Bus power consumptions: 0 0 0 0 0 0 0 0 0 0 0 -219947/9775 198401/7820 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+2:94875/44464 3:94875/44464 4:94875/44464 5:83675/44464 6:94875/44464 7:94875/44464 8:94875/44464 9:94875/44464 10:94875/44464 11:94875/44464 12:94875/44464 13:94875/44464 14:94875/44464 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 5 7 10 21 22 25 27 30 41 42 44 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -3206775/88928 -3347/397 0 0 575/397 0 2375/397 0 0 -1 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 3206775/88928 3347/397 0 0 -575/397 0 -2375/397 0 0 1 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -3206775/88928 -3347/397 0 0 575/397 0 2375/397 0 0 -1 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 3206775/88928 3347/397 0 0 -575/397 0 -2375/397 0 0 1 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -3956503/88928 3335575/88928 0 2375/397 0 1 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:42475/22232 3:42475/22232 4:42475/22232 5:36875/22232 6:42475/22232 7:42475/22232 8:42475/22232 9:42475/22232 10:42475/22232 11:42475/22232 12:42475/22232 13:42475/22232 14:42475/22232 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 5 7 10 21 22 25 27 30 41 42 44 45 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -1435655/44464 -2950/397 0 0 575/397 0 2375/397 0 0 -1 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 1435655/44464 2950/397 0 0 -575/397 0 -2375/397 0 0 1 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -1435655/44464 -2950/397 0 0 575/397 0 2375/397 0 0 -1 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 1435655/44464 2950/397 0 0 -575/397 0 -2375/397 0 0 1 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -1766055/44464 1500055/44464 0 2375/397 -1 1 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+5:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 5 7 10 22 25 27 30 41 42 44 45 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 0 0 23/4 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 0 0 -23/4 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 0 0 23/4 0 95/4 0 0 -397/100 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 0 0 -23/4 0 -95/4 0 0 397/100 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 23/4 0 95/4 -759/20 397/100 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+6:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+10 16 17 30 36 37 45 46 49 50 54 
+The buses at which one or more measurements are required to alter:
+5 6 9 10 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 -397/100 0 0 0 0 0 -1183/100 -37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 397/100 0 0 0 0 0 1183/100 37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 -397/100 0 0 0 0 0 -1183/100 -37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 397/100 0 0 0 0 0 1183/100 37/10 0 0 0 
+Bus power consumptions: 0 0 0 0 -397/100 397/100 0 0 -1553/100 1183/100 0 0 0 37/10 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:1 5:-845/224 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 5 7 10 21 22 25 27 30 42 44 45 46 
+The buses at which one or more measurements are required to alter:
+1 2 4 5 6 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 169/10 0 0 24587/896 0 101555/896 0 0 -424393/22400 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 -169/10 0 0 -24587/896 0 -101555/896 0 0 424393/22400 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 169/10 0 0 24587/896 0 101555/896 0 0 -424393/22400 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 -169/10 0 0 -24587/896 0 -101555/896 0 0 424393/22400 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 198647/4480 0 101555/896 -3956503/22400 424393/22400 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:891/500 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 19 20 32 33 39 40 46 53 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 0 0 -391/100 255717/50000 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 0 0 391/100 -255717/50000 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 0 0 -391/100 255717/50000 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 0 0 391/100 -255717/50000 
+Bus power consumptions: 0 0 0 0 0 -219947/12500 0 0 0 0 0 0 227101/10000 -255717/50000 
+..................................
+We have a solution
+The states that are attacked: 
+13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+13 19 20 33 39 40 46 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 0 0 -5 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 0 0 5 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 0 0 -5 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 0 0 5 -287/100 
+Bus power consumptions: 0 0 0 0 0 -192/25 0 0 0 0 0 -5 311/20 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 13:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 19 20 32 33 39 40 46 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 -192/25 0 0 0 0 0 -10 287/100 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 192/25 0 0 0 0 0 10 -287/100 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 -192/25 0 0 0 0 0 -10 287/100 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 192/25 0 0 0 0 0 10 -287/100 
+Bus power consumptions: 0 0 0 0 0 -377/100 0 0 0 0 0 -1391/100 411/20 -287/100 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 32 33 37 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 37/10 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -37/10 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 37/10 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -37/10 0 0 0 
+Bus power consumptions: 0 0 0 0 0 1159/100 0 0 37/10 0 0 -391/100 -192/25 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+12:-317/125 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 32 33 37 39 46 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 123947/12500 192/25 0 0 0 37/10 0 -192/25 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -123947/12500 -192/25 0 0 0 -37/10 0 192/25 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 123947/12500 192/25 0 0 0 37/10 0 -192/25 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -123947/12500 -192/25 0 0 0 -37/10 0 192/25 0 
+Bus power consumptions: 0 0 0 0 0 219947/12500 0 0 37/10 0 0 -219947/12500 0 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+12:-292/125 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 32 33 37 39 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 28543/3125 192/25 0 0 0 37/10 0 -167/25 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -28543/3125 -192/25 0 0 0 -37/10 0 167/25 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 28543/3125 192/25 0 0 0 37/10 0 -167/25 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -28543/3125 -192/25 0 0 0 -37/10 0 167/25 0 
+Bus power consumptions: 0 0 0 0 0 52543/3125 0 0 37/10 0 0 -49418/3125 -1 -37/10 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:891/500 14:891/500 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 32 33 37 39 46 49 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -32967/5000 0 -391/100 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 32967/5000 0 391/100 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -32967/5000 0 -391/100 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 32967/5000 0 391/100 0 
+Bus power consumptions: 0 0 0 0 0 -219947/12500 0 0 -32967/5000 0 0 0 219947/12500 32967/5000 
+..................................
+We have a solution
+The states that are attacked: 
+12:-768/391 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 32 33 37 39 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -37/10 0 -5795/391 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 37/10 0 5795/391 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -37/10 0 -5795/391 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 37/10 0 5795/391 0 
+Bus power consumptions: 0 0 0 0 0 0 0 0 -37/10 0 0 -219947/9775 219947/9775 37/10 
+..................................
+We have a solution
+The states that are attacked: 
+13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+13 17 19 33 37 39 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -37/10 0 -5 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 37/10 0 5 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -37/10 0 -5 0 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 37/10 0 5 0 
+Bus power consumptions: 0 0 0 0 0 -192/25 0 0 -37/10 0 0 -5 317/25 37/10 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 13:-1 14:-1055/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 20 32 33 37 40 46 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 7807/574 0 0 192/25 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -7807/574 0 0 -192/25 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 7807/574 0 0 192/25 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -7807/574 0 0 -192/25 
+Bus power consumptions: 0 0 0 0 0 1159/100 0 0 7807/574 0 0 -391/100 0 -305383/14350 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 13:-1 14:-955/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 20 32 33 37 40 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 7067/574 0 0 167/25 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -7067/574 0 0 -167/25 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 192/25 0 0 0 7067/574 0 0 167/25 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -192/25 0 0 0 -7067/574 0 0 -167/25 
+Bus power consumptions: 0 0 0 0 0 1159/100 0 0 7067/574 0 0 -391/100 -1 -272533/14350 
+..................................
+We have a solution
+The states that are attacked: 
+12:-6/5 13:-1 14:-955/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 1173/250 192/25 0 0 0 7067/574 0 -1 167/25 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -1173/250 -192/25 0 0 0 -7067/574 0 1 -167/25 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 1173/250 192/25 0 0 0 7067/574 0 -1 167/25 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -1173/250 -192/25 0 0 0 -7067/574 0 1 -167/25 
+Bus power consumptions: 0 0 0 0 0 3093/250 0 0 7067/574 0 0 -1423/250 0 -272533/14350 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:891/500 14:32443/4100 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -1200391/41000 0 -391/100 -219947/12500 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 1200391/41000 0 391/100 219947/12500 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -1200391/41000 0 -391/100 -219947/12500 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 1200391/41000 0 391/100 219947/12500 
+Bus power consumptions: 0 0 0 0 0 -219947/12500 0 0 -1200391/41000 0 0 0 0 48045429/1025000 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:891/500 14:217101/28700 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -8032737/287000 0 -391/100 -207447/12500 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 8032737/287000 0 391/100 207447/12500 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -42768/3125 0 0 0 -8032737/287000 0 -391/100 -207447/12500 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 42768/3125 0 0 0 8032737/287000 0 391/100 207447/12500 
+Bus power consumptions: 0 0 0 0 0 -219947/12500 0 0 -8032737/287000 0 0 0 1 319893003/7175000 
+..................................
+We have a solution
+The states that are attacked: 
+12:1 13:791/500 14:186001/28700 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 -37968/3125 0 0 0 -6882037/287000 0 -291/100 -175747/12500 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 37968/3125 0 0 0 6882037/287000 0 291/100 175747/12500 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 -37968/3125 0 0 0 -6882037/287000 0 -291/100 -175747/12500 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 37968/3125 0 0 0 6882037/287000 0 291/100 175747/12500 
+Bus power consumptions: 0 0 0 0 0 -200747/12500 0 0 -6882037/287000 0 0 1 1 272929703/7175000 
+..................................
+We have a solution
+The states that are attacked: 
+13:1 14:1455/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+13 17 19 20 33 37 39 40 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -10767/574 0 -5 -292/25 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 10767/574 0 5 292/25 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -10767/574 0 -5 -292/25 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 10767/574 0 5 292/25 
+Bus power consumptions: 0 0 0 0 0 -192/25 0 0 -10767/574 0 0 -5 1 436783/14350 
+..................................
+We have a solution
+The states that are attacked: 
+13:1 14:1555/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+13 17 19 20 33 37 39 40 46 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -11507/574 0 -5 -317/25 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 11507/574 0 5 317/25 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 -192/25 0 0 0 -11507/574 0 -5 -317/25 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 0 192/25 0 0 0 11507/574 0 5 317/25 
+Bus power consumptions: 0 0 0 0 0 -192/25 0 0 -11507/574 0 0 -5 0 469633/14350 
+..................................
+We have a solution
+The states that are attacked: 
+12:-768/391 13:1 14:141715/16031 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -1048691/32062 0 -5795/391 -219947/9775 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 1048691/32062 0 5795/391 219947/9775 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -1048691/32062 0 -5795/391 -219947/9775 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 1048691/32062 0 5795/391 219947/9775 
+Bus power consumptions: 0 0 0 0 0 0 0 0 -1048691/32062 0 0 -219947/9775 0 44252929/801550 
+..................................
+We have a solution
+The states that are attacked: 
+12:-768/391 13:1 14:952905/112217 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 13 17 19 20 32 33 37 39 40 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -7051497/224434 0 -5795/391 -210172/9775 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 7051497/224434 0 5795/391 210172/9775 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 192/25 -192/25 0 0 0 -7051497/224434 0 -5795/391 -210172/9775 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -192/25 192/25 0 0 0 7051497/224434 0 5795/391 210172/9775 
+Bus power consumptions: 0 0 0 0 0 0 0 0 -7051497/224434 0 0 -219947/9775 1 296926153/5610850 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 14:500/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 17 19 20 32 37 39 40 46 49 52 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 -1850/287 0 -5 -5 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 1850/287 0 5 5 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 -1850/287 0 -5 -5 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 1850/287 0 5 5 
+Bus power consumptions: 0 0 0 0 0 391/100 0 0 -1850/287 0 0 -891/100 0 3285/287 
+..................................
+We have a solution
+The states that are attacked: 
+12:-1 14:600/287 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+12 17 19 20 32 37 39 40 46 49 52 53 54 
+The buses at which one or more measurements are required to alter:
+6 9 12 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 -2220/287 0 -5 -6 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 2220/287 0 5 6 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 0 0 0 0 391/100 0 0 0 0 -2220/287 0 -5 -6 
+Backward line flows: 0 0 0 0 0 0 0 0 0 0 0 -391/100 0 0 0 0 2220/287 0 5 6 
+Bus power consumptions: 0 0 0 0 0 391/100 0 0 -2220/287 0 0 -891/100 -1 3942/287 
+..................................
+We have a solution
+The states that are attacked: 
+2:-65/63 3:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 3 4 5 6 21 23 24 25 26 41 42 43 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 2197/126 0 -3232/315 -117/20 -1495/252 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -2197/126 0 3232/315 117/20 1495/252 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 2197/126 0 -3232/315 -117/20 -1495/252 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -2197/126 0 3232/315 117/20 1495/252 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 2197/126 -12436/315 20299/1260 0 1495/252 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:667/585 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 3 4 5 6 21 23 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 0 -31613/2925 -567/100 -23/4 667/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 0 31613/2925 567/100 23/4 -667/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 0 -31613/2925 -567/100 -23/4 667/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 0 31613/2925 567/100 23/4 -667/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 169/10 -114449/2925 204491/11700 -1 23/4 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-218/101 3:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 3 4 5 6 21 23 24 25 26 41 42 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 18421/505 0 -117/20 -61803/5050 -2507/202 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -18421/505 0 117/20 61803/5050 2507/202 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 18421/505 0 -117/20 -61803/5050 -2507/202 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -18421/505 0 117/20 61803/5050 2507/202 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 18421/505 -676461/10100 0 182691/10100 2507/202 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-3337/505 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 3 4 5 6 21 23 24 25 26 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 0 708/25 -567/100 -23/4 -390429/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 0 -708/25 567/100 23/4 390429/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 0 708/25 -567/100 -23/4 -390429/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 0 -708/25 567/100 23/4 390429/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 169/10 0 -676461/10100 111924/2525 23/4 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 15 28 35 44 47 49 
+The buses at which one or more measurements are required to alter:
+4 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 0 0 0 0 
+Bus power consumptions: 0 0 0 239/50 0 0 -1387/100 0 909/100 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-1955/568 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 14 15 28 34 35 44 48 49 
+The buses at which one or more measurements are required to alter:
+4 7 8 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 0 0 0 0 0 1387/100 -909/100 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 -1387/100 909/100 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 0 0 0 0 0 1387/100 -909/100 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 -1387/100 909/100 0 0 0 0 0 
+Bus power consumptions: 0 0 0 239/50 0 0 0 -1387/100 909/100 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-2055/568 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 14 15 28 34 35 44 47 48 49 
+The buses at which one or more measurements are required to alter:
+4 7 8 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 0 0 0 0 0 1487/100 -909/100 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 -1487/100 909/100 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 0 0 0 0 0 1487/100 -909/100 0 0 0 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 -1487/100 909/100 0 0 0 0 0 
+Bus power consumptions: 0 0 0 239/50 0 0 1 -1487/100 909/100 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1183/909 8:-1183/909 10:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 15 16 18 28 35 36 38 44 47 50 51 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 282737/45450 0 0 0 0 0 0 -1183/100 -1183/100 0 521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -282737/45450 0 0 0 0 0 0 1183/100 1183/100 0 -521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 282737/45450 0 0 0 0 0 0 -1183/100 -1183/100 0 521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -282737/45450 0 0 0 0 0 0 1183/100 1183/100 0 -521/100 0 0 
+Bus power consumptions: 0 0 0 282737/45450 0 0 -1640821/90900 0 0 426/25 -521/100 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1283/909 8:-1283/909 10:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 15 16 18 28 35 36 38 44 47 49 50 51 
+The buses at which one or more measurements are required to alter:
+4 7 9 10 11 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 306637/45450 0 0 0 0 0 0 -1283/100 -1183/100 0 521/100 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -306637/45450 0 0 0 0 0 0 1283/100 1183/100 0 -521/100 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 306637/45450 0 0 0 0 0 0 -1283/100 -1183/100 0 521/100 0 0 
+Backward line flows: 0 0 0 0 0 0 0 -306637/45450 0 0 0 0 0 0 1283/100 1183/100 0 -521/100 0 0 
+Bus power consumptions: 0 0 0 306637/45450 0 0 -1779521/90900 0 1 426/25 -521/100 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:1 7:-585/478 8:-585/478 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 6 8 15 23 26 28 35 42 43 47 49 
+The buses at which one or more measurements are required to alter:
+2 3 4 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 -101/20 0 0 117/20 0 117/20 0 0 0 0 0 0 -106353/9560 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 101/20 0 0 -117/20 0 -117/20 0 0 0 0 0 0 106353/9560 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 -101/20 0 0 117/20 0 117/20 0 0 0 0 0 0 -106353/9560 0 0 0 0 0 
+Backward line flows: 0 0 101/20 0 0 -117/20 0 -117/20 0 0 0 0 0 0 106353/9560 0 0 0 0 0 
+Bus power consumptions: 0 -101/20 109/10 0 0 0 -162279/9560 0 106353/9560 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:1 7:-485/478 8:-485/478 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+3 6 8 15 23 26 28 35 42 43 44 47 49 
+The buses at which one or more measurements are required to alter:
+2 3 4 7 9 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 -101/20 0 0 117/20 0 97/20 0 0 0 0 0 0 -88173/9560 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 0 101/20 0 0 -117/20 0 -97/20 0 0 0 0 0 0 88173/9560 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 -101/20 0 0 117/20 0 97/20 0 0 0 0 0 0 -88173/9560 0 0 0 0 0 
+Backward line flows: 0 0 101/20 0 0 -117/20 0 -97/20 0 0 0 0 0 0 88173/9560 0 0 0 0 0 
+Bus power consumptions: 0 -101/20 109/10 -1 0 0 -134539/9560 0 88173/9560 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-1 14:909/370 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 15 17 20 28 35 37 40 44 47 53 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 -909/100 0 0 -260883/37000 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 909/100 0 0 260883/37000 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 -909/100 0 0 -260883/37000 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 909/100 0 0 260883/37000 
+Bus power consumptions: 0 0 0 239/50 0 0 -1387/100 0 0 0 0 0 -260883/37000 597213/37000 
+..................................
+We have a solution
+The states that are attacked: 
+7:-1 8:-1 14:809/370 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+8 15 17 20 28 35 37 40 44 47 49 53 54 
+The buses at which one or more measurements are required to alter:
+4 7 9 13 14 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 -809/100 0 0 -232183/37000 
+Backward line flows (altered for UFDI/state attack): 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 809/100 0 0 232183/37000 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 0 0 0 0 0 0 239/50 0 0 0 0 0 0 -909/100 0 -809/100 0 0 -232183/37000 
+Backward line flows: 0 0 0 0 0 0 0 -239/50 0 0 0 0 0 0 909/100 0 809/100 0 0 232183/37000 
+Bus power consumptions: 0 0 0 239/50 0 0 -1387/100 0 1 0 0 0 -232183/37000 531513/37000 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1023/575 3:-85299/62675 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 44 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 172887/5750 112/25 -661752/313375 -63504/14375 -112/25 -661752/313375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -172887/5750 -112/25 661752/313375 63504/14375 112/25 661752/313375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 172887/5750 112/25 -661752/313375 -63504/14375 -112/25 -661752/313375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -172887/5750 -112/25 661752/313375 63504/14375 112/25 661752/313375 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 198647/5750 -128724007/3133750 0 10230696/1566875 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-923/575 3:-80249/62675 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 155987/5750 112/25 -1028079/626750 -49329/14375 -87/25 -1028079/626750 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -155987/5750 -112/25 1028079/626750 49329/14375 87/25 1028079/626750 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 155987/5750 112/25 -1028079/626750 -49329/14375 -87/25 -1028079/626750 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -155987/5750 -112/25 1028079/626750 49329/14375 87/25 1028079/626750 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 181747/5750 -55906241/1566875 0 15894117/3133750 -1 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1 4:-218/117 5:-218/117 6:-218/117 7:-218/117 8:-218/117 9:-218/117 10:-218/117 11:-218/117 12:-218/117 13:-218/117 14:-218/117 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 3 4 5 6 22 23 24 25 26 41 42 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 24416/2925 101/20 6867/650 2507/234 101/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -24416/2925 -101/20 -6867/650 -2507/234 -101/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 24416/2925 101/20 6867/650 2507/234 101/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -24416/2925 -101/20 -6867/650 -2507/234 -101/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 24416/2925 308041/11700 0 -20299/1300 -37169/1950 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:-76241/48832 4:-845/224 5:-845/224 6:-845/224 7:-845/224 8:-845/224 9:-845/224 10:-845/224 11:-845/224 12:-845/224 13:-845/224 14:-845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 42 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 169/10 12632373/976640 86589/3200 24587/896 12632373/976640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 -169/10 -12632373/976640 -86589/3200 -24587/896 -12632373/976640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 169/10 12632373/976640 86589/3200 24587/896 12632373/976640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 -169/10 -12632373/976640 -86589/3200 -24587/896 -12632373/976640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 411821909/4883200 0 -195296679/4883200 -198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-505771/308041 4:-676461/308041 5:-676461/308041 6:-676461/308041 7:-676461/308041 8:-676461/308041 9:-676461/308041 10:-676461/308041 11:-676461/308041 12:-676461/308041 13:-676461/308041 14:-676461/308041 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 75763632/7701025 1997073/616082 10444707/1540205 2118415/308041 1997073/616082 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -75763632/7701025 -1997073/616082 -10444707/1540205 -2118415/308041 -1997073/616082 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 75763632/7701025 1997073/616082 10444707/1540205 2118415/308041 1997073/616082 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -75763632/7701025 -1997073/616082 -10444707/1540205 -2118415/308041 -1997073/616082 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 411821909/15402050 0 0 -30874779/3080410 -128724007/7701025 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-66495/9151 3:-1 4:-37375/9151 5:-37375/9151 6:-37375/9151 7:-37375/9151 8:-37375/9151 9:-37375/9151 10:-37375/9151 11:-37375/9151 12:-37375/9151 13:-37375/9151 14:-37375/9151 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 43 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 2247531/18302 167440/9151 -1447936/45755 -825552/45755 -167440/9151 825552/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -2247531/18302 -167440/9151 1447936/45755 825552/45755 167440/9151 -825552/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 2247531/18302 167440/9151 -1447936/45755 -825552/45755 -167440/9151 825552/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -2247531/18302 -167440/9151 1447936/45755 825552/45755 167440/9151 -825552/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 2582411/18302 -17459031/91510 2273488/45755 0 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-233585/27453 3:-1 4:-393875/82359 5:-393875/82359 6:-393875/82359 7:-393875/82359 8:-393875/82359 9:-393875/82359 10:-393875/82359 11:-393875/82359 12:-393875/82359 13:-393875/82359 14:-393875/82359 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 43 44 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 7895173/54906 1764560/82359 -5204833/137265 -966672/45755 -1764560/82359 1012427/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -7895173/54906 -1764560/82359 5204833/137265 966672/45755 1764560/82359 -1012427/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 7895173/54906 1764560/82359 -5204833/137265 -966672/45755 -1764560/82359 1012427/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -7895173/54906 -1764560/82359 5204833/137265 966672/45755 1764560/82359 -1012427/45755 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 27214639/164718 -184702289/823590 8242114/137265 -1 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-233585/27453 3:-377722837/8318259 4:-393875/82359 5:-393875/82359 6:-393875/82359 7:-393875/82359 8:-393875/82359 9:-393875/82359 10:-393875/82359 11:-393875/82359 12:-393875/82359 13:-393875/82359 14:-393875/82359 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 43 44 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 7895173/54906 1764560/82359 153473291/823590 -966672/45755 -1764560/82359 -2196619503/9242510 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -7895173/54906 -1764560/82359 -153473291/823590 966672/45755 1764560/82359 2196619503/9242510 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 7895173/54906 1764560/82359 153473291/823590 -966672/45755 -1764560/82359 -2196619503/9242510 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -7895173/54906 -1764560/82359 -153473291/823590 966672/45755 1764560/82359 2196619503/9242510 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 27214639/164718 0 -17635188959/41591295 2391887247/9242510 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-233585/27453 3:-233585/27453 4:-393875/82359 5:-393875/82359 6:-393875/82359 7:-393875/82359 8:-393875/82359 9:-393875/82359 10:-393875/82359 11:-393875/82359 12:-393875/82359 13:-393875/82359 14:-393875/82359 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 4 5 6 21 22 24 25 26 41 42 43 44 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 7895173/54906 1764560/82359 0 -966672/45755 -1764560/82359 -199472/9151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -7895173/54906 -1764560/82359 0 966672/45755 1764560/82359 199472/9151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 7895173/54906 1764560/82359 0 -966672/45755 -1764560/82359 -199472/9151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -7895173/54906 -1764560/82359 0 966672/45755 1764560/82359 199472/9151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 27214639/164718 -153473291/823590 -199472/9151 1964032/45755 0 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:1142/505 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 3 4 5 6 22 23 24 25 26 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 -571/50 567/100 23/4 192699/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 571/50 -567/100 -23/4 -192699/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 -571/50 567/100 23/4 192699/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 571/50 -567/100 -23/4 -192699/10100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 0 308041/10100 -124983/5050 -1023/100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 4 5 6 22 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 0 567/100 23/4 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 0 -567/100 -23/4 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 0 567/100 23/4 117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 0 -567/100 -23/4 -117/20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 571/50 117/20 -288/25 -1023/100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-128/65 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 3 4 5 6 22 23 24 25 26 41 42 43 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 3232/325 567/100 23/4 -567/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 -3232/325 -567/100 -23/4 567/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 3232/325 567/100 23/4 -567/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 -3232/325 -567/100 -23/4 567/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 13887/650 -20299/1300 0 -1023/100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+3:-1052/585 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+2 3 4 5 6 22 23 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 0 112/25 26563/2925 567/100 23/4 -467/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 0 -112/25 -26563/2925 -567/100 -23/4 467/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 0 112/25 26563/2925 567/100 23/4 -467/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 0 -112/25 -26563/2925 -567/100 -23/4 467/100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 112/25 119933/5850 -160891/11700 -1 -1023/100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:856239/56560 4:-845/224 5:-845/224 6:-845/224 7:-845/224 8:-845/224 9:-845/224 10:-845/224 11:-845/224 12:-845/224 13:-845/224 14:-845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 169/10 -799679/11200 86589/3200 24587/896 250286751/2262400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 -169/10 799679/11200 -86589/3200 -24587/896 -250286751/2262400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 169/10 -799679/11200 86589/3200 24587/896 250286751/2262400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 -169/10 799679/11200 -86589/3200 -24587/896 -250286751/2262400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 0 411821909/2262400 -155752587/1131200 -198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:3821/455 4:845/224 5:845/224 6:845/224 7:845/224 8:845/224 9:845/224 10:845/224 11:845/224 12:845/224 13:845/224 14:845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 42 43 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 -169/10 -107969/2275 -86589/3200 -24587/896 86589/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 169/10 107969/2275 86589/3200 24587/896 -86589/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 -169/10 -107969/2275 -86589/3200 -24587/896 86589/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 169/10 107969/2275 86589/3200 24587/896 -86589/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -17305843/145600 21699631/291200 0 198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:35089/4095 4:845/224 5:845/224 6:845/224 7:845/224 8:845/224 9:845/224 10:845/224 11:845/224 12:845/224 13:845/224 14:845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 -169/10 -989396/20475 -86589/3200 -24587/896 89789/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 169/10 989396/20475 86589/3200 24587/896 -89789/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 -169/10 -989396/20475 -86589/3200 -24587/896 89789/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 169/10 989396/20475 86589/3200 24587/896 -89789/3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 -156883787/1310400 200179879/2620800 -1 198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:-845/224 5:-845/224 6:-845/224 7:-845/224 8:-845/224 9:-845/224 10:-845/224 11:-845/224 12:-845/224 13:-845/224 14:-845/224 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 4 5 6 21 22 24 25 26 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 169/10 0 86589/3200 24587/896 125073/4480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 -169/10 0 -86589/3200 -24587/896 -125073/4480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 169/10 0 86589/3200 24587/896 125073/4480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 -169/10 0 -86589/3200 -24587/896 -125073/4480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 0 799679/11200 125073/4480 -9621/175 -198647/4480 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:1416/571 5:1416/571 6:1416/571 7:1416/571 8:1416/571 9:1416/571 10:1416/571 11:1416/571 12:1416/571 13:1416/571 14:1416/571 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 4 5 6 21 22 24 25 26 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 -158592/14275 0 -95823/11420 -19435/2284 -19773/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 158592/14275 0 95823/11420 19435/2284 19773/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 -158592/14275 0 -95823/11420 -19435/2284 -19773/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 158592/14275 0 95823/11420 19435/2284 19773/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -799679/28550 0 -19773/2284 48672/2855 1120243/57100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:1 4:1466/571 5:1466/571 6:1466/571 7:1466/571 8:1466/571 9:1466/571 10:1466/571 11:1466/571 12:1466/571 13:1466/571 14:1466/571 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 4 5 6 21 22 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 -164192/14275 0 -101493/11420 -20585/2284 -20943/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 164192/14275 0 101493/11420 20585/2284 20943/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 -164192/14275 0 -101493/11420 -20585/2284 -20943/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 164192/14275 0 101493/11420 20585/2284 20943/2284 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -810879/28550 -1 -20943/2284 51552/2855 1171393/57100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-439/101 4:-1 5:-1 6:-1 7:-1 8:-1 9:-1 10:-1 11:-1 12:-1 13:-1 14:-1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 6 21 22 23 26 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 112/25 169/10 0 0 -19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -112/25 -169/10 0 0 19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 112/25 169/10 0 0 -19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -112/25 -169/10 0 0 19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 1069/50 0 -18421/505 19773/1010 -112/25 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:1 3:-237/101 4:1 5:1 6:1 7:1 8:1 9:1 10:1 11:1 12:1 13:1 14:1 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 6 21 22 23 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): -169/10 -112/25 169/10 0 0 -19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): 169/10 112/25 -169/10 0 0 19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: -169/10 -112/25 169/10 0 0 -19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: 169/10 112/25 -169/10 0 0 19773/1010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: -1069/50 169/5 -18421/505 19773/1010 112/25 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-35519/13887 4:-24872/13887 5:-24872/13887 6:-24872/13887 7:-24872/13887 8:-24872/13887 9:-24872/13887 10:-24872/13887 11:-24872/13887 12:-24872/13887 13:-24872/13887 14:-24872/13887 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 43 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 2785664/347175 546208/69435 138411/30860 252655/55548 -138411/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -2785664/347175 -546208/69435 -138411/30860 -252655/55548 138411/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 2785664/347175 546208/69435 138411/30860 252655/55548 -138411/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -2785664/347175 -546208/69435 -138411/30860 -252655/55548 138411/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 17305843/694350 0 -3430531/277740 0 -5819677/462900 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-308251/124983 4:-228898/124983 5:-228898/124983 6:-228898/124983 7:-228898/124983 8:-228898/124983 9:-228898/124983 10:-228898/124983 11:-228898/124983 12:-228898/124983 13:-228898/124983 14:-228898/124983 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 25636576/3124575 4627517/624915 145481/30860 2390045/499932 -114621/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -25636576/3124575 -4627517/624915 -145481/30860 -2390045/499932 114621/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 25636576/3124575 4627517/624915 145481/30860 2390045/499932 -114621/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -25636576/3124575 -4627517/624915 -145481/30860 -2390045/499932 114621/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 156883787/6249150 0 -27794369/2499660 -1 -54099143/4166100 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-11413/4629 4:-8074/4629 5:-8074/4629 6:-8074/4629 7:-8074/4629 8:-8074/4629 9:-8074/4629 10:-8074/4629 11:-8074/4629 12:-8074/4629 13:-8074/4629 14:-8074/4629 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 43 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/10 904288/115725 171296/23145 130221/30860 79235/18516 -130221/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows (altered for UFDI/state attack): -169/10 -904288/115725 -171296/23145 -130221/30860 -79235/18516 130221/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Power line flows and bus power consumptions that are altered:
+Forward line flows: 169/10 904288/115725 171296/23145 130221/30860 79235/18516 -130221/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Backward line flows: -169/10 -904288/115725 -171296/23145 -130221/30860 -79235/18516 130221/30860 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Bus power consumptions: 5720081/231450 -1 -1075847/92580 0 -1866009/154300 0 0 0 0 0 0 0 0 0 
+..................................
+We have a solution
+The states that are attacked: 
+2:-1 3:-296731/124983 4:-223048/124983 5:-223048/124983 6:-223048/124983 7:-223048/124983 8:-223048/124983 9:-223048/124983 10:-223048/124983 11:-223048/124983 12:-223048/124983 13:-223048/124983 14:-223048/124983 
+The lines considered in the topology:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+The measurements that are required to alter:
+1 2 3 4 5 6 21 22 23 24 25 26 41 42 43 44 45 
+The buses at which one or more measurements are required to alter:
+1 2 3 4 5 
+The lines which are excluded:
+
+The lines which are included: 
+
+Power line flows  (individual reasons) that are altered:
+Forward line flows (altered for UFDI/state attack): 169/1
